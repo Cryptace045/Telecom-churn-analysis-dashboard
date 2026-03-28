@@ -1,0 +1,975 @@
+Customer ID	Full Name	Date of Purchase	Age	State	MTN Device	Gender	Satisfaction Rate	Customer Review	Customer Tenure in months	Subscription Plan	 Unit Price 	Number of Times Purchased	 Total Revenue 	Data Usage	Customer Churn Status	Reasons for Churn
+CUST0001	Ngozi Berry	01 January 2025	27	Kwara	4G Router	Male	2	Fair	2	165GB Monthly Plan	" ?35,000.00 "	19	" ?665,000.00 "	44.48	Yes	Relocation
+CUST0002	Zainab Baker	01 March 2025	16	Abuja (FCT)	Mobile SIM Card	Female	2	Fair	22	12.5GB Monthly Plan	" ?5,500.00 "	12	" ?66,000.00 "	19.79	Yes	Better Offers from Competitors
+CUST0003	Saidu Evans	01 March 2025	21	Sokoto	5G Broadband Router	Male	1	Poor	60	150GB FUP Monthly Unlimited	" ?20,000.00 "	8	" ?160,000.00 "	9.64	No	No Churn
+CUST0003	Saidu Evans	01 March 2025	21	Sokoto	Mobile SIM Card	Male	1	Poor	60	1GB+1.5mins Daily Plan	 ?500.00 	8	" ?4,000.00 "	197.05	No	No Churn
+CUST0003	Saidu Evans	01 March 2025	21	Sokoto	Broadband MiFi	Male	1	Poor	60	30GB Monthly Broadband Plan	" ?9,000.00 "	15	" ?135,000.00 "	76.34	No	No Churn
+CUST0004	Ejiro Walker	01 March 2025	36	Gombe	4G Router	Female	1	Poor	14	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	92.72	No	No Churn
+CUST0005	Nura Mann	01 January 2025	57	Oyo	4G Router	Male	3	Good	53	25GB Monthly Plan	" ?9,000.00 "	16	" ?144,000.00 "	42.92	No	No Churn
+CUST0006	Tamuno Lewis	01 February 2025	74	Plateau	Mobile SIM Card	Female	5	Excellent	9	7GB Monthly Plan	" ?3,500.00 "	5	" ?17,500.00 "	44.25	No	No Churn
+CUST0006	Tamuno Lewis	01 February 2025	74	Plateau	5G Broadband Router	Female	5	Excellent	9	1.5TB Yearly Broadband Plan	" ?150,000.00 "	2	" ?300,000.00 "	18.64	No	No Churn
+CUST0006	Tamuno Lewis	01 February 2025	74	Plateau	4G Router	Female	5	Excellent	9	65GB Monthly Plan	" ?16,000.00 "	6	" ?96,000.00 "	30.99	No	No Churn
+CUST0007	Boma Stewart	01 March 2025	24	Jigawa	Broadband MiFi	Female	5	Excellent	39	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	150.30	Yes	Relocation
+CUST0008	Ifeanyi Park	01 January 2025	53	Kwara	Broadband MiFi	Male	3	Good	30	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	168.41	No	No Churn
+CUST0009	Bala Robbins	01 January 2025	35	Gombe	Broadband MiFi	Male	5	Excellent	35	300GB FUP Monthly Unlimited	" ?30,000.00 "	10	" ?300,000.00 "	175.81	No	No Churn
+CUST0010	Halima Ochoa	01 March 2025	23	Imo	4G Router	Male	1	Poor	6	10GB+10mins Monthly Plan	" ?4,500.00 "	20	" ?90,000.00 "	53.38	No	No Churn
+CUST0010	Halima Ochoa	01 March 2025	23	Imo	Broadband MiFi	Male	1	Poor	6	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	192.89	No	No Churn
+CUST0010	Halima Ochoa	01 March 2025	23	Imo	Mobile SIM Card	Male	1	Poor	6	500MB Daily Plan	 ?350.00 	13	" ?4,550.00 "	142.73	No	No Churn
+CUST0011	Ejiro Griffith	01 February 2025	72	Bauchi	4G Router	Female	2	Fair	8	65GB Monthly Plan	" ?16,000.00 "	2	" ?32,000.00 "	14.66	Yes	Poor Network
+CUST0011	Ejiro Griffith	01 February 2025	72	Bauchi	5G Broadband Router	Female	2	Fair	8	60GB Monthly Broadband Plan	" ?14,500.00 "	2	" ?29,000.00 "	13.95	Yes	Poor Network
+CUST0011	Ejiro Griffith	01 February 2025	72	Bauchi	Broadband MiFi	Female	2	Fair	8	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	14.64	Yes	Poor Network
+CUST0012	Zainab Morton	01 March 2025	78	Ondo	4G Router	Male	2	Fair	47	65GB Monthly Plan	" ?16,000.00 "	12	" ?192,000.00 "	131.97	No	No Churn
+CUST0012	Zainab Morton	01 March 2025	78	Ondo	Broadband MiFi	Male	2	Fair	47	60GB Monthly Broadband Plan	" ?14,500.00 "	2	" ?29,000.00 "	82.51	No	No Churn
+CUST0013	Ngozi Moreno	01 January 2025	23	Kebbi	4G Router	Female	2	Fair	52	10GB+10mins Monthly Plan	" ?4,500.00 "	8	" ?36,000.00 "	56.07	Yes	Relocation
+CUST0013	Ngozi Moreno	01 January 2025	23	Kebbi	Mobile SIM Card	Female	2	Fair	52	3.2GB 2-Day Plan	" ?1,000.00 "	18	" ?18,000.00 "	88.90	Yes	Relocation
+CUST0014	Ngozi Crawford	01 February 2025	22	Adamawa	4G Router	Male	2	Fair	6	65GB Monthly Plan	" ?16,000.00 "	1	" ?16,000.00 "	33.35	No	No Churn
+CUST0014	Ngozi Crawford	01 February 2025	22	Adamawa	Mobile SIM Card	Male	2	Fair	6	20GB Monthly Plan	" ?7,500.00 "	15	" ?112,500.00 "	53.41	No	No Churn
+CUST0015	Abubakar Garner	01 March 2025	70	Yobe	Broadband MiFi	Male	2	Fair	13	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	10.50	No	No Churn
+CUST0015	Abubakar Garner	01 March 2025	70	Yobe	5G Broadband Router	Male	2	Fair	13	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	11.85	No	No Churn
+CUST0015	Abubakar Garner	01 March 2025	70	Yobe	4G Router	Male	2	Fair	13	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	170.34	No	No Churn
+CUST0016	Kunle Ford	01 February 2025	46	Kebbi	Broadband MiFi	Male	5	Excellent	57	300GB FUP Monthly Unlimited	" ?30,000.00 "	11	" ?330,000.00 "	41.25	No	No Churn
+CUST0016	Kunle Ford	01 February 2025	46	Kebbi	4G Router	Male	5	Excellent	57	10GB+10mins Monthly Plan	" ?4,500.00 "	5	" ?22,500.00 "	53.49	No	No Churn
+CUST0016	Kunle Ford	01 February 2025	46	Kebbi	5G Broadband Router	Male	5	Excellent	57	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	91.72	No	No Churn
+CUST0017	Tunde Hayes	01 February 2025	74	Anambra	4G Router	Male	5	Excellent	35	25GB Monthly Plan	" ?9,000.00 "	15	" ?135,000.00 "	57.35	Yes	Costly Data Plans
+CUST0018	David Fletcher	01 March 2025	54	Bauchi	5G Broadband Router	Male	1	Poor	43	150GB FUP Monthly Unlimited	" ?20,000.00 "	18	" ?360,000.00 "	178.00	No	No Churn
+CUST0019	Obinna Wright	01 March 2025	50	Cross River	Mobile SIM Card	Male	2	Fair	46	2.5GB 2-Day Plan	 ?900.00 	14	" ?12,600.00 "	18.91	No	No Churn
+CUST0019	Obinna Wright	01 March 2025	50	Cross River	4G Router	Male	2	Fair	46	25GB Monthly Plan	" ?9,000.00 "	11	" ?99,000.00 "	9.30	No	No Churn
+CUST0020	Amaka Reed	01 March 2025	49	Abuja (FCT)	4G Router	Female	5	Excellent	36	25GB Monthly Plan	" ?9,000.00 "	5	" ?45,000.00 "	116.71	Yes	Poor Network
+CUST0020	Amaka Reed	01 March 2025	49	Abuja (FCT)	5G Broadband Router	Female	5	Excellent	36	450GB 3-Month Broadband Plan	" ?75,000.00 "	10	" ?750,000.00 "	25.93	Yes	Poor Network
+CUST0020	Amaka Reed	01 March 2025	49	Abuja (FCT)	Broadband MiFi	Female	5	Excellent	36	300GB FUP Monthly Unlimited	" ?30,000.00 "	2	" ?60,000.00 "	179.85	Yes	Poor Network
+CUST0021	Oghene Brown	01 March 2025	42	Imo	Mobile SIM Card	Male	5	Excellent	23	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	176.34	No	No Churn
+CUST0022	Shehu Ferguson	01 February 2025	58	Kogi	Mobile SIM Card	Male	1	Poor	18	500MB Daily Plan	 ?350.00 	15	" ?5,250.00 "	40.31	No	No Churn
+CUST0023	Oghene Vazquez	01 February 2025	55	Osun	5G Broadband Router	Male	4	Very Good	2	200GB Monthly Broadband Plan	" ?25,000.00 "	13	" ?325,000.00 "	128.48	No	No Churn
+CUST0024	David Johnson	01 March 2025	58	Kano	Broadband MiFi	Male	2	Fair	57	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	87.20	No	No Churn
+CUST0024	David Johnson	01 March 2025	58	Kano	Mobile SIM Card	Male	2	Fair	57	20GB Monthly Plan	" ?7,500.00 "	17	" ?127,500.00 "	121.44	No	No Churn
+CUST0025	Ifeanyi Brown	01 March 2025	65	Benue	4G Router	Female	1	Poor	3	65GB Monthly Plan	" ?16,000.00 "	11	" ?176,000.00 "	189.80	No	No Churn
+CUST0025	Ifeanyi Brown	01 March 2025	65	Benue	Mobile SIM Card	Female	1	Poor	3	7GB Monthly Plan	" ?3,500.00 "	4	" ?14,000.00 "	132.85	No	No Churn
+CUST0025	Ifeanyi Brown	01 March 2025	65	Benue	5G Broadband Router	Female	1	Poor	3	120GB Monthly Broadband Plan	" ?24,000.00 "	14	" ?336,000.00 "	101.67	No	No Churn
+CUST0026	Ese Simmons	01 March 2025	67	Cross River	5G Broadband Router	Male	4	Very Good	13	450GB 3-Month Broadband Plan	" ?75,000.00 "	1	" ?75,000.00 "	109.81	No	No Churn
+CUST0027	Maryam Reyes	01 March 2025	52	Ondo	4G Router	Female	4	Very Good	51	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	131.94	No	No Churn
+CUST0027	Maryam Reyes	01 March 2025	52	Ondo	5G Broadband Router	Female	4	Very Good	51	200GB Monthly Broadband Plan	" ?25,000.00 "	8	" ?200,000.00 "	19.13	No	No Churn
+CUST0027	Maryam Reyes	01 March 2025	52	Ondo	Mobile SIM Card	Female	4	Very Good	51	1GB+1.5mins Daily Plan	 ?500.00 	7	" ?3,500.00 "	45.32	No	No Churn
+CUST0028	Obinna Sanchez	01 January 2025	19	Rivers	Mobile SIM Card	Male	4	Very Good	31	10GB+10mins Monthly Plan	" ?4,500.00 "	5	" ?22,500.00 "	80.23	No	No Churn
+CUST0028	Obinna Sanchez	01 January 2025	19	Rivers	Mobile SIM Card	Male	4	Very Good	31	2.5GB 2-Day Plan	 ?900.00 	4	" ?3,600.00 "	178.59	No	No Churn
+CUST0029	Boma Franco	01 February 2025	44	Enugu	5G Broadband Router	Female	1	Poor	4	450GB 3-Month Broadband Plan	" ?75,000.00 "	18	" ?1,350,000.00 "	166.20	No	No Churn
+CUST0029	Boma Franco	01 February 2025	44	Enugu	4G Router	Female	1	Poor	4	165GB Monthly Plan	" ?35,000.00 "	16	" ?560,000.00 "	179.49	No	No Churn
+CUST0030	Alabo Davis	01 March 2025	49	Imo	5G Broadband Router	Female	2	Fair	50	200GB Monthly Broadband Plan	" ?25,000.00 "	18	" ?450,000.00 "	64.28	Yes	Poor Network
+CUST0030	Alabo Davis	01 March 2025	49	Imo	Broadband MiFi	Female	2	Fair	50	30GB Monthly Broadband Plan	" ?9,000.00 "	8	" ?72,000.00 "	28.11	Yes	Poor Network
+CUST0030	Alabo Davis	01 March 2025	49	Imo	4G Router	Female	2	Fair	50	165GB Monthly Plan	" ?35,000.00 "	7	" ?245,000.00 "	138.94	Yes	Poor Network
+CUST0031	Kunle West	01 March 2025	69	Kogi	Mobile SIM Card	Female	4	Very Good	35	2.5GB 2-Day Plan	 ?900.00 	19	" ?17,100.00 "	171.42	Yes	Better Offers from Competitors
+CUST0031	Kunle West	01 February 2025	69	Kogi	5G Broadband Router	Female	4	Very Good	35	450GB 3-Month Broadband Plan	" ?75,000.00 "	12	" ?900,000.00 "	95.66	Yes	Better Offers from Competitors
+CUST0032	Maryam Terry	01 February 2025	65	Kogi	Mobile SIM Card	Male	3	Good	32	7GB Monthly Plan	" ?3,500.00 "	13	" ?45,500.00 "	133.94	No	No Churn
+CUST0033	Amina Mosley	01 February 2025	75	Borno	Broadband MiFi	Male	5	Excellent	59	60GB Monthly Broadband Plan	" ?14,500.00 "	15	" ?217,500.00 "	27.57	No	No Churn
+CUST0034	Shehu Anderson	01 February 2025	22	Edo	5G Broadband Router	Female	4	Very Good	21	120GB Monthly Broadband Plan	" ?24,000.00 "	16	" ?384,000.00 "	167.06	No	No Churn
+CUST0034	Shehu Anderson	01 February 2025	22	Edo	Mobile SIM Card	Female	4	Very Good	21	65GB Monthly Plan	" ?16,000.00 "	2	" ?32,000.00 "	149.93	No	No Churn
+CUST0035	Oghene Mcguire	01 January 2025	44	Kaduna	4G Router	Male	2	Fair	49	165GB Monthly Plan	" ?35,000.00 "	19	" ?665,000.00 "	134.06	Yes	Poor Network
+CUST0035	Oghene Mcguire	01 January 2025	44	Kaduna	Broadband MiFi	Male	2	Fair	49	150GB FUP Monthly Unlimited	" ?20,000.00 "	9	" ?180,000.00 "	93.27	Yes	Poor Network
+CUST0035	Oghene Mcguire	01 January 2025	44	Kaduna	5G Broadband Router	Male	2	Fair	49	200GB Monthly Broadband Plan	" ?25,000.00 "	20	" ?500,000.00 "	33.97	Yes	Poor Network
+CUST0036	Ifeanyi Randall	01 January 2025	36	Abia	Mobile SIM Card	Male	3	Good	38	500MB Daily Plan	 ?350.00 	8	" ?2,800.00 "	15.66	No	No Churn
+CUST0036	Ifeanyi Randall	01 January 2025	36	Abia	5G Broadband Router	Male	3	Good	38	150GB FUP Monthly Unlimited	" ?20,000.00 "	10	" ?200,000.00 "	139.59	No	No Churn
+CUST0037	Ifeanyi Ruiz	01 March 2025	21	Ekiti	Broadband MiFi	Female	1	Poor	43	60GB Monthly Broadband Plan	" ?14,500.00 "	12	" ?174,000.00 "	21.56	No	No Churn
+CUST0037	Ifeanyi Ruiz	01 March 2025	21	Ekiti	4G Router	Female	1	Poor	43	165GB Monthly Plan	" ?35,000.00 "	14	" ?490,000.00 "	141.61	No	No Churn
+CUST0038	Shehu Randall	01 February 2025	50	Adamawa	Broadband MiFi	Female	5	Excellent	30	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	176.39	Yes	Better Offers from Competitors
+CUST0039	Zina Green	01 March 2025	64	Bayelsa	5G Broadband Router	Male	2	Fair	32	120GB Monthly Broadband Plan	" ?24,000.00 "	9	" ?216,000.00 "	176.12	No	No Churn
+CUST0039	Zina Green	01 March 2025	64	Bayelsa	Mobile SIM Card	Male	2	Fair	32	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	103.57	No	No Churn
+CUST0040	Chinedu Ruiz	01 February 2025	46	Kogi	Mobile SIM Card	Female	4	Very Good	36	3.2GB 2-Day Plan	" ?1,000.00 "	13	" ?13,000.00 "	59.20	No	No Churn
+CUST0040	Chinedu Ruiz	01 February 2025	46	Kogi	Broadband MiFi	Female	4	Very Good	36	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	61.59	No	No Churn
+CUST0041	Ejiro Mason	01 March 2025	76	Bauchi	5G Broadband Router	Female	3	Good	28	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	24.57	No	No Churn
+CUST0041	Ejiro Mason	01 March 2025	76	Bauchi	Mobile SIM Card	Female	3	Good	28	25GB Monthly Plan	" ?9,000.00 "	18	" ?162,000.00 "	24.35	No	No Churn
+CUST0042	Shehu Hoffman	01 March 2025	40	Ondo	4G Router	Female	1	Poor	18	10GB+10mins Monthly Plan	" ?4,500.00 "	18	" ?81,000.00 "	60.80	No	No Churn
+CUST0042	Shehu Hoffman	01 March 2025	40	Ondo	Mobile SIM Card	Female	1	Poor	18	1.5GB 2-Day Plan	 ?600.00 	2	" ?1,200.00 "	55.23	No	No Churn
+CUST0043	Abubakar Johnson	01 January 2025	32	Yobe	5G Broadband Router	Male	5	Excellent	56	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	50.87	Yes	Fast Data Consumption
+CUST0043	Abubakar Johnson	01 January 2025	32	Yobe	Broadband MiFi	Male	5	Excellent	56	30GB Monthly Broadband Plan	" ?9,000.00 "	13	" ?117,000.00 "	164.51	Yes	Fast Data Consumption
+CUST0044	Grace Walker	01 March 2025	25	Oyo	Mobile SIM Card	Male	1	Poor	10	500MB Daily Plan	 ?350.00 	13	" ?4,550.00 "	155.25	No	No Churn
+CUST0045	Alabo Thompson	01 January 2025	72	Abia	4G Router	Female	5	Excellent	20	10GB+10mins Monthly Plan	" ?4,500.00 "	3	" ?13,500.00 "	53.30	No	No Churn
+CUST0046	Amina Wright	01 January 2025	46	Enugu	Mobile SIM Card	Male	4	Very Good	11	500MB Daily Plan	 ?350.00 	10	" ?3,500.00 "	57.98	No	No Churn
+CUST0046	Amina Wright	01 January 2025	46	Enugu	4G Router	Male	4	Very Good	11	165GB Monthly Plan	" ?35,000.00 "	8	" ?280,000.00 "	14.70	No	No Churn
+CUST0046	Amina Wright	01 January 2025	46	Enugu	Broadband MiFi	Male	4	Very Good	11	300GB FUP Monthly Unlimited	" ?30,000.00 "	19	" ?570,000.00 "	157.67	No	No Churn
+CUST0047	Bala Christian	01 February 2025	70	Delta	Broadband MiFi	Male	3	Good	42	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	158.63	No	No Churn
+CUST0048	Abubakar Gentry	01 March 2025	72	Delta	Mobile SIM Card	Female	4	Very Good	45	2.5GB 2-Day Plan	 ?900.00 	11	" ?9,900.00 "	177.94	No	No Churn
+CUST0048	Abubakar Gentry	01 March 2025	72	Delta	4G Router	Female	4	Very Good	45	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	5.66	No	No Churn
+CUST0048	Abubakar Gentry	01 March 2025	72	Delta	Broadband MiFi	Female	4	Very Good	45	120GB Monthly Broadband Plan	" ?24,000.00 "	1	" ?24,000.00 "	117.63	No	No Churn
+CUST0049	Zainab Taylor	01 February 2025	21	Enugu	Mobile SIM Card	Female	3	Good	34	12.5GB Monthly Plan	" ?5,500.00 "	11	" ?60,500.00 "	69.92	Yes	Relocation
+CUST0049	Zainab Taylor	01 February 2025	21	Enugu	Broadband MiFi	Female	3	Good	34	300GB FUP Monthly Unlimited	" ?30,000.00 "	6	" ?180,000.00 "	134.19	Yes	Relocation
+CUST0050	Tega Stevens	01 February 2025	68	Yobe	5G Broadband Router	Female	5	Excellent	43	150GB FUP Monthly Unlimited	" ?20,000.00 "	13	" ?260,000.00 "	194.05	Yes	Poor Network
+CUST0050	Tega Stevens	01 February 2025	68	Yobe	4G Router	Female	5	Excellent	43	65GB Monthly Plan	" ?16,000.00 "	18	" ?288,000.00 "	131.70	Yes	Poor Network
+CUST0051	Zina Carter	01 March 2025	68	Oyo	Mobile SIM Card	Male	5	Excellent	34	1GB+1.5mins Daily Plan	 ?500.00 	10	" ?5,000.00 "	110.07	No	No Churn
+CUST0051	Zina Carter	01 March 2025	68	Oyo	Broadband MiFi	Male	5	Excellent	34	60GB Monthly Broadband Plan	" ?14,500.00 "	16	" ?232,000.00 "	176.23	No	No Churn
+CUST0051	Zina Carter	01 March 2025	68	Oyo	5G Broadband Router	Male	5	Excellent	34	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	6.26	No	No Churn
+CUST0052	Halima Johnston	01 February 2025	36	Abia	Mobile SIM Card	Male	1	Poor	36	3.2GB 2-Day Plan	" ?1,000.00 "	5	" ?5,000.00 "	129.72	Yes	Better Offers from Competitors
+CUST0053	Grace Christensen	01 February 2025	53	Zamfara	Mobile SIM Card	Female	4	Very Good	27	500MB Daily Plan	 ?350.00 	17	" ?5,950.00 "	184.41	Yes	Relocation
+CUST0054	Amaka Potter	01 March 2025	24	Akwa Ibom	Mobile SIM Card	Female	1	Poor	22	16.5GB+10mins Monthly Plan	" ?6,500.00 "	11	" ?71,500.00 "	97.13	Yes	Costly Data Plans
+CUST0054	Amaka Potter	01 March 2025	24	Akwa Ibom	Broadband MiFi	Female	1	Poor	22	120GB Monthly Broadband Plan	" ?24,000.00 "	13	" ?312,000.00 "	152.69	Yes	Costly Data Plans
+CUST0054	Amaka Potter	01 March 2025	24	Akwa Ibom	Mobile SIM Card	Female	1	Poor	22	165GB Monthly Plan	" ?35,000.00 "	7	" ?245,000.00 "	186.60	Yes	Costly Data Plans
+CUST0055	Halima Smith	01 March 2025	65	Osun	Mobile SIM Card	Female	4	Very Good	3	1.5GB 2-Day Plan	 ?600.00 	2	" ?1,200.00 "	99.32	No	No Churn
+CUST0055	Halima Smith	01 March 2025	65	Osun	5G Broadband Router	Female	4	Very Good	3	300GB FUP Monthly Unlimited	" ?30,000.00 "	19	" ?570,000.00 "	100.71	No	No Churn
+CUST0056	Tega Daniels	01 February 2025	28	Nasarawa	Mobile SIM Card	Male	1	Poor	34	165GB Monthly Plan	" ?35,000.00 "	9	" ?315,000.00 "	156.41	No	No Churn
+CUST0056	Tega Daniels	01 February 2025	28	Nasarawa	Broadband MiFi	Male	1	Poor	34	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	124.84	No	No Churn
+CUST0057	Chinedu Davis	01 February 2025	58	Adamawa	5G Broadband Router	Female	5	Excellent	21	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	149.48	Yes	Poor Network
+CUST0058	Ngozi Brown	01 March 2025	28	Nasarawa	5G Broadband Router	Male	1	Poor	45	200GB Monthly Broadband Plan	" ?25,000.00 "	5	" ?125,000.00 "	75.28	Yes	Better Offers from Competitors
+CUST0059	Halima Williams	01 January 2025	68	Enugu	4G Router	Male	5	Excellent	12	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	92.50	No	No Churn
+CUST0059	Halima Williams	01 January 2025	68	Enugu	Mobile SIM Card	Male	5	Excellent	12	12.5GB Monthly Plan	" ?5,500.00 "	1	" ?5,500.00 "	51.44	No	No Churn
+CUST0059	Halima Williams	01 January 2025	68	Enugu	Broadband MiFi	Male	5	Excellent	12	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	180.29	No	No Churn
+CUST0060	Amina Payne	01 March 2025	25	Nasarawa	5G Broadband Router	Female	4	Very Good	38	450GB 3-Month Broadband Plan	" ?75,000.00 "	4	" ?300,000.00 "	170.74	No	No Churn
+CUST0060	Amina Payne	01 March 2025	25	Nasarawa	Broadband MiFi	Female	4	Very Good	38	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	76.58	No	No Churn
+CUST0061	Abubakar Ewing	01 January 2025	53	Kano	Broadband MiFi	Female	5	Excellent	18	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	155.26	No	No Churn
+CUST0061	Abubakar Ewing	01 January 2025	53	Kano	5G Broadband Router	Female	5	Excellent	18	200GB Monthly Broadband Plan	" ?25,000.00 "	7	" ?175,000.00 "	44.19	No	No Churn
+CUST0061	Abubakar Ewing	01 January 2025	53	Kano	4G Router	Female	5	Excellent	18	25GB Monthly Plan	" ?9,000.00 "	5	" ?45,000.00 "	135.71	No	No Churn
+CUST0062	Ngozi Henson	01 March 2025	21	Abia	Mobile SIM Card	Female	2	Fair	3	500MB Daily Plan	 ?350.00 	18	" ?6,300.00 "	26.87	Yes	Costly Data Plans
+CUST0062	Ngozi Henson	01 March 2025	21	Abia	Broadband MiFi	Female	2	Fair	3	300GB FUP Monthly Unlimited	" ?30,000.00 "	9	" ?270,000.00 "	106.41	Yes	Costly Data Plans
+CUST0063	Amina Flores	01 March 2025	48	Taraba	4G Router	Female	1	Poor	48	10GB+10mins Monthly Plan	" ?4,500.00 "	13	" ?58,500.00 "	172.10	No	No Churn
+CUST0064	Ejiro Ford	01 January 2025	27	Kebbi	5G Broadband Router	Male	4	Very Good	17	200GB Monthly Broadband Plan	" ?25,000.00 "	8	" ?200,000.00 "	22.12	No	No Churn
+CUST0064	Ejiro Ford	01 January 2025	27	Kebbi	Mobile SIM Card	Male	4	Very Good	17	12.5GB Monthly Plan	" ?5,500.00 "	18	" ?99,000.00 "	5.49	No	No Churn
+CUST0064	Ejiro Ford	01 January 2025	27	Kebbi	4G Router	Male	4	Very Good	17	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	183.09	No	No Churn
+CUST0065	Kunle Shaw	01 February 2025	75	Abia	Mobile SIM Card	Female	1	Poor	8	3.2GB 2-Day Plan	" ?1,000.00 "	18	" ?18,000.00 "	47.34	No	No Churn
+CUST0065	Kunle Shaw	01 February 2025	75	Abia	Broadband MiFi	Female	1	Poor	8	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	78.03	No	No Churn
+CUST0066	David Schneider	01 January 2025	69	Plateau	Broadband MiFi	Female	4	Very Good	42	300GB FUP Monthly Unlimited	" ?30,000.00 "	15	" ?450,000.00 "	43.85	No	No Churn
+CUST0066	David Schneider	01 January 2025	69	Plateau	5G Broadband Router	Female	4	Very Good	42	60GB Monthly Broadband Plan	" ?14,500.00 "	4	" ?58,000.00 "	171.16	No	No Churn
+CUST0067	Ejiro Smith	01 February 2025	61	Oyo	Broadband MiFi	Female	1	Poor	18	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	128.52	No	No Churn
+CUST0067	Ejiro Smith	01 February 2025	61	Oyo	5G Broadband Router	Female	1	Poor	18	30GB Monthly Broadband Plan	" ?9,000.00 "	11	" ?99,000.00 "	10.59	No	No Churn
+CUST0068	Halima Anderson	01 February 2025	32	Ondo	5G Broadband Router	Male	5	Excellent	54	300GB FUP Monthly Unlimited	" ?30,000.00 "	20	" ?600,000.00 "	157.83	Yes	Better Offers from Competitors
+CUST0069	Tunde Oliver	01 March 2025	51	Plateau	4G Router	Male	2	Fair	35	65GB Monthly Plan	" ?16,000.00 "	8	" ?128,000.00 "	71.97	Yes	Better Offers from Competitors
+CUST0070	Ese Obrien	01 February 2025	18	Enugu	4G Router	Female	4	Very Good	4	10GB+10mins Monthly Plan	" ?4,500.00 "	4	" ?18,000.00 "	102.89	No	No Churn
+CUST0071	Alabo Keith	01 March 2025	80	Osun	Broadband MiFi	Male	4	Very Good	47	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	169.54	No	No Churn
+CUST0072	Ngozi Hernandez	01 January 2025	78	Nasarawa	4G Router	Male	3	Good	58	25GB Monthly Plan	" ?9,000.00 "	19	" ?171,000.00 "	125.05	No	No Churn
+CUST0073	Ese Flowers	01 February 2025	64	Bauchi	Mobile SIM Card	Female	1	Poor	30	165GB Monthly Plan	" ?35,000.00 "	8	" ?280,000.00 "	90.59	No	No Churn
+CUST0074	Ibim Marshall	01 January 2025	59	Sokoto	5G Broadband Router	Female	3	Good	27	1.5TB Yearly Broadband Plan	" ?150,000.00 "	3	" ?450,000.00 "	13.89	No	No Churn
+CUST0074	Ibim Marshall	01 January 2025	59	Sokoto	4G Router	Female	3	Good	27	65GB Monthly Plan	" ?16,000.00 "	12	" ?192,000.00 "	86.66	No	No Churn
+CUST0074	Ibim Marshall	01 January 2025	59	Sokoto	Broadband MiFi	Female	3	Good	27	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	111.50	No	No Churn
+CUST0075	Tega Medina	01 February 2025	31	Kogi	5G Broadband Router	Female	1	Poor	56	60GB Monthly Broadband Plan	" ?14,500.00 "	16	" ?232,000.00 "	31.37	No	No Churn
+CUST0075	Tega Medina	01 February 2025	31	Kogi	4G Router	Female	1	Poor	56	10GB+10mins Monthly Plan	" ?4,500.00 "	12	" ?54,000.00 "	169.53	No	No Churn
+CUST0075	Tega Medina	01 February 2025	31	Kogi	Broadband MiFi	Female	1	Poor	56	120GB Monthly Broadband Plan	" ?24,000.00 "	9	" ?216,000.00 "	73.83	No	No Churn
+CUST0076	Nura Mcneil	01 February 2025	70	Kano	5G Broadband Router	Female	3	Good	2	30GB Monthly Broadband Plan	" ?9,000.00 "	5	" ?45,000.00 "	36.69	No	No Churn
+CUST0076	Nura Mcneil	01 February 2025	70	Kano	4G Router	Female	3	Good	2	165GB Monthly Plan	" ?35,000.00 "	1	" ?35,000.00 "	14.38	No	No Churn
+CUST0077	Chinedu Pitts	01 March 2025	43	Jigawa	5G Broadband Router	Female	2	Fair	30	30GB Monthly Broadband Plan	" ?9,000.00 "	20	" ?180,000.00 "	31.54	No	No Churn
+CUST0077	Chinedu Pitts	01 March 2025	43	Jigawa	Mobile SIM Card	Female	2	Fair	30	2.5GB 2-Day Plan	 ?900.00 	9	" ?8,100.00 "	134.96	No	No Churn
+CUST0077	Chinedu Pitts	01 March 2025	43	Jigawa	Broadband MiFi	Female	2	Fair	30	60GB Monthly Broadband Plan	" ?14,500.00 "	16	" ?232,000.00 "	132.56	No	No Churn
+CUST0078	Alabo Kelly	01 January 2025	69	Akwa Ibom	Mobile SIM Card	Male	3	Good	49	1GB+1.5mins Daily Plan	 ?500.00 	13	" ?6,500.00 "	9.56	No	No Churn
+CUST0078	Alabo Kelly	01 January 2025	69	Akwa Ibom	5G Broadband Router	Male	3	Good	49	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	2.03	No	No Churn
+CUST0079	Fatima Pennington	01 January 2025	33	Edo	Mobile SIM Card	Female	1	Poor	21	165GB Monthly Plan	" ?35,000.00 "	8	" ?280,000.00 "	106.75	No	No Churn
+CUST0079	Fatima Pennington	01 January 2025	33	Edo	Broadband MiFi	Female	1	Poor	21	120GB Monthly Broadband Plan	" ?24,000.00 "	12	" ?288,000.00 "	111.97	No	No Churn
+CUST0080	Kunle Williams	01 February 2025	66	Rivers	Mobile SIM Card	Female	1	Poor	2	20GB Monthly Plan	" ?7,500.00 "	13	" ?97,500.00 "	58.26	No	No Churn
+CUST0080	Kunle Williams	01 February 2025	66	Rivers	5G Broadband Router	Female	1	Poor	2	30GB Monthly Broadband Plan	" ?9,000.00 "	6	" ?54,000.00 "	193.26	No	No Churn
+CUST0080	Kunle Williams	01 February 2025	66	Rivers	4G Router	Female	1	Poor	2	165GB Monthly Plan	" ?35,000.00 "	12	" ?420,000.00 "	166.49	No	No Churn
+CUST0081	Chinedu Ortiz	01 February 2025	71	Anambra	5G Broadband Router	Male	5	Excellent	28	200GB Monthly Broadband Plan	" ?25,000.00 "	3	" ?75,000.00 "	155.93	Yes	Better Offers from Competitors
+CUST0081	Chinedu Ortiz	01 February 2025	71	Anambra	Broadband MiFi	Male	5	Excellent	28	120GB Monthly Broadband Plan	" ?24,000.00 "	17	" ?408,000.00 "	126.83	Yes	Better Offers from Competitors
+CUST0082	Michael Ortiz	01 February 2025	40	Ekiti	4G Router	Female	2	Fair	47	10GB+10mins Monthly Plan	" ?4,500.00 "	3	" ?13,500.00 "	152.16	Yes	Costly Data Plans
+CUST0083	Shehu Holt	01 March 2025	79	Sokoto	Mobile SIM Card	Female	3	Good	44	1GB+1.5mins Daily Plan	 ?500.00 	19	" ?9,500.00 "	159.37	Yes	Poor Network
+CUST0083	Shehu Holt	01 March 2025	79	Sokoto	5G Broadband Router	Female	3	Good	44	30GB Monthly Broadband Plan	" ?9,000.00 "	3	" ?27,000.00 "	70.71	Yes	Poor Network
+CUST0084	Maryam Velez	01 March 2025	75	Nasarawa	Mobile SIM Card	Male	3	Good	4	12.5GB Monthly Plan	" ?5,500.00 "	2	" ?11,000.00 "	116.28	Yes	Better Offers from Competitors
+CUST0085	Alabo Turner	01 February 2025	40	Niger	Broadband MiFi	Female	1	Poor	33	150GB FUP Monthly Unlimited	" ?20,000.00 "	15	" ?300,000.00 "	8.31	No	No Churn
+CUST0085	Alabo Turner	01 February 2025	40	Niger	5G Broadband Router	Female	1	Poor	33	1.5TB Yearly Broadband Plan	" ?150,000.00 "	20	" ?3,000,000.00 "	105.05	No	No Churn
+CUST0086	Amina Rivas	01 February 2025	62	Gombe	5G Broadband Router	Female	3	Good	25	150GB FUP Monthly Unlimited	" ?20,000.00 "	18	" ?360,000.00 "	66.27	No	No Churn
+CUST0087	Omamuzo Guerrero	01 January 2025	52	Edo	5G Broadband Router	Male	5	Excellent	22	450GB 3-Month Broadband Plan	" ?75,000.00 "	3	" ?225,000.00 "	26.23	No	No Churn
+CUST0087	Omamuzo Guerrero	01 January 2025	52	Edo	Mobile SIM Card	Male	5	Excellent	22	1GB+1.5mins Daily Plan	 ?500.00 	11	" ?5,500.00 "	112.00	No	No Churn
+CUST0088	Amaka Brown	01 March 2025	27	Kwara	Mobile SIM Card	Female	3	Good	2	500MB Daily Plan	 ?350.00 	5	" ?1,750.00 "	200.00	Yes	Poor Customer Service
+CUST0088	Amaka Brown	01 March 2025	27	Kwara	Broadband MiFi	Female	3	Good	2	30GB Monthly Broadband Plan	" ?9,000.00 "	4	" ?36,000.00 "	59.51	Yes	Poor Customer Service
+CUST0089	Michael Schultz	01 February 2025	20	Bayelsa	4G Router	Male	2	Fair	39	65GB Monthly Plan	" ?16,000.00 "	8	" ?128,000.00 "	82.47	Yes	Better Offers from Competitors
+CUST0089	Michael Schultz	01 February 2025	20	Bayelsa	5G Broadband Router	Male	2	Fair	39	1.5TB Yearly Broadband Plan	" ?150,000.00 "	15	" ?2,250,000.00 "	122.31	Yes	Better Offers from Competitors
+CUST0089	Michael Schultz	01 February 2025	20	Bayelsa	Mobile SIM Card	Male	2	Fair	39	500MB Daily Plan	 ?350.00 	10	" ?3,500.00 "	107.04	Yes	Better Offers from Competitors
+CUST0090	John Montoya	01 March 2025	40	Gombe	Mobile SIM Card	Female	4	Very Good	30	10GB+10mins Monthly Plan	" ?4,500.00 "	2	" ?9,000.00 "	174.66	No	No Churn
+CUST0090	John Montoya	01 March 2025	40	Gombe	Broadband MiFi	Female	4	Very Good	30	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	174.89	No	No Churn
+CUST0091	Ngozi Fox	01 February 2025	31	Cross River	4G Router	Male	3	Good	49	10GB+10mins Monthly Plan	" ?4,500.00 "	12	" ?54,000.00 "	163.43	No	No Churn
+CUST0091	Ngozi Fox	01 February 2025	31	Cross River	Mobile SIM Card	Male	3	Good	49	2.5GB 2-Day Plan	 ?900.00 	13	" ?11,700.00 "	83.27	No	No Churn
+CUST0091	Ngozi Fox	01 February 2025	31	Cross River	Broadband MiFi	Male	3	Good	49	120GB Monthly Broadband Plan	" ?24,000.00 "	13	" ?312,000.00 "	75.11	No	No Churn
+CUST0092	Chinedu Burke	01 January 2025	63	Osun	Broadband MiFi	Male	3	Good	21	300GB FUP Monthly Unlimited	" ?30,000.00 "	16	" ?480,000.00 "	183.52	No	No Churn
+CUST0093	Amaka Webb	01 January 2025	76	Nasarawa	Mobile SIM Card	Male	1	Poor	58	3.2GB 2-Day Plan	" ?1,000.00 "	8	" ?8,000.00 "	155.35	Yes	Better Offers from Competitors
+CUST0094	Maryam Tucker	01 February 2025	31	Oyo	Broadband MiFi	Male	1	Poor	27	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	58.61	Yes	Fast Data Consumption
+CUST0094	Maryam Tucker	01 February 2025	31	Oyo	5G Broadband Router	Male	1	Poor	27	200GB Monthly Broadband Plan	" ?25,000.00 "	14	" ?350,000.00 "	48.49	Yes	Fast Data Consumption
+CUST0094	Maryam Tucker	01 February 2025	31	Oyo	Mobile SIM Card	Male	1	Poor	27	1.5GB 2-Day Plan	 ?600.00 	3	" ?1,800.00 "	133.04	Yes	Fast Data Consumption
+CUST0095	Sarah James	01 February 2025	62	Kaduna	5G Broadband Router	Male	1	Poor	25	30GB Monthly Broadband Plan	" ?9,000.00 "	3	" ?27,000.00 "	71.74	No	No Churn
+CUST0095	Sarah James	01 February 2025	62	Kaduna	Mobile SIM Card	Male	1	Poor	25	7GB Monthly Plan	" ?3,500.00 "	4	" ?14,000.00 "	48.60	No	No Churn
+CUST0096	Tega Turner	01 March 2025	33	Rivers	Mobile SIM Card	Female	2	Fair	35	1.5GB 2-Day Plan	 ?600.00 	3	" ?1,800.00 "	162.39	No	No Churn
+CUST0096	Tega Turner	01 March 2025	33	Rivers	5G Broadband Router	Female	2	Fair	35	1.5TB Yearly Broadband Plan	" ?150,000.00 "	7	" ?1,050,000.00 "	7.88	No	No Churn
+CUST0096	Tega Turner	01 March 2025	33	Rivers	4G Router	Female	2	Fair	35	65GB Monthly Plan	" ?16,000.00 "	2	" ?32,000.00 "	158.33	No	No Churn
+CUST0097	Ese Perez	01 February 2025	55	Zamfara	5G Broadband Router	Female	3	Good	53	200GB Monthly Broadband Plan	" ?25,000.00 "	2	" ?50,000.00 "	172.50	Yes	High Call Tarriffs
+CUST0098	Tega Murray	01 February 2025	50	Delta	5G Broadband Router	Female	4	Very Good	28	1.5TB Yearly Broadband Plan	" ?150,000.00 "	12	" ?1,800,000.00 "	138.57	No	No Churn
+CUST0098	Tega Murray	01 February 2025	50	Delta	Broadband MiFi	Female	4	Very Good	28	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	53.71	No	No Churn
+CUST0099	Boma Gonzalez	01 March 2025	26	Kwara	5G Broadband Router	Male	3	Good	35	450GB 3-Month Broadband Plan	" ?75,000.00 "	15	" ?1,125,000.00 "	33.75	Yes	Costly Data Plans
+CUST0099	Boma Gonzalez	01 March 2025	26	Kwara	4G Router	Male	3	Good	35	25GB Monthly Plan	" ?9,000.00 "	12	" ?108,000.00 "	89.70	Yes	Costly Data Plans
+CUST0099	Boma Gonzalez	01 March 2025	26	Kwara	Mobile SIM Card	Male	3	Good	35	20GB Monthly Plan	" ?7,500.00 "	2	" ?15,000.00 "	55.27	Yes	Costly Data Plans
+CUST0100	Kunle Davis	01 February 2025	67	Gombe	Broadband MiFi	Male	5	Excellent	2	30GB Monthly Broadband Plan	" ?9,000.00 "	12	" ?108,000.00 "	47.58	No	No Churn
+CUST0100	Kunle Davis	01 February 2025	67	Gombe	Mobile SIM Card	Male	5	Excellent	2	7GB Monthly Plan	" ?3,500.00 "	19	" ?66,500.00 "	76.88	No	No Churn
+CUST0101	Bola Brown	01 February 2025	35	Nasarawa	5G Broadband Router	Female	1	Poor	24	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	50.30	No	No Churn
+CUST0101	Bola Brown	01 February 2025	35	Nasarawa	Mobile SIM Card	Female	1	Poor	24	65GB Monthly Plan	" ?16,000.00 "	16	" ?256,000.00 "	147.27	No	No Churn
+CUST0101	Bola Brown	01 February 2025	35	Nasarawa	Mobile SIM Card	Female	1	Poor	24	16.5GB+10mins Monthly Plan	" ?6,500.00 "	18	" ?117,000.00 "	77.70	No	No Churn
+CUST0102	Ifeanyi Burns	01 March 2025	49	Edo	Mobile SIM Card	Female	4	Very Good	14	1.5GB 2-Day Plan	 ?600.00 	15	" ?9,000.00 "	179.79	Yes	Poor Customer Service
+CUST0103	Chinedu Barrera	01 March 2025	56	Ekiti	4G Router	Male	3	Good	36	65GB Monthly Plan	" ?16,000.00 "	5	" ?80,000.00 "	197.03	No	No Churn
+CUST0103	Chinedu Barrera	01 March 2025	56	Ekiti	Mobile SIM Card	Male	3	Good	36	500MB Daily Plan	 ?350.00 	1	 ?350.00 	158.18	No	No Churn
+CUST0103	Chinedu Barrera	01 March 2025	56	Ekiti	Broadband MiFi	Male	3	Good	36	300GB FUP Monthly Unlimited	" ?30,000.00 "	12	" ?360,000.00 "	111.03	No	No Churn
+CUST0104	Zina Fischer	01 February 2025	32	Katsina	Broadband MiFi	Male	4	Very Good	20	300GB FUP Monthly Unlimited	" ?30,000.00 "	15	" ?450,000.00 "	128.65	No	No Churn
+CUST0104	Zina Fischer	01 February 2025	32	Katsina	Mobile SIM Card	Male	4	Very Good	20	12.5GB Monthly Plan	" ?5,500.00 "	12	" ?66,000.00 "	136.18	No	No Churn
+CUST0105	Amaka Garcia	01 January 2025	39	Borno	Mobile SIM Card	Female	1	Poor	33	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	186.98	No	No Churn
+CUST0105	Amaka Garcia	01 January 2025	39	Borno	Broadband MiFi	Female	1	Poor	33	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	189.52	No	No Churn
+CUST0106	Abubakar Holmes	01 March 2025	26	Edo	Broadband MiFi	Male	2	Fair	41	120GB Monthly Broadband Plan	" ?24,000.00 "	5	" ?120,000.00 "	188.35	No	No Churn
+CUST0106	Abubakar Holmes	01 March 2025	26	Edo	5G Broadband Router	Male	2	Fair	41	300GB FUP Monthly Unlimited	" ?30,000.00 "	20	" ?600,000.00 "	131.92	No	No Churn
+CUST0106	Abubakar Holmes	01 March 2025	26	Edo	Mobile SIM Card	Male	2	Fair	41	7GB Monthly Plan	" ?3,500.00 "	19	" ?66,500.00 "	168.58	No	No Churn
+CUST0107	Bola Rogers	01 March 2025	19	Katsina	4G Router	Male	2	Fair	42	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	128.56	No	No Churn
+CUST0108	John Rose	01 January 2025	47	Kebbi	Mobile SIM Card	Female	1	Poor	30	7GB Monthly Plan	" ?3,500.00 "	11	" ?38,500.00 "	121.53	Yes	Fast Data Consumption
+CUST0108	John Rose	01 January 2025	47	Kebbi	Broadband MiFi	Female	1	Poor	30	300GB FUP Monthly Unlimited	" ?30,000.00 "	12	" ?360,000.00 "	146.97	Yes	Fast Data Consumption
+CUST0109	Tamuno Bates	01 February 2025	32	Gombe	Mobile SIM Card	Male	4	Very Good	21	65GB Monthly Plan	" ?16,000.00 "	13	" ?208,000.00 "	10.60	Yes	Fast Data Consumption
+CUST0110	Ibim Richards	01 March 2025	47	Abuja (FCT)	Mobile SIM Card	Female	2	Fair	60	1GB+1.5mins Daily Plan	 ?500.00 	3	" ?1,500.00 "	99.73	No	No Churn
+CUST0110	Ibim Richards	01 March 2025	47	Abuja (FCT)	4G Router	Female	2	Fair	60	165GB Monthly Plan	" ?35,000.00 "	8	" ?280,000.00 "	101.34	No	No Churn
+CUST0111	Fatima Blevins	01 February 2025	61	Oyo	Mobile SIM Card	Male	5	Excellent	19	3.2GB 2-Day Plan	" ?1,000.00 "	9	" ?9,000.00 "	86.47	No	No Churn
+CUST0111	Fatima Blevins	01 February 2025	61	Oyo	4G Router	Male	5	Excellent	19	25GB Monthly Plan	" ?9,000.00 "	12	" ?108,000.00 "	152.89	No	No Churn
+CUST0111	Fatima Blevins	01 February 2025	61	Oyo	Broadband MiFi	Male	5	Excellent	19	30GB Monthly Broadband Plan	" ?9,000.00 "	19	" ?171,000.00 "	80.42	No	No Churn
+CUST0112	Bala Smith	01 February 2025	62	Cross River	Broadband MiFi	Male	5	Excellent	25	60GB Monthly Broadband Plan	" ?14,500.00 "	11	" ?159,500.00 "	74.95	Yes	Relocation
+CUST0112	Bala Smith	01 February 2025	62	Cross River	Mobile SIM Card	Male	5	Excellent	25	16.5GB+10mins Monthly Plan	" ?6,500.00 "	5	" ?32,500.00 "	187.82	Yes	Relocation
+CUST0112	Bala Smith	01 February 2025	62	Cross River	5G Broadband Router	Male	5	Excellent	25	60GB Monthly Broadband Plan	" ?14,500.00 "	13	" ?188,500.00 "	120.69	Yes	Relocation
+CUST0113	Michael Evans	01 March 2025	21	Rivers	4G Router	Male	4	Very Good	9	25GB Monthly Plan	" ?9,000.00 "	11	" ?99,000.00 "	186.31	No	No Churn
+CUST0114	Amina Todd	01 February 2025	66	Abia	5G Broadband Router	Female	5	Excellent	33	200GB Monthly Broadband Plan	" ?25,000.00 "	14	" ?350,000.00 "	134.92	Yes	Better Offers from Competitors
+CUST0115	Maryam Smith	01 February 2025	19	Taraba	Mobile SIM Card	Female	1	Poor	42	1.5GB 2-Day Plan	 ?600.00 	8	" ?4,800.00 "	164.42	No	No Churn
+CUST0116	Bola Garcia	01 March 2025	30	Benue	Mobile SIM Card	Male	4	Very Good	29	16.5GB+10mins Monthly Plan	" ?6,500.00 "	16	" ?104,000.00 "	155.11	Yes	High Call Tarriffs
+CUST0117	Sade Collins	01 March 2025	33	Bauchi	4G Router	Male	4	Very Good	36	25GB Monthly Plan	" ?9,000.00 "	9	" ?81,000.00 "	109.48	No	No Churn
+CUST0117	Sade Collins	01 March 2025	33	Bauchi	Mobile SIM Card	Male	4	Very Good	36	12.5GB Monthly Plan	" ?5,500.00 "	8	" ?44,000.00 "	38.86	No	No Churn
+CUST0118	Zainab Garcia	01 March 2025	54	Osun	5G Broadband Router	Female	2	Fair	50	200GB Monthly Broadband Plan	" ?25,000.00 "	9	" ?225,000.00 "	112.32	No	No Churn
+CUST0118	Zainab Garcia	01 March 2025	54	Osun	4G Router	Female	2	Fair	50	25GB Monthly Plan	" ?9,000.00 "	18	" ?162,000.00 "	24.81	No	No Churn
+CUST0119	Omamuzo Terry	01 January 2025	66	Ekiti	5G Broadband Router	Male	3	Good	19	1.5TB Yearly Broadband Plan	" ?150,000.00 "	16	" ?2,400,000.00 "	131.37	No	No Churn
+CUST0120	Fatima Lindsey	01 March 2025	41	Adamawa	4G Router	Female	2	Fair	60	10GB+10mins Monthly Plan	" ?4,500.00 "	2	" ?9,000.00 "	127.77	Yes	High Call Tarriffs
+CUST0120	Fatima Lindsey	01 March 2025	41	Adamawa	Broadband MiFi	Female	2	Fair	60	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	82.95	Yes	High Call Tarriffs
+CUST0120	Fatima Lindsey	01 March 2025	41	Adamawa	5G Broadband Router	Female	2	Fair	60	150GB FUP Monthly Unlimited	" ?20,000.00 "	5	" ?100,000.00 "	136.40	Yes	High Call Tarriffs
+CUST0121	Tunde Smith	01 February 2025	36	Kogi	Broadband MiFi	Female	3	Good	31	120GB Monthly Broadband Plan	" ?24,000.00 "	2	" ?48,000.00 "	147.87	No	No Churn
+CUST0121	Tunde Smith	01 February 2025	36	Kogi	Mobile SIM Card	Female	3	Good	31	1.5GB 2-Day Plan	 ?600.00 	6	" ?3,600.00 "	83.87	No	No Churn
+CUST0121	Tunde Smith	01 February 2025	36	Kogi	5G Broadband Router	Female	3	Good	31	30GB Monthly Broadband Plan	" ?9,000.00 "	13	" ?117,000.00 "	199.44	No	No Churn
+CUST0122	Grace Fowler	01 March 2025	39	Cross River	5G Broadband Router	Male	5	Excellent	1	1.5TB Yearly Broadband Plan	" ?150,000.00 "	5	" ?750,000.00 "	177.91	No	No Churn
+CUST0122	Grace Fowler	01 March 2025	39	Cross River	4G Router	Male	5	Excellent	1	165GB Monthly Plan	" ?35,000.00 "	4	" ?140,000.00 "	54.93	No	No Churn
+CUST0123	Tega Chen	01 February 2025	36	Sokoto	4G Router	Female	1	Poor	46	165GB Monthly Plan	" ?35,000.00 "	17	" ?595,000.00 "	165.48	No	No Churn
+CUST0123	Tega Chen	01 February 2025	36	Sokoto	Broadband MiFi	Female	1	Poor	46	300GB FUP Monthly Unlimited	" ?30,000.00 "	4	" ?120,000.00 "	17.80	No	No Churn
+CUST0124	Shehu Nguyen	01 February 2025	33	Taraba	5G Broadband Router	Female	1	Poor	60	120GB Monthly Broadband Plan	" ?24,000.00 "	19	" ?456,000.00 "	116.70	Yes	Poor Customer Service
+CUST0124	Shehu Nguyen	01 February 2025	33	Taraba	4G Router	Female	1	Poor	60	65GB Monthly Plan	" ?16,000.00 "	12	" ?192,000.00 "	52.68	Yes	Poor Customer Service
+CUST0125	Halima Aguilar	01 February 2025	23	Delta	5G Broadband Router	Female	4	Very Good	20	120GB Monthly Broadband Plan	" ?24,000.00 "	8	" ?192,000.00 "	73.83	No	No Churn
+CUST0125	Halima Aguilar	01 February 2025	23	Delta	Mobile SIM Card	Female	4	Very Good	20	500MB Daily Plan	 ?350.00 	16	" ?5,600.00 "	191.49	No	No Churn
+CUST0125	Halima Aguilar	01 February 2025	23	Delta	Broadband MiFi	Female	4	Very Good	20	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	91.27	No	No Churn
+CUST0126	Ejiro Ware	01 February 2025	69	Taraba	Mobile SIM Card	Male	5	Excellent	49	16.5GB+10mins Monthly Plan	" ?6,500.00 "	3	" ?19,500.00 "	140.90	No	No Churn
+CUST0127	Ifeanyi Clayton	01 February 2025	23	Zamfara	Mobile SIM Card	Male	2	Fair	37	12.5GB Monthly Plan	" ?5,500.00 "	17	" ?93,500.00 "	18.64	No	No Churn
+CUST0127	Ifeanyi Clayton	01 February 2025	23	Zamfara	Broadband MiFi	Male	2	Fair	37	60GB Monthly Broadband Plan	" ?14,500.00 "	15	" ?217,500.00 "	161.83	No	No Churn
+CUST0127	Ifeanyi Clayton	01 February 2025	23	Zamfara	5G Broadband Router	Male	2	Fair	37	300GB FUP Monthly Unlimited	" ?30,000.00 "	15	" ?450,000.00 "	102.89	No	No Churn
+CUST0128	Sade Berry	01 March 2025	75	Abia	Broadband MiFi	Male	1	Poor	26	300GB FUP Monthly Unlimited	" ?30,000.00 "	18	" ?540,000.00 "	140.23	No	No Churn
+CUST0128	Sade Berry	01 March 2025	75	Abia	Mobile SIM Card	Male	1	Poor	26	2.5GB 2-Day Plan	 ?900.00 	3	" ?2,700.00 "	186.95	No	No Churn
+CUST0128	Sade Berry	01 March 2025	75	Abia	Mobile SIM Card	Male	1	Poor	26	165GB Monthly Plan	" ?35,000.00 "	14	" ?490,000.00 "	6.83	No	No Churn
+CUST0129	Shehu Lee	01 February 2025	33	Kogi	Mobile SIM Card	Female	4	Very Good	58	16.5GB+10mins Monthly Plan	" ?6,500.00 "	12	" ?78,000.00 "	27.03	No	No Churn
+CUST0129	Shehu Lee	01 February 2025	33	Kogi	Broadband MiFi	Female	4	Very Good	58	30GB Monthly Broadband Plan	" ?9,000.00 "	18	" ?162,000.00 "	36.11	No	No Churn
+CUST0130	Tamuno Greer	01 January 2025	32	Osun	Mobile SIM Card	Male	3	Good	49	500MB Daily Plan	 ?350.00 	12	" ?4,200.00 "	49.88	No	No Churn
+CUST0130	Tamuno Greer	01 January 2025	32	Osun	5G Broadband Router	Male	3	Good	49	300GB FUP Monthly Unlimited	" ?30,000.00 "	4	" ?120,000.00 "	55.49	No	No Churn
+CUST0130	Tamuno Greer	01 January 2025	32	Osun	4G Router	Male	3	Good	49	65GB Monthly Plan	" ?16,000.00 "	14	" ?224,000.00 "	161.99	No	No Churn
+CUST0131	Funke Hart	01 January 2025	46	Ondo	Broadband MiFi	Male	4	Very Good	7	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	88.07	No	No Churn
+CUST0131	Funke Hart	01 January 2025	46	Ondo	Mobile SIM Card	Male	4	Very Good	7	500MB Daily Plan	 ?350.00 	2	 ?700.00 	151.00	No	No Churn
+CUST0131	Funke Hart	01 January 2025	46	Ondo	5G Broadband Router	Male	4	Very Good	7	300GB FUP Monthly Unlimited	" ?30,000.00 "	10	" ?300,000.00 "	101.03	No	No Churn
+CUST0132	Nura Yang	01 February 2025	56	Niger	Broadband MiFi	Male	5	Excellent	20	120GB Monthly Broadband Plan	" ?24,000.00 "	6	" ?144,000.00 "	176.00	Yes	Costly Data Plans
+CUST0132	Nura Yang	01 February 2025	56	Niger	5G Broadband Router	Male	5	Excellent	20	450GB 3-Month Broadband Plan	" ?75,000.00 "	2	" ?150,000.00 "	111.39	Yes	Costly Data Plans
+CUST0133	Oghene Cooper	01 February 2025	64	Bauchi	Mobile SIM Card	Female	4	Very Good	45	500MB Daily Plan	 ?350.00 	10	" ?3,500.00 "	169.94	Yes	Fast Data Consumption
+CUST0134	Obinna Branch	01 February 2025	75	Oyo	Broadband MiFi	Female	4	Very Good	27	300GB FUP Monthly Unlimited	" ?30,000.00 "	7	" ?210,000.00 "	18.95	Yes	Poor Customer Service
+CUST0134	Obinna Branch	01 February 2025	75	Oyo	4G Router	Female	4	Very Good	27	65GB Monthly Plan	" ?16,000.00 "	20	" ?320,000.00 "	54.06	Yes	Poor Customer Service
+CUST0135	Bola Anderson	01 February 2025	25	Benue	Mobile SIM Card	Male	3	Good	31	10GB+10mins Monthly Plan	" ?4,500.00 "	4	" ?18,000.00 "	192.43	No	No Churn
+CUST0136	John Hill	01 February 2025	47	Ondo	Mobile SIM Card	Female	5	Excellent	59	16.5GB+10mins Monthly Plan	" ?6,500.00 "	10	" ?65,000.00 "	129.92	No	No Churn
+CUST0136	John Hill	01 February 2025	47	Ondo	4G Router	Female	5	Excellent	59	25GB Monthly Plan	" ?9,000.00 "	16	" ?144,000.00 "	72.25	No	No Churn
+CUST0137	Zina Singh	01 February 2025	28	Taraba	4G Router	Female	3	Good	59	10GB+10mins Monthly Plan	" ?4,500.00 "	18	" ?81,000.00 "	3.74	No	No Churn
+CUST0138	Ibim Brown	01 February 2025	53	Plateau	Mobile SIM Card	Male	4	Very Good	22	16.5GB+10mins Monthly Plan	" ?6,500.00 "	11	" ?71,500.00 "	131.09	No	No Churn
+CUST0139	Saidu Holt	01 March 2025	78	Yobe	4G Router	Female	2	Fair	11	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	105.03	Yes	Relocation
+CUST0139	Saidu Holt	01 March 2025	78	Yobe	5G Broadband Router	Female	2	Fair	11	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	152.99	Yes	Relocation
+CUST0140	Amaka Vang	01 February 2025	45	Kaduna	Mobile SIM Card	Male	5	Excellent	1	12.5GB Monthly Plan	" ?5,500.00 "	18	" ?99,000.00 "	3.64	No	No Churn
+CUST0141	Ibim Faulkner	01 March 2025	17	Kano	Mobile SIM Card	Female	1	Poor	35	3.2GB 2-Day Plan	" ?1,000.00 "	8	" ?8,000.00 "	105.11	No	No Churn
+CUST0142	Bala Hood	01 February 2025	48	Ekiti	Mobile SIM Card	Female	1	Poor	51	500MB Daily Plan	 ?350.00 	8	" ?2,800.00 "	198.05	No	No Churn
+CUST0142	Bala Hood	01 February 2025	48	Ekiti	5G Broadband Router	Female	1	Poor	51	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	136.97	No	No Churn
+CUST0143	Bola Brooks	01 February 2025	27	Kebbi	Mobile SIM Card	Female	1	Poor	25	165GB Monthly Plan	" ?35,000.00 "	11	" ?385,000.00 "	129.16	No	No Churn
+CUST0143	Bola Brooks	01 February 2025	27	Kebbi	Broadband MiFi	Female	1	Poor	25	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	195.48	No	No Churn
+CUST0143	Bola Brooks	01 February 2025	27	Kebbi	Mobile SIM Card	Female	1	Poor	25	16.5GB+10mins Monthly Plan	" ?6,500.00 "	8	" ?52,000.00 "	183.87	No	No Churn
+CUST0144	Fatima Wheeler	01 January 2025	76	Akwa Ibom	Broadband MiFi	Male	3	Good	60	30GB Monthly Broadband Plan	" ?9,000.00 "	19	" ?171,000.00 "	192.31	No	No Churn
+CUST0144	Fatima Wheeler	01 January 2025	76	Akwa Ibom	Mobile SIM Card	Male	3	Good	60	1.5GB 2-Day Plan	 ?600.00 	13	" ?7,800.00 "	150.57	No	No Churn
+CUST0144	Fatima Wheeler	01 January 2025	76	Akwa Ibom	4G Router	Male	3	Good	60	65GB Monthly Plan	" ?16,000.00 "	19	" ?304,000.00 "	60.21	No	No Churn
+CUST0145	Halima Valencia	01 February 2025	65	Adamawa	Broadband MiFi	Female	1	Poor	25	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	46.81	No	No Churn
+CUST0145	Halima Valencia	01 February 2025	65	Adamawa	Mobile SIM Card	Female	1	Poor	25	7GB Monthly Plan	" ?3,500.00 "	20	" ?70,000.00 "	121.23	No	No Churn
+CUST0146	Tamuno Boyd	01 February 2025	57	Kano	Mobile SIM Card	Female	4	Very Good	51	20GB Monthly Plan	" ?7,500.00 "	20	" ?150,000.00 "	17.60	Yes	Relocation
+CUST0146	Tamuno Boyd	01 February 2025	57	Kano	Broadband MiFi	Female	4	Very Good	51	300GB FUP Monthly Unlimited	" ?30,000.00 "	3	" ?90,000.00 "	159.71	Yes	Relocation
+CUST0147	Chinedu Martinez	01 February 2025	50	Plateau	Broadband MiFi	Female	4	Very Good	46	30GB Monthly Broadband Plan	" ?9,000.00 "	15	" ?135,000.00 "	188.62	No	No Churn
+CUST0148	Ejiro Finley	01 February 2025	50	Anambra	Mobile SIM Card	Male	4	Very Good	6	3.2GB 2-Day Plan	" ?1,000.00 "	3	" ?3,000.00 "	71.11	No	No Churn
+CUST0148	Ejiro Finley	01 February 2025	50	Anambra	Broadband MiFi	Male	4	Very Good	6	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	119.81	No	No Churn
+CUST0148	Ejiro Finley	01 February 2025	50	Anambra	5G Broadband Router	Male	4	Very Good	6	450GB 3-Month Broadband Plan	" ?75,000.00 "	14	" ?1,050,000.00 "	2.96	No	No Churn
+CUST0149	Omamuzo Levine	01 February 2025	26	Imo	Mobile SIM Card	Male	2	Fair	44	3.2GB 2-Day Plan	" ?1,000.00 "	9	" ?9,000.00 "	33.86	Yes	Costly Data Plans
+CUST0149	Omamuzo Levine	01 February 2025	26	Imo	Broadband MiFi	Male	2	Fair	44	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	60.30	Yes	Costly Data Plans
+CUST0150	Ejiro Roman	01 February 2025	48	Imo	Mobile SIM Card	Female	4	Very Good	39	7GB Monthly Plan	" ?3,500.00 "	13	" ?45,500.00 "	168.40	Yes	Costly Data Plans
+CUST0151	Tega Mendez	01 February 2025	72	Bayelsa	4G Router	Female	3	Good	53	10GB+10mins Monthly Plan	" ?4,500.00 "	11	" ?49,500.00 "	192.93	No	No Churn
+CUST0151	Tega Mendez	01 February 2025	72	Bayelsa	Mobile SIM Card	Female	3	Good	53	1GB+1.5mins Daily Plan	 ?500.00 	16	" ?8,000.00 "	147.11	No	No Churn
+CUST0151	Tega Mendez	01 February 2025	72	Bayelsa	5G Broadband Router	Female	3	Good	53	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	65.51	No	No Churn
+CUST0152	Tamuno Yang	01 February 2025	62	Delta	4G Router	Male	5	Excellent	38	25GB Monthly Plan	" ?9,000.00 "	3	" ?27,000.00 "	166.34	Yes	High Call Tarriffs
+CUST0152	Tamuno Yang	01 February 2025	62	Delta	Mobile SIM Card	Male	5	Excellent	38	20GB Monthly Plan	" ?7,500.00 "	5	" ?37,500.00 "	134.76	Yes	High Call Tarriffs
+CUST0153	Maryam Williams	01 February 2025	46	Edo	Mobile SIM Card	Male	4	Very Good	46	16.5GB+10mins Monthly Plan	" ?6,500.00 "	14	" ?91,000.00 "	184.74	Yes	Relocation
+CUST0153	Maryam Williams	01 February 2025	46	Edo	5G Broadband Router	Male	4	Very Good	46	30GB Monthly Broadband Plan	" ?9,000.00 "	12	" ?108,000.00 "	158.25	Yes	Relocation
+CUST0154	David Miller	01 March 2025	26	Anambra	Mobile SIM Card	Male	2	Fair	43	7GB Monthly Plan	" ?3,500.00 "	14	" ?49,000.00 "	193.16	No	No Churn
+CUST0155	Ngozi Fowler	01 February 2025	17	Anambra	4G Router	Female	4	Very Good	15	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	96.81	No	No Churn
+CUST0155	Ngozi Fowler	01 February 2025	17	Anambra	Mobile SIM Card	Female	4	Very Good	15	12.5GB Monthly Plan	" ?5,500.00 "	3	" ?16,500.00 "	184.15	No	No Churn
+CUST0156	Ifeanyi Garcia	01 February 2025	34	Ekiti	Mobile SIM Card	Female	2	Fair	22	12.5GB Monthly Plan	" ?5,500.00 "	15	" ?82,500.00 "	144.54	No	No Churn
+CUST0156	Ifeanyi Garcia	01 February 2025	34	Ekiti	Broadband MiFi	Female	2	Fair	22	300GB FUP Monthly Unlimited	" ?30,000.00 "	2	" ?60,000.00 "	13.90	No	No Churn
+CUST0157	Ifeanyi Jimenez	01 February 2025	18	Bayelsa	4G Router	Male	2	Fair	44	10GB+10mins Monthly Plan	" ?4,500.00 "	13	" ?58,500.00 "	46.76	No	No Churn
+CUST0157	Ifeanyi Jimenez	01 February 2025	18	Bayelsa	Mobile SIM Card	Male	2	Fair	44	1.5GB 2-Day Plan	 ?600.00 	14	" ?8,400.00 "	37.68	No	No Churn
+CUST0159	Kunle Nielsen	01 March 2025	29	Adamawa	Mobile SIM Card	Male	2	Fair	24	7GB Monthly Plan	" ?3,500.00 "	20	" ?70,000.00 "	119.60	No	No Churn
+CUST0159	Kunle Nielsen	01 March 2025	29	Adamawa	5G Broadband Router	Male	2	Fair	24	450GB 3-Month Broadband Plan	" ?75,000.00 "	12	" ?900,000.00 "	117.61	No	No Churn
+CUST0160	Oghene Diaz	01 January 2025	74	Enugu	5G Broadband Router	Female	2	Fair	59	150GB FUP Monthly Unlimited	" ?20,000.00 "	5	" ?100,000.00 "	37.02	No	No Churn
+CUST0161	Michael Wilson	01 February 2025	65	Kogi	4G Router	Male	4	Very Good	37	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	58.12	Yes	High Call Tarriffs
+CUST0161	Michael Wilson	01 February 2025	65	Kogi	5G Broadband Router	Male	4	Very Good	37	200GB Monthly Broadband Plan	" ?25,000.00 "	20	" ?500,000.00 "	168.48	Yes	High Call Tarriffs
+CUST0161	Michael Wilson	01 February 2025	65	Kogi	Broadband MiFi	Male	4	Very Good	37	30GB Monthly Broadband Plan	" ?9,000.00 "	1	" ?9,000.00 "	173.17	Yes	High Call Tarriffs
+CUST0162	Grace Gallegos	01 February 2025	33	Benue	Mobile SIM Card	Female	4	Very Good	36	1.5GB 2-Day Plan	 ?600.00 	1	 ?600.00 	16.99	No	No Churn
+CUST0162	Grace Gallegos	01 February 2025	33	Benue	4G Router	Female	4	Very Good	36	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	58.77	No	No Churn
+CUST0163	Nura Jackson	01 February 2025	52	Abuja (FCT)	Broadband MiFi	Female	5	Excellent	37	120GB Monthly Broadband Plan	" ?24,000.00 "	2	" ?48,000.00 "	164.61	No	No Churn
+CUST0163	Nura Jackson	01 February 2025	52	Abuja (FCT)	4G Router	Female	5	Excellent	37	165GB Monthly Plan	" ?35,000.00 "	14	" ?490,000.00 "	109.50	No	No Churn
+CUST0163	Nura Jackson	01 February 2025	52	Abuja (FCT)	5G Broadband Router	Female	5	Excellent	37	150GB FUP Monthly Unlimited	" ?20,000.00 "	8	" ?160,000.00 "	147.33	No	No Churn
+CUST0164	Maryam Diaz	01 January 2025	20	Nasarawa	Mobile SIM Card	Female	4	Very Good	23	10GB+10mins Monthly Plan	" ?4,500.00 "	19	" ?85,500.00 "	162.24	No	No Churn
+CUST0165	Oghene Allison	01 February 2025	70	Abuja (FCT)	5G Broadband Router	Male	2	Fair	51	300GB FUP Monthly Unlimited	" ?30,000.00 "	10	" ?300,000.00 "	65.07	No	No Churn
+CUST0165	Oghene Allison	01 February 2025	70	Abuja (FCT)	Mobile SIM Card	Male	2	Fair	51	1GB+1.5mins Daily Plan	 ?500.00 	17	" ?8,500.00 "	114.76	No	No Churn
+CUST0165	Oghene Allison	01 February 2025	70	Abuja (FCT)	4G Router	Male	2	Fair	51	65GB Monthly Plan	" ?16,000.00 "	14	" ?224,000.00 "	27.55	No	No Churn
+CUST0166	Sade Suarez	01 February 2025	51	Borno	Mobile SIM Card	Male	3	Good	16	1GB+1.5mins Daily Plan	 ?500.00 	13	" ?6,500.00 "	125.75	No	No Churn
+CUST0166	Sade Suarez	01 February 2025	51	Borno	4G Router	Male	3	Good	16	165GB Monthly Plan	" ?35,000.00 "	3	" ?105,000.00 "	15.57	No	No Churn
+CUST0166	Sade Suarez	01 February 2025	51	Borno	Broadband MiFi	Male	3	Good	16	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	103.36	No	No Churn
+CUST0167	Ejiro Thomas	01 January 2025	74	Yobe	5G Broadband Router	Female	1	Poor	38	450GB 3-Month Broadband Plan	" ?75,000.00 "	14	" ?1,050,000.00 "	43.96	No	No Churn
+CUST0167	Ejiro Thomas	01 January 2025	74	Yobe	Broadband MiFi	Female	1	Poor	38	150GB FUP Monthly Unlimited	" ?20,000.00 "	11	" ?220,000.00 "	99.20	No	No Churn
+CUST0168	Abubakar Weiss	01 March 2025	59	Borno	Broadband MiFi	Female	1	Poor	51	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	88.54	Yes	High Call Tarriffs
+CUST0168	Abubakar Weiss	01 March 2025	59	Borno	Mobile SIM Card	Female	1	Poor	51	20GB Monthly Plan	" ?7,500.00 "	5	" ?37,500.00 "	40.86	Yes	High Call Tarriffs
+CUST0169	Maryam Dean	01 March 2025	36	Akwa Ibom	4G Router	Male	3	Good	42	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	145.33	Yes	High Call Tarriffs
+CUST0169	Maryam Dean	01 March 2025	36	Akwa Ibom	Broadband MiFi	Male	3	Good	42	60GB Monthly Broadband Plan	" ?14,500.00 "	4	" ?58,000.00 "	131.27	Yes	High Call Tarriffs
+CUST0169	Maryam Dean	01 March 2025	36	Akwa Ibom	Mobile SIM Card	Male	3	Good	42	2.5GB 2-Day Plan	 ?900.00 	3	" ?2,700.00 "	43.08	Yes	High Call Tarriffs
+CUST0170	Amaka Whitaker	01 January 2025	44	Bauchi	4G Router	Female	3	Good	1	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	46.17	No	No Churn
+CUST0170	Amaka Whitaker	01 January 2025	44	Bauchi	Mobile SIM Card	Female	3	Good	1	3.2GB 2-Day Plan	" ?1,000.00 "	12	" ?12,000.00 "	21.09	No	No Churn
+CUST0171	Maryam Dixon	01 February 2025	33	Jigawa	4G Router	Male	1	Poor	42	165GB Monthly Plan	" ?35,000.00 "	7	" ?245,000.00 "	70.56	No	No Churn
+CUST0172	Obinna Miller	01 January 2025	68	Nasarawa	Mobile SIM Card	Male	2	Fair	6	7GB Monthly Plan	" ?3,500.00 "	8	" ?28,000.00 "	158.32	No	No Churn
+CUST0172	Obinna Miller	01 January 2025	68	Nasarawa	4G Router	Male	2	Fair	6	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	129.10	No	No Churn
+CUST0172	Obinna Miller	01 January 2025	68	Nasarawa	5G Broadband Router	Male	2	Fair	6	120GB Monthly Broadband Plan	" ?24,000.00 "	1	" ?24,000.00 "	155.90	No	No Churn
+CUST0173	Maryam Soto	01 February 2025	42	Bauchi	Mobile SIM Card	Male	3	Good	48	20GB Monthly Plan	" ?7,500.00 "	16	" ?120,000.00 "	22.99	No	No Churn
+CUST0174	Kunle Jones	01 February 2025	17	Gombe	4G Router	Female	5	Excellent	9	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	117.68	No	No Churn
+CUST0174	Kunle Jones	01 February 2025	17	Gombe	Mobile SIM Card	Female	5	Excellent	9	1GB+1.5mins Daily Plan	 ?500.00 	2	" ?1,000.00 "	43.54	No	No Churn
+CUST0175	Tamuno Patton	01 February 2025	80	Cross River	Mobile SIM Card	Female	1	Poor	28	25GB Monthly Plan	" ?9,000.00 "	7	" ?63,000.00 "	16.26	No	No Churn
+CUST0175	Tamuno Patton	01 February 2025	80	Cross River	Mobile SIM Card	Female	1	Poor	28	1.5GB 2-Day Plan	 ?600.00 	13	" ?7,800.00 "	107.51	No	No Churn
+CUST0175	Tamuno Patton	01 February 2025	80	Cross River	Broadband MiFi	Female	1	Poor	28	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	127.04	No	No Churn
+CUST0176	Maryam Martinez	01 January 2025	71	Imo	Broadband MiFi	Male	4	Very Good	16	30GB Monthly Broadband Plan	" ?9,000.00 "	5	" ?45,000.00 "	3.03	Yes	Relocation
+CUST0176	Maryam Martinez	01 January 2025	71	Imo	4G Router	Male	4	Very Good	16	65GB Monthly Plan	" ?16,000.00 "	12	" ?192,000.00 "	33.18	Yes	Relocation
+CUST0176	Maryam Martinez	01 January 2025	71	Imo	Mobile SIM Card	Male	4	Very Good	16	16.5GB+10mins Monthly Plan	" ?6,500.00 "	9	" ?58,500.00 "	103.69	Yes	Relocation
+CUST0177	Amina Johnson	01 January 2025	63	Borno	5G Broadband Router	Female	1	Poor	47	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	52.96	No	No Churn
+CUST0177	Amina Johnson	01 January 2025	63	Borno	Mobile SIM Card	Female	1	Poor	47	3.2GB 2-Day Plan	" ?1,000.00 "	17	" ?17,000.00 "	99.48	No	No Churn
+CUST0178	Ejiro Johnson	01 February 2025	23	Yobe	Broadband MiFi	Male	3	Good	24	30GB Monthly Broadband Plan	" ?9,000.00 "	1	" ?9,000.00 "	171.81	No	No Churn
+CUST0178	Ejiro Johnson	01 February 2025	23	Yobe	Mobile SIM Card	Male	3	Good	24	500MB Daily Plan	 ?350.00 	12	" ?4,200.00 "	9.67	No	No Churn
+CUST0178	Ejiro Johnson	01 February 2025	23	Yobe	5G Broadband Router	Male	3	Good	24	450GB 3-Month Broadband Plan	" ?75,000.00 "	6	" ?450,000.00 "	184.09	No	No Churn
+CUST0179	Bola Curtis	01 February 2025	69	Osun	5G Broadband Router	Female	3	Good	16	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	45.03	Yes	Poor Network
+CUST0179	Bola Curtis	01 February 2025	69	Osun	Broadband MiFi	Female	3	Good	16	30GB Monthly Broadband Plan	" ?9,000.00 "	3	" ?27,000.00 "	190.84	Yes	Poor Network
+CUST0179	Bola Curtis	01 February 2025	69	Osun	Mobile SIM Card	Female	3	Good	16	12.5GB Monthly Plan	" ?5,500.00 "	10	" ?55,000.00 "	173.27	Yes	Poor Network
+CUST0180	Ese Haley	01 February 2025	27	Sokoto	Mobile SIM Card	Male	3	Good	24	25GB Monthly Plan	" ?9,000.00 "	16	" ?144,000.00 "	118.54	No	No Churn
+CUST0180	Ese Haley	01 February 2025	27	Sokoto	Mobile SIM Card	Male	3	Good	24	500MB Daily Plan	 ?350.00 	18	" ?6,300.00 "	146.63	No	No Churn
+CUST0181	Halima Walker	01 February 2025	35	Lagos	Broadband MiFi	Female	5	Excellent	2	60GB Monthly Broadband Plan	" ?14,500.00 "	10	" ?145,000.00 "	169.88	No	No Churn
+CUST0181	Halima Walker	01 February 2025	35	Lagos	4G Router	Female	5	Excellent	2	65GB Monthly Plan	" ?16,000.00 "	8	" ?128,000.00 "	41.44	No	No Churn
+CUST0181	Halima Walker	01 February 2025	35	Lagos	Mobile SIM Card	Female	5	Excellent	2	20GB Monthly Plan	" ?7,500.00 "	2	" ?15,000.00 "	98.66	No	No Churn
+CUST0182	Obinna Mills	01 February 2025	51	Katsina	Mobile SIM Card	Male	5	Excellent	59	3.2GB 2-Day Plan	" ?1,000.00 "	17	" ?17,000.00 "	116.36	No	No Churn
+CUST0182	Obinna Mills	01 February 2025	51	Katsina	5G Broadband Router	Male	5	Excellent	59	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	127.62	No	No Churn
+CUST0183	Kunle Shaw	01 March 2025	23	Kwara	5G Broadband Router	Male	3	Good	16	1.5TB Yearly Broadband Plan	" ?150,000.00 "	3	" ?450,000.00 "	54.76	No	No Churn
+CUST0183	Kunle Shaw	01 March 2025	23	Kwara	4G Router	Male	3	Good	16	10GB+10mins Monthly Plan	" ?4,500.00 "	19	" ?85,500.00 "	27.65	No	No Churn
+CUST0184	Ngozi Webb	01 February 2025	35	Anambra	5G Broadband Router	Male	3	Good	29	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	92.94	No	No Churn
+CUST0184	Ngozi Webb	01 February 2025	35	Anambra	Broadband MiFi	Male	3	Good	29	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	31.94	No	No Churn
+CUST0184	Ngozi Webb	01 February 2025	35	Anambra	Mobile SIM Card	Male	3	Good	29	65GB Monthly Plan	" ?16,000.00 "	11	" ?176,000.00 "	43.40	No	No Churn
+CUST0185	Obinna Young	01 January 2025	27	Imo	Mobile SIM Card	Female	3	Good	26	12.5GB Monthly Plan	" ?5,500.00 "	18	" ?99,000.00 "	111.41	Yes	Poor Customer Service
+CUST0186	Halima Harrison	01 February 2025	28	Sokoto	4G Router	Male	1	Poor	52	10GB+10mins Monthly Plan	" ?4,500.00 "	12	" ?54,000.00 "	164.82	Yes	Better Offers from Competitors
+CUST0187	Chinedu Brown	01 February 2025	49	Kaduna	5G Broadband Router	Male	4	Very Good	5	150GB FUP Monthly Unlimited	" ?20,000.00 "	15	" ?300,000.00 "	9.02	No	No Churn
+CUST0188	Sade Cruz	01 January 2025	37	Kwara	5G Broadband Router	Female	4	Very Good	32	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	181.71	No	No Churn
+CUST0189	Zainab Mcguire	01 February 2025	73	Plateau	Mobile SIM Card	Male	3	Good	40	1GB+1.5mins Daily Plan	 ?500.00 	14	" ?7,000.00 "	76.91	No	No Churn
+CUST0189	Zainab Mcguire	01 February 2025	73	Plateau	Broadband MiFi	Male	3	Good	40	150GB FUP Monthly Unlimited	" ?20,000.00 "	17	" ?340,000.00 "	128.71	No	No Churn
+CUST0189	Zainab Mcguire	01 February 2025	73	Plateau	5G Broadband Router	Male	3	Good	40	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	126.34	No	No Churn
+CUST0190	Funke Thomas	01 February 2025	64	Ekiti	5G Broadband Router	Female	3	Good	35	300GB FUP Monthly Unlimited	" ?30,000.00 "	20	" ?600,000.00 "	5.70	No	No Churn
+CUST0190	Funke Thomas	01 February 2025	64	Ekiti	4G Router	Female	3	Good	35	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	6.35	No	No Churn
+CUST0190	Funke Thomas	01 February 2025	64	Ekiti	Mobile SIM Card	Female	3	Good	35	2.5GB 2-Day Plan	 ?900.00 	16	" ?14,400.00 "	161.83	No	No Churn
+CUST0191	Sarah Meyer	01 February 2025	61	Osun	Broadband MiFi	Male	2	Fair	7	300GB FUP Monthly Unlimited	" ?30,000.00 "	6	" ?180,000.00 "	187.07	Yes	Better Offers from Competitors
+CUST0191	Sarah Meyer	01 February 2025	61	Osun	Mobile SIM Card	Male	2	Fair	7	1.5GB 2-Day Plan	 ?600.00 	11	" ?6,600.00 "	47.69	Yes	Better Offers from Competitors
+CUST0191	Sarah Meyer	01 February 2025	61	Osun	4G Router	Male	2	Fair	7	25GB Monthly Plan	" ?9,000.00 "	1	" ?9,000.00 "	182.84	Yes	Better Offers from Competitors
+CUST0192	Oghene Schroeder	01 March 2025	34	Benue	Broadband MiFi	Female	2	Fair	35	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	120.53	No	No Churn
+CUST0193	Sarah Thomas	01 February 2025	77	Lagos	5G Broadband Router	Female	2	Fair	59	30GB Monthly Broadband Plan	" ?9,000.00 "	19	" ?171,000.00 "	4.87	No	No Churn
+CUST0194	Obinna Dunn	01 March 2025	30	Bauchi	5G Broadband Router	Female	4	Very Good	5	300GB FUP Monthly Unlimited	" ?30,000.00 "	14	" ?420,000.00 "	195.18	No	No Churn
+CUST0194	Obinna Dunn	01 March 2025	30	Bauchi	4G Router	Female	4	Very Good	5	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	130.01	No	No Churn
+CUST0195	Oghene Munoz	01 March 2025	44	Enugu	Mobile SIM Card	Female	2	Fair	20	1.5GB 2-Day Plan	 ?600.00 	20	" ?12,000.00 "	120.68	Yes	Poor Network
+CUST0195	Oghene Munoz	01 March 2025	44	Enugu	5G Broadband Router	Female	2	Fair	20	60GB Monthly Broadband Plan	" ?14,500.00 "	4	" ?58,000.00 "	128.11	Yes	Poor Network
+CUST0195	Oghene Munoz	01 March 2025	44	Enugu	Broadband MiFi	Female	2	Fair	20	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	28.56	Yes	Poor Network
+CUST0196	Halima Burns	01 January 2025	60	Niger	4G Router	Male	3	Good	41	65GB Monthly Plan	" ?16,000.00 "	4	" ?64,000.00 "	70.42	No	No Churn
+CUST0196	Halima Burns	01 January 2025	60	Niger	Broadband MiFi	Male	3	Good	41	30GB Monthly Broadband Plan	" ?9,000.00 "	15	" ?135,000.00 "	10.11	No	No Churn
+CUST0197	Ibim Murphy	01 February 2025	37	Kogi	Mobile SIM Card	Female	3	Good	57	500MB Daily Plan	 ?350.00 	3	" ?1,050.00 "	32.95	No	No Churn
+CUST0198	Bola Potter	01 January 2025	53	Kano	4G Router	Female	1	Poor	17	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	109.64	No	No Churn
+CUST0198	Bola Potter	01 January 2025	53	Kano	5G Broadband Router	Female	1	Poor	17	200GB Monthly Broadband Plan	" ?25,000.00 "	20	" ?500,000.00 "	119.01	No	No Churn
+CUST0199	John Morales	01 February 2025	19	Kwara	4G Router	Male	2	Fair	39	10GB+10mins Monthly Plan	" ?4,500.00 "	18	" ?81,000.00 "	139.59	Yes	Costly Data Plans
+CUST0200	Saidu Tucker	01 January 2025	52	Abia	4G Router	Male	4	Very Good	7	25GB Monthly Plan	" ?9,000.00 "	3	" ?27,000.00 "	1.26	No	No Churn
+CUST0200	Saidu Tucker	01 January 2025	52	Abia	Broadband MiFi	Male	4	Very Good	7	300GB FUP Monthly Unlimited	" ?30,000.00 "	20	" ?600,000.00 "	164.87	No	No Churn
+CUST0201	John Mcgrath	01 February 2025	41	Anambra	Broadband MiFi	Male	3	Good	14	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	94.45	No	No Churn
+CUST0201	John Mcgrath	01 February 2025	41	Anambra	4G Router	Male	3	Good	14	65GB Monthly Plan	" ?16,000.00 "	13	" ?208,000.00 "	128.55	No	No Churn
+CUST0202	Shehu Hays	01 February 2025	63	Jigawa	4G Router	Female	1	Poor	12	65GB Monthly Plan	" ?16,000.00 "	4	" ?64,000.00 "	30.65	Yes	Fast Data Consumption
+CUST0202	Shehu Hays	01 February 2025	63	Jigawa	Mobile SIM Card	Female	1	Poor	12	3.2GB 2-Day Plan	" ?1,000.00 "	18	" ?18,000.00 "	133.79	Yes	Fast Data Consumption
+CUST0203	Ibim Castro	01 February 2025	45	Oyo	4G Router	Female	5	Excellent	53	25GB Monthly Plan	" ?9,000.00 "	2	" ?18,000.00 "	16.25	No	No Churn
+CUST0203	Ibim Castro	01 February 2025	45	Oyo	Mobile SIM Card	Female	5	Excellent	53	16.5GB+10mins Monthly Plan	" ?6,500.00 "	17	" ?110,500.00 "	114.46	No	No Churn
+CUST0204	Obinna Patterson	01 February 2025	31	Nasarawa	Mobile SIM Card	Male	2	Fair	11	500MB Daily Plan	 ?350.00 	5	" ?1,750.00 "	199.46	Yes	Fast Data Consumption
+CUST0205	Saidu Munoz	01 February 2025	56	Kaduna	Mobile SIM Card	Male	5	Excellent	25	16.5GB+10mins Monthly Plan	" ?6,500.00 "	4	" ?26,000.00 "	156.45	No	No Churn
+CUST0205	Saidu Munoz	01 February 2025	56	Kaduna	Broadband MiFi	Male	5	Excellent	25	60GB Monthly Broadband Plan	" ?14,500.00 "	19	" ?275,500.00 "	30.35	No	No Churn
+CUST0206	Ngozi Wood	01 March 2025	29	Anambra	Mobile SIM Card	Female	4	Very Good	56	1.5GB 2-Day Plan	 ?600.00 	5	" ?3,000.00 "	55.45	Yes	High Call Tarriffs
+CUST0206	Ngozi Wood	01 March 2025	29	Anambra	Broadband MiFi	Female	4	Very Good	56	120GB Monthly Broadband Plan	" ?24,000.00 "	13	" ?312,000.00 "	121.93	Yes	High Call Tarriffs
+CUST0207	Bola Miller	01 February 2025	66	Bayelsa	5G Broadband Router	Male	3	Good	4	120GB Monthly Broadband Plan	" ?24,000.00 "	16	" ?384,000.00 "	62.53	No	No Churn
+CUST0208	Ngozi Acevedo	01 February 2025	45	Borno	Broadband MiFi	Female	3	Good	48	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	182.73	Yes	Fast Data Consumption
+CUST0208	Ngozi Acevedo	01 February 2025	45	Borno	Mobile SIM Card	Female	3	Good	48	12.5GB Monthly Plan	" ?5,500.00 "	12	" ?66,000.00 "	152.02	Yes	Fast Data Consumption
+CUST0208	Ngozi Acevedo	01 February 2025	45	Borno	4G Router	Female	3	Good	48	65GB Monthly Plan	" ?16,000.00 "	6	" ?96,000.00 "	103.30	Yes	Fast Data Consumption
+CUST0209	Kunle Bird	01 January 2025	55	Zamfara	Broadband MiFi	Female	2	Fair	9	150GB FUP Monthly Unlimited	" ?20,000.00 "	2	" ?40,000.00 "	7.10	Yes	Better Offers from Competitors
+CUST0210	Ejiro Gill	01 February 2025	41	Akwa Ibom	Broadband MiFi	Female	5	Excellent	53	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	74.81	No	No Churn
+CUST0211	Alabo Clay	01 February 2025	38	Taraba	Broadband MiFi	Female	3	Good	23	60GB Monthly Broadband Plan	" ?14,500.00 "	19	" ?275,500.00 "	10.41	No	No Churn
+CUST0211	Alabo Clay	01 February 2025	38	Taraba	Mobile SIM Card	Female	3	Good	23	10GB+10mins Monthly Plan	" ?4,500.00 "	8	" ?36,000.00 "	171.49	No	No Churn
+CUST0211	Alabo Clay	01 February 2025	38	Taraba	Mobile SIM Card	Female	3	Good	23	500MB Daily Plan	 ?350.00 	14	" ?4,900.00 "	54.18	No	No Churn
+CUST0212	Michael Williams	01 February 2025	18	Lagos	4G Router	Female	2	Fair	59	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	121.86	No	No Churn
+CUST0213	Zainab Clark	01 March 2025	70	Jigawa	Mobile SIM Card	Female	2	Fair	30	2.5GB 2-Day Plan	 ?900.00 	12	" ?10,800.00 "	102.55	No	No Churn
+CUST0213	Zainab Clark	01 March 2025	70	Jigawa	5G Broadband Router	Female	2	Fair	30	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	60.05	No	No Churn
+CUST0213	Zainab Clark	01 March 2025	70	Jigawa	Broadband MiFi	Female	2	Fair	30	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	13.24	No	No Churn
+CUST0214	Ese Cooper	01 February 2025	51	Edo	Mobile SIM Card	Female	5	Excellent	13	7GB Monthly Plan	" ?3,500.00 "	1	" ?3,500.00 "	136.31	No	No Churn
+CUST0215	Grace Figueroa	01 February 2025	53	Edo	Mobile SIM Card	Female	1	Poor	26	165GB Monthly Plan	" ?35,000.00 "	12	" ?420,000.00 "	181.35	No	No Churn
+CUST0215	Grace Figueroa	01 February 2025	53	Edo	Mobile SIM Card	Female	1	Poor	26	16.5GB+10mins Monthly Plan	" ?6,500.00 "	6	" ?39,000.00 "	60.39	No	No Churn
+CUST0215	Grace Figueroa	01 February 2025	53	Edo	Broadband MiFi	Female	1	Poor	26	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	36.64	No	No Churn
+CUST0216	John Erickson	01 March 2025	32	Edo	5G Broadband Router	Male	1	Poor	44	200GB Monthly Broadband Plan	" ?25,000.00 "	10	" ?250,000.00 "	52.48	Yes	Poor Customer Service
+CUST0216	John Erickson	01 March 2025	32	Edo	4G Router	Male	1	Poor	44	165GB Monthly Plan	" ?35,000.00 "	16	" ?560,000.00 "	170.32	Yes	Poor Customer Service
+CUST0216	John Erickson	01 March 2025	32	Edo	Mobile SIM Card	Male	1	Poor	44	2.5GB 2-Day Plan	 ?900.00 	19	" ?17,100.00 "	173.35	Yes	Poor Customer Service
+CUST0217	Kunle Collins	01 February 2025	76	Benue	4G Router	Male	5	Excellent	56	10GB+10mins Monthly Plan	" ?4,500.00 "	19	" ?85,500.00 "	68.86	Yes	Poor Network
+CUST0218	Zina Dawson	01 January 2025	34	Niger	5G Broadband Router	Male	4	Very Good	50	30GB Monthly Broadband Plan	" ?9,000.00 "	9	" ?81,000.00 "	1.44	No	No Churn
+CUST0219	Fatima Scott	01 January 2025	37	Abuja (FCT)	Mobile SIM Card	Female	2	Fair	51	12.5GB Monthly Plan	" ?5,500.00 "	2	" ?11,000.00 "	76.97	No	No Churn
+CUST0219	Fatima Scott	01 January 2025	37	Abuja (FCT)	4G Router	Female	2	Fair	51	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	146.27	No	No Churn
+CUST0219	Fatima Scott	01 January 2025	37	Abuja (FCT)	5G Broadband Router	Female	2	Fair	51	200GB Monthly Broadband Plan	" ?25,000.00 "	17	" ?425,000.00 "	151.49	No	No Churn
+CUST0220	Bala Smith	01 March 2025	18	Lagos	Mobile SIM Card	Male	3	Good	15	2.5GB 2-Day Plan	 ?900.00 	10	" ?9,000.00 "	59.99	Yes	Fast Data Consumption
+CUST0221	Zina Cochran	01 February 2025	59	Kwara	Mobile SIM Card	Male	3	Good	22	2.5GB 2-Day Plan	 ?900.00 	5	" ?4,500.00 "	46.07	No	No Churn
+CUST0222	Fatima Carpenter	01 March 2025	18	Zamfara	Mobile SIM Card	Male	1	Poor	8	2.5GB 2-Day Plan	 ?900.00 	1	 ?900.00 	132.56	No	No Churn
+CUST0223	Sade Howell	01 January 2025	30	Kogi	Mobile SIM Card	Female	5	Excellent	25	65GB Monthly Plan	" ?16,000.00 "	4	" ?64,000.00 "	60.57	Yes	High Call Tarriffs
+CUST0224	Sarah Stevens	01 January 2025	50	Borno	5G Broadband Router	Female	5	Excellent	54	150GB FUP Monthly Unlimited	" ?20,000.00 "	16	" ?320,000.00 "	157.06	No	No Churn
+CUST0225	Bala Cummings	01 February 2025	41	Edo	Mobile SIM Card	Male	3	Good	23	165GB Monthly Plan	" ?35,000.00 "	1	" ?35,000.00 "	66.46	Yes	Relocation
+CUST0225	Bala Cummings	01 February 2025	41	Edo	5G Broadband Router	Male	3	Good	23	30GB Monthly Broadband Plan	" ?9,000.00 "	4	" ?36,000.00 "	134.49	Yes	Relocation
+CUST0226	Grace Carter	01 January 2025	35	Katsina	5G Broadband Router	Male	3	Good	47	1.5TB Yearly Broadband Plan	" ?150,000.00 "	6	" ?900,000.00 "	10.49	No	No Churn
+CUST0226	Grace Carter	01 January 2025	35	Katsina	4G Router	Male	3	Good	47	65GB Monthly Plan	" ?16,000.00 "	12	" ?192,000.00 "	170.52	No	No Churn
+CUST0227	Ese Stewart	01 January 2025	70	Delta	4G Router	Male	1	Poor	55	165GB Monthly Plan	" ?35,000.00 "	9	" ?315,000.00 "	191.04	No	No Churn
+CUST0227	Ese Stewart	01 January 2025	70	Delta	Mobile SIM Card	Male	1	Poor	55	3.2GB 2-Day Plan	" ?1,000.00 "	11	" ?11,000.00 "	74.84	No	No Churn
+CUST0227	Ese Stewart	01 January 2025	70	Delta	5G Broadband Router	Male	1	Poor	55	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	23.21	No	No Churn
+CUST0228	Zina Fuller	01 February 2025	50	Jigawa	Broadband MiFi	Female	2	Fair	52	60GB Monthly Broadband Plan	" ?14,500.00 "	16	" ?232,000.00 "	182.29	Yes	High Call Tarriffs
+CUST0228	Zina Fuller	01 February 2025	50	Jigawa	Mobile SIM Card	Female	2	Fair	52	12.5GB Monthly Plan	" ?5,500.00 "	13	" ?71,500.00 "	36.66	Yes	High Call Tarriffs
+CUST0228	Zina Fuller	01 February 2025	50	Jigawa	5G Broadband Router	Female	2	Fair	52	200GB Monthly Broadband Plan	" ?25,000.00 "	5	" ?125,000.00 "	122.47	Yes	High Call Tarriffs
+CUST0229	John Edwards	01 January 2025	78	Delta	Mobile SIM Card	Female	1	Poor	29	25GB Monthly Plan	" ?9,000.00 "	20	" ?180,000.00 "	104.06	Yes	Costly Data Plans
+CUST0230	Ngozi Pierce	01 February 2025	71	Imo	Broadband MiFi	Female	2	Fair	23	120GB Monthly Broadband Plan	" ?24,000.00 "	16	" ?384,000.00 "	169.84	No	No Churn
+CUST0230	Ngozi Pierce	01 February 2025	71	Imo	Mobile SIM Card	Female	2	Fair	23	1.5GB 2-Day Plan	 ?600.00 	16	" ?9,600.00 "	15.44	No	No Churn
+CUST0230	Ngozi Pierce	01 February 2025	71	Imo	5G Broadband Router	Female	2	Fair	23	200GB Monthly Broadband Plan	" ?25,000.00 "	9	" ?225,000.00 "	48.56	No	No Churn
+CUST0231	Sade Smith	01 February 2025	80	Osun	Mobile SIM Card	Female	1	Poor	26	12.5GB Monthly Plan	" ?5,500.00 "	16	" ?88,000.00 "	63.55	No	No Churn
+CUST0231	Sade Smith	01 February 2025	80	Osun	Broadband MiFi	Female	1	Poor	26	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	20.98	No	No Churn
+CUST0231	Sade Smith	01 February 2025	80	Osun	Mobile SIM Card	Female	1	Poor	26	65GB Monthly Plan	" ?16,000.00 "	1	" ?16,000.00 "	111.65	No	No Churn
+CUST0232	Chinedu Hughes	01 February 2025	54	Zamfara	4G Router	Male	3	Good	42	165GB Monthly Plan	" ?35,000.00 "	20	" ?700,000.00 "	66.73	No	No Churn
+CUST0233	John Benjamin	01 February 2025	62	Nasarawa	5G Broadband Router	Male	1	Poor	7	150GB FUP Monthly Unlimited	" ?20,000.00 "	6	" ?120,000.00 "	9.63	No	No Churn
+CUST0233	John Benjamin	01 February 2025	62	Nasarawa	Mobile SIM Card	Male	1	Poor	7	12.5GB Monthly Plan	" ?5,500.00 "	14	" ?77,000.00 "	28.52	No	No Churn
+CUST0233	John Benjamin	01 February 2025	62	Nasarawa	4G Router	Male	1	Poor	7	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	51.23	No	No Churn
+CUST0234	Bala Hardin	01 February 2025	31	Kebbi	Broadband MiFi	Male	3	Good	30	60GB Monthly Broadband Plan	" ?14,500.00 "	19	" ?275,500.00 "	91.75	Yes	Fast Data Consumption
+CUST0235	Michael Savage	01 January 2025	33	Yobe	Mobile SIM Card	Male	5	Excellent	34	1.5GB 2-Day Plan	 ?600.00 	5	" ?3,000.00 "	146.23	No	No Churn
+CUST0235	Michael Savage	01 January 2025	33	Yobe	5G Broadband Router	Male	5	Excellent	34	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	77.79	No	No Churn
+CUST0235	Michael Savage	01 January 2025	33	Yobe	Broadband MiFi	Male	5	Excellent	34	120GB Monthly Broadband Plan	" ?24,000.00 "	17	" ?408,000.00 "	176.60	No	No Churn
+CUST0236	Omamuzo Stephenson	01 March 2025	69	Imo	Mobile SIM Card	Female	3	Good	26	165GB Monthly Plan	" ?35,000.00 "	17	" ?595,000.00 "	120.70	No	No Churn
+CUST0237	Maryam Moore	01 March 2025	56	Ondo	4G Router	Male	3	Good	14	25GB Monthly Plan	" ?9,000.00 "	12	" ?108,000.00 "	142.22	No	No Churn
+CUST0238	John Patel	01 February 2025	69	Adamawa	Mobile SIM Card	Female	1	Poor	57	1.5GB 2-Day Plan	 ?600.00 	2	" ?1,200.00 "	11.09	No	No Churn
+CUST0239	Bala Holt	01 March 2025	50	Abuja (FCT)	5G Broadband Router	Female	2	Fair	44	200GB Monthly Broadband Plan	" ?25,000.00 "	4	" ?100,000.00 "	162.90	No	No Churn
+CUST0239	Bala Holt	01 March 2025	50	Abuja (FCT)	Broadband MiFi	Female	2	Fair	44	120GB Monthly Broadband Plan	" ?24,000.00 "	18	" ?432,000.00 "	173.67	No	No Churn
+CUST0239	Bala Holt	01 March 2025	50	Abuja (FCT)	Mobile SIM Card	Female	2	Fair	44	500MB Daily Plan	 ?350.00 	18	" ?6,300.00 "	148.61	No	No Churn
+CUST0240	Omamuzo Roberts	01 January 2025	46	Zamfara	5G Broadband Router	Female	4	Very Good	45	30GB Monthly Broadband Plan	" ?9,000.00 "	7	" ?63,000.00 "	148.86	No	No Churn
+CUST0240	Omamuzo Roberts	01 January 2025	46	Zamfara	Mobile SIM Card	Female	4	Very Good	45	12.5GB Monthly Plan	" ?5,500.00 "	12	" ?66,000.00 "	166.08	No	No Churn
+CUST0240	Omamuzo Roberts	01 January 2025	46	Zamfara	Broadband MiFi	Female	4	Very Good	45	120GB Monthly Broadband Plan	" ?24,000.00 "	20	" ?480,000.00 "	109.55	No	No Churn
+CUST0241	Bala Calhoun	01 January 2025	40	Cross River	Broadband MiFi	Female	2	Fair	12	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	56.18	No	No Churn
+CUST0241	Bala Calhoun	01 January 2025	40	Cross River	4G Router	Female	2	Fair	12	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	32.61	No	No Churn
+CUST0241	Bala Calhoun	01 January 2025	40	Cross River	Mobile SIM Card	Female	2	Fair	12	2.5GB 2-Day Plan	 ?900.00 	5	" ?4,500.00 "	66.45	No	No Churn
+CUST0242	Bola Miller	01 March 2025	35	Niger	5G Broadband Router	Male	4	Very Good	50	60GB Monthly Broadband Plan	" ?14,500.00 "	17	" ?246,500.00 "	191.42	No	No Churn
+CUST0242	Bola Miller	01 March 2025	35	Niger	Broadband MiFi	Male	4	Very Good	50	30GB Monthly Broadband Plan	" ?9,000.00 "	6	" ?54,000.00 "	157.36	No	No Churn
+CUST0242	Bola Miller	01 March 2025	35	Niger	4G Router	Male	4	Very Good	50	165GB Monthly Plan	" ?35,000.00 "	13	" ?455,000.00 "	108.84	No	No Churn
+CUST0243	Chinedu Elliott	01 March 2025	60	Osun	Mobile SIM Card	Male	3	Good	43	16.5GB+10mins Monthly Plan	" ?6,500.00 "	1	" ?6,500.00 "	164.83	No	No Churn
+CUST0244	Ifeanyi Austin	01 February 2025	60	Nasarawa	Mobile SIM Card	Male	1	Poor	58	20GB Monthly Plan	" ?7,500.00 "	10	" ?75,000.00 "	51.69	No	No Churn
+CUST0244	Ifeanyi Austin	01 February 2025	60	Nasarawa	Broadband MiFi	Male	1	Poor	58	30GB Monthly Broadband Plan	" ?9,000.00 "	12	" ?108,000.00 "	182.31	No	No Churn
+CUST0245	Michael Jones	01 February 2025	73	Yobe	4G Router	Male	3	Good	19	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	125.57	No	No Churn
+CUST0246	Fatima Foster	01 February 2025	70	Anambra	Broadband MiFi	Male	1	Poor	35	60GB Monthly Broadband Plan	" ?14,500.00 "	2	" ?29,000.00 "	143.52	No	No Churn
+CUST0247	Chinedu Yates	01 March 2025	25	Oyo	5G Broadband Router	Male	5	Excellent	51	450GB 3-Month Broadband Plan	" ?75,000.00 "	13	" ?975,000.00 "	77.91	Yes	Better Offers from Competitors
+CUST0248	Boma Peterson	01 January 2025	56	Kano	Broadband MiFi	Female	5	Excellent	44	30GB Monthly Broadband Plan	" ?9,000.00 "	17	" ?153,000.00 "	71.86	Yes	High Call Tarriffs
+CUST0248	Boma Peterson	01 January 2025	56	Kano	5G Broadband Router	Female	5	Excellent	44	150GB FUP Monthly Unlimited	" ?20,000.00 "	10	" ?200,000.00 "	58.32	Yes	High Call Tarriffs
+CUST0248	Boma Peterson	01 January 2025	56	Kano	Mobile SIM Card	Female	5	Excellent	44	3.2GB 2-Day Plan	" ?1,000.00 "	15	" ?15,000.00 "	56.66	Yes	High Call Tarriffs
+CUST0249	Omamuzo Jones	01 February 2025	66	Kano	5G Broadband Router	Female	2	Fair	11	120GB Monthly Broadband Plan	" ?24,000.00 "	12	" ?288,000.00 "	135.62	No	No Churn
+CUST0249	Omamuzo Jones	01 February 2025	66	Kano	Mobile SIM Card	Female	2	Fair	11	2.5GB 2-Day Plan	 ?900.00 	18	" ?16,200.00 "	110.93	No	No Churn
+CUST0249	Omamuzo Jones	01 February 2025	66	Kano	Broadband MiFi	Female	2	Fair	11	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	25.09	No	No Churn
+CUST0250	Tamuno Lawrence	01 March 2025	26	Abia	4G Router	Male	2	Fair	48	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	123.57	No	No Churn
+CUST0250	Tamuno Lawrence	01 March 2025	26	Abia	Broadband MiFi	Male	2	Fair	48	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	23.37	No	No Churn
+CUST0250	Tamuno Lawrence	01 March 2025	26	Abia	5G Broadband Router	Male	2	Fair	48	30GB Monthly Broadband Plan	" ?9,000.00 "	18	" ?162,000.00 "	170.35	No	No Churn
+CUST0251	Zina Nicholson	01 January 2025	25	Cross River	5G Broadband Router	Male	2	Fair	17	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	134.42	No	No Churn
+CUST0251	Zina Nicholson	01 January 2025	25	Cross River	4G Router	Male	2	Fair	17	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	57.38	No	No Churn
+CUST0252	Bala Graham	01 March 2025	56	Yobe	5G Broadband Router	Female	5	Excellent	22	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	1.46	Yes	Relocation
+CUST0252	Bala Graham	01 March 2025	56	Yobe	Mobile SIM Card	Female	5	Excellent	22	10GB+10mins Monthly Plan	" ?4,500.00 "	14	" ?63,000.00 "	142.58	Yes	Relocation
+CUST0253	Zainab Blackwell	01 February 2025	62	Borno	Mobile SIM Card	Female	4	Very Good	57	3.2GB 2-Day Plan	" ?1,000.00 "	20	" ?20,000.00 "	35.57	No	No Churn
+CUST0253	Zainab Blackwell	01 February 2025	62	Borno	5G Broadband Router	Female	4	Very Good	57	150GB FUP Monthly Unlimited	" ?20,000.00 "	5	" ?100,000.00 "	168.44	No	No Churn
+CUST0254	David Rodriguez	01 January 2025	41	Edo	Broadband MiFi	Male	1	Poor	47	120GB Monthly Broadband Plan	" ?24,000.00 "	2	" ?48,000.00 "	42.95	No	No Churn
+CUST0254	David Rodriguez	01 January 2025	41	Edo	5G Broadband Router	Male	1	Poor	47	120GB Monthly Broadband Plan	" ?24,000.00 "	18	" ?432,000.00 "	108.92	No	No Churn
+CUST0254	David Rodriguez	01 January 2025	41	Edo	4G Router	Male	1	Poor	47	165GB Monthly Plan	" ?35,000.00 "	5	" ?175,000.00 "	130.95	No	No Churn
+CUST0255	Ejiro Miller	01 February 2025	66	Osun	5G Broadband Router	Female	5	Excellent	9	30GB Monthly Broadband Plan	" ?9,000.00 "	20	" ?180,000.00 "	132.70	No	No Churn
+CUST0255	Ejiro Miller	01 February 2025	66	Osun	Mobile SIM Card	Female	5	Excellent	9	1.5GB 2-Day Plan	 ?600.00 	5	" ?3,000.00 "	151.56	No	No Churn
+CUST0256	Alabo Smith	01 February 2025	36	Enugu	4G Router	Male	3	Good	48	25GB Monthly Plan	" ?9,000.00 "	2	" ?18,000.00 "	74.20	Yes	Better Offers from Competitors
+CUST0256	Alabo Smith	01 February 2025	36	Enugu	Broadband MiFi	Male	3	Good	48	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	103.82	Yes	Better Offers from Competitors
+CUST0257	Omamuzo Smith	01 March 2025	76	Sokoto	5G Broadband Router	Male	1	Poor	3	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	75.64	No	No Churn
+CUST0257	Omamuzo Smith	01 March 2025	76	Sokoto	Mobile SIM Card	Male	1	Poor	3	7GB Monthly Plan	" ?3,500.00 "	3	" ?10,500.00 "	117.74	No	No Churn
+CUST0257	Omamuzo Smith	01 March 2025	76	Sokoto	4G Router	Male	1	Poor	3	25GB Monthly Plan	" ?9,000.00 "	8	" ?72,000.00 "	75.58	No	No Churn
+CUST0258	Sarah Munoz	01 February 2025	67	Ekiti	Mobile SIM Card	Female	5	Excellent	32	65GB Monthly Plan	" ?16,000.00 "	9	" ?144,000.00 "	103.15	Yes	Poor Customer Service
+CUST0258	Sarah Munoz	01 February 2025	67	Ekiti	Broadband MiFi	Female	5	Excellent	32	150GB FUP Monthly Unlimited	" ?20,000.00 "	6	" ?120,000.00 "	30.47	Yes	Poor Customer Service
+CUST0259	Ejiro Collins	01 March 2025	31	Osun	Mobile SIM Card	Female	1	Poor	52	1.5GB 2-Day Plan	 ?600.00 	14	" ?8,400.00 "	129.63	No	No Churn
+CUST0259	Ejiro Collins	01 March 2025	31	Osun	Broadband MiFi	Female	1	Poor	52	30GB Monthly Broadband Plan	" ?9,000.00 "	5	" ?45,000.00 "	49.11	No	No Churn
+CUST0260	Amina Johns	01 February 2025	33	Zamfara	Mobile SIM Card	Male	1	Poor	58	1GB+1.5mins Daily Plan	 ?500.00 	7	" ?3,500.00 "	189.48	Yes	Poor Customer Service
+CUST0260	Amina Johns	01 February 2025	33	Zamfara	5G Broadband Router	Male	1	Poor	58	1.5TB Yearly Broadband Plan	" ?150,000.00 "	16	" ?2,400,000.00 "	121.50	Yes	Poor Customer Service
+CUST0260	Amina Johns	01 February 2025	33	Zamfara	Broadband MiFi	Male	1	Poor	58	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	34.53	Yes	Poor Customer Service
+CUST0261	Obinna Simon	01 March 2025	39	Zamfara	4G Router	Female	4	Very Good	11	165GB Monthly Plan	" ?35,000.00 "	4	" ?140,000.00 "	77.40	No	No Churn
+CUST0262	Funke Alexander	01 February 2025	41	Bauchi	Broadband MiFi	Female	5	Excellent	53	30GB Monthly Broadband Plan	" ?9,000.00 "	5	" ?45,000.00 "	96.71	Yes	Fast Data Consumption
+CUST0262	Funke Alexander	01 February 2025	41	Bauchi	5G Broadband Router	Female	5	Excellent	53	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	179.45	Yes	Fast Data Consumption
+CUST0262	Funke Alexander	01 February 2025	41	Bauchi	Mobile SIM Card	Female	5	Excellent	53	16.5GB+10mins Monthly Plan	" ?6,500.00 "	2	" ?13,000.00 "	84.43	Yes	Fast Data Consumption
+CUST0263	Sarah Fritz	01 February 2025	70	Osun	Broadband MiFi	Female	3	Good	51	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	95.69	No	No Churn
+CUST0263	Sarah Fritz	01 February 2025	70	Osun	4G Router	Female	3	Good	51	65GB Monthly Plan	" ?16,000.00 "	18	" ?288,000.00 "	57.01	No	No Churn
+CUST0263	Sarah Fritz	01 February 2025	70	Osun	Mobile SIM Card	Female	3	Good	51	20GB Monthly Plan	" ?7,500.00 "	1	" ?7,500.00 "	51.93	No	No Churn
+CUST0264	Tunde Smith	01 February 2025	31	Bauchi	Mobile SIM Card	Male	3	Good	25	165GB Monthly Plan	" ?35,000.00 "	9	" ?315,000.00 "	130.49	No	No Churn
+CUST0265	Saidu Martinez	01 February 2025	70	Gombe	Mobile SIM Card	Female	2	Fair	44	16.5GB+10mins Monthly Plan	" ?6,500.00 "	9	" ?58,500.00 "	111.20	No	No Churn
+CUST0265	Saidu Martinez	01 February 2025	70	Gombe	Broadband MiFi	Female	2	Fair	44	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	115.74	No	No Churn
+CUST0265	Saidu Martinez	01 February 2025	70	Gombe	4G Router	Female	2	Fair	44	10GB+10mins Monthly Plan	" ?4,500.00 "	4	" ?18,000.00 "	171.07	No	No Churn
+CUST0266	Nura Hunter	01 February 2025	73	Abuja (FCT)	Broadband MiFi	Male	3	Good	14	30GB Monthly Broadband Plan	" ?9,000.00 "	5	" ?45,000.00 "	160.97	No	No Churn
+CUST0266	Nura Hunter	01 February 2025	73	Abuja (FCT)	Mobile SIM Card	Male	3	Good	14	12.5GB Monthly Plan	" ?5,500.00 "	14	" ?77,000.00 "	185.21	No	No Churn
+CUST0266	Nura Hunter	01 February 2025	73	Abuja (FCT)	4G Router	Male	3	Good	14	65GB Monthly Plan	" ?16,000.00 "	8	" ?128,000.00 "	13.28	No	No Churn
+CUST0267	Ejiro Mendoza	01 February 2025	26	Rivers	Broadband MiFi	Female	5	Excellent	60	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	88.07	No	No Churn
+CUST0267	Ejiro Mendoza	01 February 2025	26	Rivers	Mobile SIM Card	Female	5	Excellent	60	16.5GB+10mins Monthly Plan	" ?6,500.00 "	2	" ?13,000.00 "	57.56	No	No Churn
+CUST0268	Michael Peterson	01 February 2025	45	Abuja (FCT)	5G Broadband Router	Male	1	Poor	24	450GB 3-Month Broadband Plan	" ?75,000.00 "	13	" ?975,000.00 "	70.95	No	No Churn
+CUST0269	Tamuno Diaz	01 January 2025	41	Bauchi	5G Broadband Router	Male	1	Poor	48	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	121.47	No	No Churn
+CUST0269	Tamuno Diaz	01 January 2025	41	Bauchi	4G Router	Male	1	Poor	48	165GB Monthly Plan	" ?35,000.00 "	19	" ?665,000.00 "	185.98	No	No Churn
+CUST0269	Tamuno Diaz	01 January 2025	41	Bauchi	Mobile SIM Card	Male	1	Poor	48	2.5GB 2-Day Plan	 ?900.00 	14	" ?12,600.00 "	52.59	No	No Churn
+CUST0270	Michael Rodriguez	01 January 2025	29	Kaduna	5G Broadband Router	Female	5	Excellent	22	450GB 3-Month Broadband Plan	" ?75,000.00 "	8	" ?600,000.00 "	112.85	No	No Churn
+CUST0270	Michael Rodriguez	01 January 2025	29	Kaduna	Mobile SIM Card	Female	5	Excellent	22	7GB Monthly Plan	" ?3,500.00 "	15	" ?52,500.00 "	192.27	No	No Churn
+CUST0270	Michael Rodriguez	01 January 2025	29	Kaduna	Mobile SIM Card	Female	5	Excellent	22	165GB Monthly Plan	" ?35,000.00 "	1	" ?35,000.00 "	179.36	No	No Churn
+CUST0271	John Benson	01 February 2025	30	Edo	5G Broadband Router	Male	2	Fair	25	30GB Monthly Broadband Plan	" ?9,000.00 "	9	" ?81,000.00 "	140.31	No	No Churn
+CUST0271	John Benson	01 February 2025	30	Edo	Mobile SIM Card	Male	2	Fair	25	500MB Daily Plan	 ?350.00 	13	" ?4,550.00 "	57.81	No	No Churn
+CUST0272	Tega Cooper	01 March 2025	25	Enugu	Mobile SIM Card	Female	2	Fair	21	10GB+10mins Monthly Plan	" ?4,500.00 "	7	" ?31,500.00 "	100.05	No	No Churn
+CUST0272	Tega Cooper	01 March 2025	25	Enugu	5G Broadband Router	Female	2	Fair	21	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	147.22	No	No Churn
+CUST0273	Fatima Lewis	01 March 2025	45	Benue	Broadband MiFi	Male	2	Fair	54	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	122.96	No	No Churn
+CUST0274	Bola Duffy	01 March 2025	77	Gombe	5G Broadband Router	Female	4	Very Good	32	300GB FUP Monthly Unlimited	" ?30,000.00 "	14	" ?420,000.00 "	11.30	Yes	Better Offers from Competitors
+CUST0274	Bola Duffy	01 March 2025	77	Gombe	Mobile SIM Card	Female	4	Very Good	32	165GB Monthly Plan	" ?35,000.00 "	2	" ?70,000.00 "	187.96	Yes	Better Offers from Competitors
+CUST0274	Bola Duffy	01 March 2025	77	Gombe	Broadband MiFi	Female	4	Very Good	32	120GB Monthly Broadband Plan	" ?24,000.00 "	6	" ?144,000.00 "	69.78	Yes	Better Offers from Competitors
+CUST0275	Zina Gallegos	01 January 2025	31	Bauchi	Broadband MiFi	Female	1	Poor	21	300GB FUP Monthly Unlimited	" ?30,000.00 "	9	" ?270,000.00 "	122.75	No	No Churn
+CUST0275	Zina Gallegos	01 January 2025	31	Bauchi	Mobile SIM Card	Female	1	Poor	21	10GB+10mins Monthly Plan	" ?4,500.00 "	8	" ?36,000.00 "	109.94	No	No Churn
+CUST0276	Zainab Rogers	01 February 2025	76	Bayelsa	5G Broadband Router	Female	4	Very Good	12	120GB Monthly Broadband Plan	" ?24,000.00 "	19	" ?456,000.00 "	90.42	Yes	High Call Tarriffs
+CUST0276	Zainab Rogers	01 February 2025	76	Bayelsa	4G Router	Female	4	Very Good	12	10GB+10mins Monthly Plan	" ?4,500.00 "	8	" ?36,000.00 "	195.86	Yes	High Call Tarriffs
+CUST0277	Ngozi Dunn	01 February 2025	50	Imo	Mobile SIM Card	Female	2	Fair	55	2.5GB 2-Day Plan	 ?900.00 	16	" ?14,400.00 "	35.73	Yes	High Call Tarriffs
+CUST0278	Amaka Johnson	01 January 2025	56	Yobe	4G Router	Female	4	Very Good	17	25GB Monthly Plan	" ?9,000.00 "	4	" ?36,000.00 "	95.57	Yes	Poor Customer Service
+CUST0279	Alabo Carlson	01 March 2025	58	Edo	Mobile SIM Card	Female	3	Good	24	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	195.88	Yes	Poor Network
+CUST0279	Alabo Carlson	01 March 2025	58	Edo	5G Broadband Router	Female	3	Good	24	200GB Monthly Broadband Plan	" ?25,000.00 "	17	" ?425,000.00 "	65.36	Yes	Poor Network
+CUST0280	Grace Brock	01 March 2025	73	Katsina	4G Router	Female	4	Very Good	40	25GB Monthly Plan	" ?9,000.00 "	20	" ?180,000.00 "	84.65	No	No Churn
+CUST0281	Tamuno Ortiz	01 February 2025	25	Katsina	5G Broadband Router	Male	3	Good	22	450GB 3-Month Broadband Plan	" ?75,000.00 "	15	" ?1,125,000.00 "	54.61	No	No Churn
+CUST0281	Tamuno Ortiz	01 February 2025	25	Katsina	Mobile SIM Card	Male	3	Good	22	7GB Monthly Plan	" ?3,500.00 "	17	" ?59,500.00 "	149.71	No	No Churn
+CUST0282	Alabo Chavez	01 January 2025	68	Abuja (FCT)	5G Broadband Router	Male	2	Fair	55	60GB Monthly Broadband Plan	" ?14,500.00 "	4	" ?58,000.00 "	33.80	No	No Churn
+CUST0282	Alabo Chavez	01 January 2025	68	Abuja (FCT)	Mobile SIM Card	Male	2	Fair	55	3.2GB 2-Day Plan	" ?1,000.00 "	16	" ?16,000.00 "	13.23	No	No Churn
+CUST0282	Alabo Chavez	01 January 2025	68	Abuja (FCT)	Broadband MiFi	Male	2	Fair	55	120GB Monthly Broadband Plan	" ?24,000.00 "	13	" ?312,000.00 "	11.24	No	No Churn
+CUST0283	Sarah Ballard	01 February 2025	26	Anambra	5G Broadband Router	Female	1	Poor	40	60GB Monthly Broadband Plan	" ?14,500.00 "	15	" ?217,500.00 "	147.65	No	No Churn
+CUST0283	Sarah Ballard	01 February 2025	26	Anambra	Broadband MiFi	Female	1	Poor	40	150GB FUP Monthly Unlimited	" ?20,000.00 "	6	" ?120,000.00 "	26.69	No	No Churn
+CUST0284	Funke Shaffer	01 February 2025	20	Ekiti	5G Broadband Router	Female	4	Very Good	56	300GB FUP Monthly Unlimited	" ?30,000.00 "	18	" ?540,000.00 "	193.92	No	No Churn
+CUST0284	Funke Shaffer	01 February 2025	20	Ekiti	Mobile SIM Card	Female	4	Very Good	56	1.5GB 2-Day Plan	 ?600.00 	15	" ?9,000.00 "	118.37	No	No Churn
+CUST0284	Funke Shaffer	01 February 2025	20	Ekiti	4G Router	Female	4	Very Good	56	165GB Monthly Plan	" ?35,000.00 "	18	" ?630,000.00 "	104.93	No	No Churn
+CUST0285	Maryam Gates	01 January 2025	60	Taraba	5G Broadband Router	Male	4	Very Good	52	120GB Monthly Broadband Plan	" ?24,000.00 "	17	" ?408,000.00 "	2.61	No	No Churn
+CUST0285	Maryam Gates	01 January 2025	60	Taraba	Broadband MiFi	Male	4	Very Good	52	150GB FUP Monthly Unlimited	" ?20,000.00 "	16	" ?320,000.00 "	69.11	No	No Churn
+CUST0286	David George	01 January 2025	17	Yobe	4G Router	Female	4	Very Good	20	10GB+10mins Monthly Plan	" ?4,500.00 "	18	" ?81,000.00 "	82.64	No	No Churn
+CUST0286	David George	01 January 2025	17	Yobe	Mobile SIM Card	Female	4	Very Good	20	12.5GB Monthly Plan	" ?5,500.00 "	6	" ?33,000.00 "	79.25	No	No Churn
+CUST0287	Omamuzo Rivera	01 February 2025	64	Osun	5G Broadband Router	Female	2	Fair	6	450GB 3-Month Broadband Plan	" ?75,000.00 "	3	" ?225,000.00 "	38.01	No	No Churn
+CUST0287	Omamuzo Rivera	01 February 2025	64	Osun	4G Router	Female	2	Fair	6	10GB+10mins Monthly Plan	" ?4,500.00 "	4	" ?18,000.00 "	27.76	No	No Churn
+CUST0287	Omamuzo Rivera	01 February 2025	64	Osun	Mobile SIM Card	Female	2	Fair	6	12.5GB Monthly Plan	" ?5,500.00 "	9	" ?49,500.00 "	123.74	No	No Churn
+CUST0288	Grace Chaney	01 January 2025	40	Niger	5G Broadband Router	Male	5	Excellent	10	1.5TB Yearly Broadband Plan	" ?150,000.00 "	8	" ?1,200,000.00 "	145.56	Yes	Poor Network
+CUST0288	Grace Chaney	01 January 2025	40	Niger	Broadband MiFi	Male	5	Excellent	10	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	30.56	Yes	Poor Network
+CUST0289	Fatima Wheeler	01 February 2025	59	Kogi	5G Broadband Router	Female	3	Good	51	150GB FUP Monthly Unlimited	" ?20,000.00 "	5	" ?100,000.00 "	168.79	No	No Churn
+CUST0290	Sade Ryan	01 February 2025	50	Kebbi	Mobile SIM Card	Male	2	Fair	35	3.2GB 2-Day Plan	" ?1,000.00 "	8	" ?8,000.00 "	194.93	Yes	Better Offers from Competitors
+CUST0290	Sade Ryan	01 February 2025	50	Kebbi	Broadband MiFi	Male	2	Fair	35	60GB Monthly Broadband Plan	" ?14,500.00 "	15	" ?217,500.00 "	154.36	Yes	Better Offers from Competitors
+CUST0291	Halima Mahoney	01 January 2025	20	Benue	Mobile SIM Card	Female	5	Excellent	48	20GB Monthly Plan	" ?7,500.00 "	10	" ?75,000.00 "	136.45	No	No Churn
+CUST0292	Ese Rose	01 February 2025	36	Rivers	4G Router	Male	3	Good	17	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	65.24	Yes	Poor Network
+CUST0292	Ese Rose	01 February 2025	36	Rivers	Broadband MiFi	Male	3	Good	17	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	117.15	Yes	Poor Network
+CUST0292	Ese Rose	01 February 2025	36	Rivers	5G Broadband Router	Male	3	Good	17	60GB Monthly Broadband Plan	" ?14,500.00 "	2	" ?29,000.00 "	2.28	Yes	Poor Network
+CUST0293	John Jones	01 February 2025	35	Gombe	Broadband MiFi	Male	4	Very Good	16	300GB FUP Monthly Unlimited	" ?30,000.00 "	18	" ?540,000.00 "	129.09	Yes	Relocation
+CUST0293	John Jones	01 February 2025	35	Gombe	Mobile SIM Card	Male	4	Very Good	16	3.2GB 2-Day Plan	" ?1,000.00 "	8	" ?8,000.00 "	25.60	Yes	Relocation
+CUST0294	Ese Bailey	01 February 2025	60	Nasarawa	Broadband MiFi	Male	3	Good	2	60GB Monthly Broadband Plan	" ?14,500.00 "	18	" ?261,000.00 "	112.03	No	No Churn
+CUST0294	Ese Bailey	01 February 2025	60	Nasarawa	4G Router	Male	3	Good	2	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	38.36	No	No Churn
+CUST0295	David Higgins	01 February 2025	60	Niger	5G Broadband Router	Female	1	Poor	18	200GB Monthly Broadband Plan	" ?25,000.00 "	17	" ?425,000.00 "	91.09	No	No Churn
+CUST0295	David Higgins	01 February 2025	60	Niger	4G Router	Female	1	Poor	18	165GB Monthly Plan	" ?35,000.00 "	1	" ?35,000.00 "	146.86	No	No Churn
+CUST0296	Ejiro Scott	01 February 2025	46	Niger	4G Router	Male	2	Fair	43	25GB Monthly Plan	" ?9,000.00 "	11	" ?99,000.00 "	64.86	No	No Churn
+CUST0296	Ejiro Scott	01 February 2025	46	Niger	5G Broadband Router	Male	2	Fair	43	150GB FUP Monthly Unlimited	" ?20,000.00 "	3	" ?60,000.00 "	19.70	No	No Churn
+CUST0297	Bola Spencer	01 January 2025	32	Enugu	Mobile SIM Card	Male	4	Very Good	13	16.5GB+10mins Monthly Plan	" ?6,500.00 "	19	" ?123,500.00 "	124.98	Yes	Poor Network
+CUST0297	Bola Spencer	01 January 2025	32	Enugu	5G Broadband Router	Male	4	Very Good	13	120GB Monthly Broadband Plan	" ?24,000.00 "	8	" ?192,000.00 "	10.29	Yes	Poor Network
+CUST0297	Bola Spencer	01 January 2025	32	Enugu	4G Router	Male	4	Very Good	13	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	3.11	Yes	Poor Network
+CUST0298	Grace Davis	01 February 2025	26	Sokoto	5G Broadband Router	Male	3	Good	24	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	146.99	No	No Churn
+CUST0299	Kunle Fuller	01 February 2025	43	Bauchi	4G Router	Male	5	Excellent	7	10GB+10mins Monthly Plan	" ?4,500.00 "	18	" ?81,000.00 "	111.91	No	No Churn
+CUST0300	Ibim Wilkerson	01 February 2025	29	Ekiti	Mobile SIM Card	Female	1	Poor	45	1.5GB 2-Day Plan	 ?600.00 	20	" ?12,000.00 "	107.01	Yes	Poor Customer Service
+CUST0300	Ibim Wilkerson	01 February 2025	29	Ekiti	5G Broadband Router	Female	1	Poor	45	1.5TB Yearly Broadband Plan	" ?150,000.00 "	11	" ?1,650,000.00 "	186.74	Yes	Poor Customer Service
+CUST0300	Ibim Wilkerson	01 February 2025	29	Ekiti	4G Router	Female	1	Poor	45	25GB Monthly Plan	" ?9,000.00 "	14	" ?126,000.00 "	169.05	Yes	Poor Customer Service
+CUST0301	Boma Knight	01 March 2025	57	Imo	Mobile SIM Card	Male	3	Good	25	2.5GB 2-Day Plan	 ?900.00 	20	" ?18,000.00 "	196.60	No	No Churn
+CUST0301	Boma Knight	01 March 2025	57	Imo	Broadband MiFi	Male	3	Good	25	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	103.76	No	No Churn
+CUST0302	Tunde Wallace	01 March 2025	54	Osun	5G Broadband Router	Male	1	Poor	55	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	8.03	No	No Churn
+CUST0302	Tunde Wallace	01 March 2025	54	Osun	Mobile SIM Card	Male	1	Poor	55	1.5GB 2-Day Plan	 ?600.00 	12	" ?7,200.00 "	28.11	No	No Churn
+CUST0302	Tunde Wallace	01 March 2025	54	Osun	Broadband MiFi	Male	1	Poor	55	120GB Monthly Broadband Plan	" ?24,000.00 "	9	" ?216,000.00 "	50.35	No	No Churn
+CUST0303	Maryam Walker	01 January 2025	27	Kebbi	Mobile SIM Card	Male	3	Good	47	3.2GB 2-Day Plan	" ?1,000.00 "	10	" ?10,000.00 "	119.25	No	No Churn
+CUST0304	Bola Castro	01 March 2025	64	Katsina	Mobile SIM Card	Male	3	Good	59	500MB Daily Plan	 ?350.00 	20	" ?7,000.00 "	149.66	No	No Churn
+CUST0304	Bola Castro	01 March 2025	64	Katsina	Broadband MiFi	Male	3	Good	59	30GB Monthly Broadband Plan	" ?9,000.00 "	13	" ?117,000.00 "	126.96	No	No Churn
+CUST0305	Sade Shepard	01 February 2025	55	Bauchi	Mobile SIM Card	Male	3	Good	21	65GB Monthly Plan	" ?16,000.00 "	13	" ?208,000.00 "	134.89	No	No Churn
+CUST0306	Alabo Cortez	01 March 2025	80	Katsina	Mobile SIM Card	Male	4	Very Good	28	2.5GB 2-Day Plan	 ?900.00 	9	" ?8,100.00 "	109.86	Yes	Costly Data Plans
+CUST0307	Chinedu Hoffman	01 February 2025	67	Zamfara	Mobile SIM Card	Female	2	Fair	50	20GB Monthly Plan	" ?7,500.00 "	7	" ?52,500.00 "	130.62	No	No Churn
+CUST0308	Sarah Flores	01 February 2025	47	Imo	Broadband MiFi	Male	3	Good	18	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	73.37	No	No Churn
+CUST0308	Sarah Flores	01 February 2025	47	Imo	Mobile SIM Card	Male	3	Good	18	7GB Monthly Plan	" ?3,500.00 "	1	" ?3,500.00 "	69.23	No	No Churn
+CUST0308	Sarah Flores	01 February 2025	47	Imo	4G Router	Male	3	Good	18	25GB Monthly Plan	" ?9,000.00 "	12	" ?108,000.00 "	34.27	No	No Churn
+CUST0309	Alabo Guerra	01 February 2025	34	Nasarawa	Broadband MiFi	Male	2	Fair	60	30GB Monthly Broadband Plan	" ?9,000.00 "	8	" ?72,000.00 "	148.05	No	No Churn
+CUST0310	Obinna Ballard	01 January 2025	52	Lagos	5G Broadband Router	Female	3	Good	45	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	148.13	No	No Churn
+CUST0311	Fatima Freeman	01 January 2025	49	Taraba	Broadband MiFi	Male	4	Very Good	45	30GB Monthly Broadband Plan	" ?9,000.00 "	20	" ?180,000.00 "	57.16	No	No Churn
+CUST0311	Fatima Freeman	01 January 2025	49	Taraba	4G Router	Male	4	Very Good	45	25GB Monthly Plan	" ?9,000.00 "	1	" ?9,000.00 "	11.09	No	No Churn
+CUST0311	Fatima Freeman	01 January 2025	49	Taraba	Mobile SIM Card	Male	4	Very Good	45	3.2GB 2-Day Plan	" ?1,000.00 "	9	" ?9,000.00 "	78.03	No	No Churn
+CUST0312	Ejiro Barker	01 February 2025	29	Kano	Broadband MiFi	Female	2	Fair	56	120GB Monthly Broadband Plan	" ?24,000.00 "	6	" ?144,000.00 "	106.55	No	No Churn
+CUST0312	Ejiro Barker	01 February 2025	29	Kano	4G Router	Female	2	Fair	56	10GB+10mins Monthly Plan	" ?4,500.00 "	15	" ?67,500.00 "	100.38	No	No Churn
+CUST0312	Ejiro Barker	01 February 2025	29	Kano	5G Broadband Router	Female	2	Fair	56	30GB Monthly Broadband Plan	" ?9,000.00 "	17	" ?153,000.00 "	8.43	No	No Churn
+CUST0313	Maryam Hernandez	01 February 2025	58	Yobe	5G Broadband Router	Female	1	Poor	48	120GB Monthly Broadband Plan	" ?24,000.00 "	17	" ?408,000.00 "	47.62	No	No Churn
+CUST0313	Maryam Hernandez	01 February 2025	58	Yobe	Mobile SIM Card	Female	1	Poor	48	1GB+1.5mins Daily Plan	 ?500.00 	9	" ?4,500.00 "	162.47	No	No Churn
+CUST0314	Omamuzo King	01 March 2025	19	Akwa Ibom	Mobile SIM Card	Male	4	Very Good	10	500MB Daily Plan	 ?350.00 	19	" ?6,650.00 "	83.76	No	No Churn
+CUST0315	Obinna Anderson	01 February 2025	70	Abia	4G Router	Female	2	Fair	29	10GB+10mins Monthly Plan	" ?4,500.00 "	5	" ?22,500.00 "	86.30	No	No Churn
+CUST0315	Obinna Anderson	01 February 2025	70	Abia	Broadband MiFi	Female	2	Fair	29	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	183.46	No	No Churn
+CUST0315	Obinna Anderson	01 February 2025	70	Abia	Mobile SIM Card	Female	2	Fair	29	3.2GB 2-Day Plan	" ?1,000.00 "	4	" ?4,000.00 "	111.69	No	No Churn
+CUST0316	Shehu Rogers	01 March 2025	56	Plateau	Mobile SIM Card	Male	4	Very Good	49	1GB+1.5mins Daily Plan	 ?500.00 	7	" ?3,500.00 "	30.82	No	No Churn
+CUST0316	Shehu Rogers	01 March 2025	56	Plateau	5G Broadband Router	Male	4	Very Good	49	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	26.74	No	No Churn
+CUST0317	Zainab Shaw	01 January 2025	45	Osun	4G Router	Male	3	Good	44	165GB Monthly Plan	" ?35,000.00 "	12	" ?420,000.00 "	142.55	Yes	Better Offers from Competitors
+CUST0317	Zainab Shaw	01 January 2025	45	Osun	5G Broadband Router	Male	3	Good	44	300GB FUP Monthly Unlimited	" ?30,000.00 "	16	" ?480,000.00 "	170.50	Yes	Better Offers from Competitors
+CUST0318	John Martinez	01 January 2025	33	Abuja (FCT)	5G Broadband Router	Male	4	Very Good	15	450GB 3-Month Broadband Plan	" ?75,000.00 "	7	" ?525,000.00 "	44.90	No	No Churn
+CUST0319	Fatima Powell	01 February 2025	24	Enugu	Mobile SIM Card	Female	3	Good	56	20GB Monthly Plan	" ?7,500.00 "	20	" ?150,000.00 "	155.35	No	No Churn
+CUST0320	Omamuzo Perez	01 January 2025	56	Kebbi	4G Router	Male	4	Very Good	34	165GB Monthly Plan	" ?35,000.00 "	2	" ?70,000.00 "	196.77	No	No Churn
+CUST0321	Omamuzo Schwartz	01 February 2025	22	Benue	Mobile SIM Card	Female	3	Good	29	20GB Monthly Plan	" ?7,500.00 "	2	" ?15,000.00 "	59.24	No	No Churn
+CUST0321	Omamuzo Schwartz	01 February 2025	22	Benue	Broadband MiFi	Female	3	Good	29	120GB Monthly Broadband Plan	" ?24,000.00 "	15	" ?360,000.00 "	180.78	No	No Churn
+CUST0322	Alabo Jackson	01 February 2025	27	Zamfara	Broadband MiFi	Male	4	Very Good	12	60GB Monthly Broadband Plan	" ?14,500.00 "	7	" ?101,500.00 "	118.27	No	No Churn
+CUST0322	Alabo Jackson	01 February 2025	27	Zamfara	Mobile SIM Card	Male	4	Very Good	12	12.5GB Monthly Plan	" ?5,500.00 "	11	" ?60,500.00 "	18.49	No	No Churn
+CUST0323	Amina Nguyen	01 February 2025	31	Katsina	4G Router	Male	3	Good	46	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	9.26	Yes	High Call Tarriffs
+CUST0323	Amina Nguyen	01 February 2025	31	Katsina	Mobile SIM Card	Male	3	Good	46	7GB Monthly Plan	" ?3,500.00 "	5	" ?17,500.00 "	113.32	Yes	High Call Tarriffs
+CUST0324	Amina Taylor	01 March 2025	34	Enugu	5G Broadband Router	Male	3	Good	27	300GB FUP Monthly Unlimited	" ?30,000.00 "	5	" ?150,000.00 "	23.95	No	No Churn
+CUST0324	Amina Taylor	01 March 2025	34	Enugu	Mobile SIM Card	Male	3	Good	27	500MB Daily Plan	 ?350.00 	9	" ?3,150.00 "	1.20	No	No Churn
+CUST0325	Tunde Terry	01 January 2025	74	Yobe	4G Router	Female	5	Excellent	35	165GB Monthly Plan	" ?35,000.00 "	15	" ?525,000.00 "	91.02	No	No Churn
+CUST0326	Chinedu Krueger	01 February 2025	16	Imo	Mobile SIM Card	Female	1	Poor	40	2.5GB 2-Day Plan	 ?900.00 	20	" ?18,000.00 "	133.57	Yes	Poor Network
+CUST0327	Maryam Rhodes	01 February 2025	58	Katsina	4G Router	Male	2	Fair	7	65GB Monthly Plan	" ?16,000.00 "	10	" ?160,000.00 "	19.08	Yes	Costly Data Plans
+CUST0327	Maryam Rhodes	01 February 2025	58	Katsina	Mobile SIM Card	Male	2	Fair	7	7GB Monthly Plan	" ?3,500.00 "	13	" ?45,500.00 "	74.03	Yes	Costly Data Plans
+CUST0327	Maryam Rhodes	01 February 2025	58	Katsina	5G Broadband Router	Male	2	Fair	7	150GB FUP Monthly Unlimited	" ?20,000.00 "	18	" ?360,000.00 "	151.81	Yes	Costly Data Plans
+CUST0328	Kunle Liu	01 March 2025	53	Taraba	4G Router	Male	3	Good	8	65GB Monthly Plan	" ?16,000.00 "	17	" ?272,000.00 "	22.31	No	No Churn
+CUST0328	Kunle Liu	01 March 2025	53	Taraba	5G Broadband Router	Male	3	Good	8	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	96.99	No	No Churn
+CUST0328	Kunle Liu	01 March 2025	53	Taraba	Broadband MiFi	Male	3	Good	8	300GB FUP Monthly Unlimited	" ?30,000.00 "	11	" ?330,000.00 "	85.70	No	No Churn
+CUST0329	Saidu Anderson	01 February 2025	61	Borno	4G Router	Female	4	Very Good	34	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	0.82	No	No Churn
+CUST0329	Saidu Anderson	01 February 2025	61	Borno	5G Broadband Router	Female	4	Very Good	34	1.5TB Yearly Broadband Plan	" ?150,000.00 "	4	" ?600,000.00 "	125.28	No	No Churn
+CUST0329	Saidu Anderson	01 February 2025	61	Borno	Mobile SIM Card	Female	4	Very Good	34	500MB Daily Plan	 ?350.00 	14	" ?4,900.00 "	160.01	No	No Churn
+CUST0330	Ibim Harrison	01 February 2025	21	Bayelsa	5G Broadband Router	Female	1	Poor	36	120GB Monthly Broadband Plan	" ?24,000.00 "	18	" ?432,000.00 "	60.41	No	No Churn
+CUST0330	Ibim Harrison	01 February 2025	21	Bayelsa	4G Router	Female	1	Poor	36	25GB Monthly Plan	" ?9,000.00 "	4	" ?36,000.00 "	153.52	No	No Churn
+CUST0330	Ibim Harrison	01 February 2025	21	Bayelsa	Broadband MiFi	Female	1	Poor	36	300GB FUP Monthly Unlimited	" ?30,000.00 "	19	" ?570,000.00 "	68.60	No	No Churn
+CUST0331	Funke Francis	01 March 2025	38	Benue	4G Router	Female	4	Very Good	54	165GB Monthly Plan	" ?35,000.00 "	15	" ?525,000.00 "	31.50	No	No Churn
+CUST0332	David Ward	01 January 2025	58	Sokoto	5G Broadband Router	Female	5	Excellent	60	60GB Monthly Broadband Plan	" ?14,500.00 "	11	" ?159,500.00 "	115.69	Yes	High Call Tarriffs
+CUST0332	David Ward	01 January 2025	58	Sokoto	Mobile SIM Card	Female	5	Excellent	60	7GB Monthly Plan	" ?3,500.00 "	5	" ?17,500.00 "	13.71	Yes	High Call Tarriffs
+CUST0332	David Ward	01 January 2025	58	Sokoto	Broadband MiFi	Female	5	Excellent	60	300GB FUP Monthly Unlimited	" ?30,000.00 "	11	" ?330,000.00 "	168.23	Yes	High Call Tarriffs
+CUST0333	Omamuzo Miller	01 January 2025	37	Jigawa	Broadband MiFi	Male	3	Good	39	60GB Monthly Broadband Plan	" ?14,500.00 "	8	" ?116,000.00 "	17.82	No	No Churn
+CUST0333	Omamuzo Miller	01 January 2025	37	Jigawa	4G Router	Male	3	Good	39	25GB Monthly Plan	" ?9,000.00 "	10	" ?90,000.00 "	90.66	No	No Churn
+CUST0334	Fatima Carter	01 January 2025	54	Enugu	Broadband MiFi	Male	2	Fair	24	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	31.24	No	No Churn
+CUST0334	Fatima Carter	01 January 2025	54	Enugu	4G Router	Male	2	Fair	24	165GB Monthly Plan	" ?35,000.00 "	17	" ?595,000.00 "	146.62	No	No Churn
+CUST0335	Maryam Patterson	01 February 2025	57	Plateau	Mobile SIM Card	Male	2	Fair	53	16.5GB+10mins Monthly Plan	" ?6,500.00 "	10	" ?65,000.00 "	23.61	No	No Churn
+CUST0335	Maryam Patterson	01 February 2025	57	Plateau	5G Broadband Router	Male	2	Fair	53	30GB Monthly Broadband Plan	" ?9,000.00 "	20	" ?180,000.00 "	137.57	No	No Churn
+CUST0336	Chinedu Reynolds	01 March 2025	58	Sokoto	4G Router	Male	1	Poor	7	10GB+10mins Monthly Plan	" ?4,500.00 "	9	" ?40,500.00 "	38.91	No	No Churn
+CUST0336	Chinedu Reynolds	01 March 2025	58	Sokoto	Mobile SIM Card	Male	1	Poor	7	16.5GB+10mins Monthly Plan	" ?6,500.00 "	15	" ?97,500.00 "	64.17	No	No Churn
+CUST0337	Ifeanyi Cunningham	01 January 2025	50	Plateau	Broadband MiFi	Male	1	Poor	18	120GB Monthly Broadband Plan	" ?24,000.00 "	5	" ?120,000.00 "	64.04	No	No Churn
+CUST0337	Ifeanyi Cunningham	01 January 2025	50	Plateau	Mobile SIM Card	Male	1	Poor	18	1GB+1.5mins Daily Plan	 ?500.00 	6	" ?3,000.00 "	115.03	No	No Churn
+CUST0337	Ifeanyi Cunningham	01 January 2025	50	Plateau	4G Router	Male	1	Poor	18	65GB Monthly Plan	" ?16,000.00 "	11	" ?176,000.00 "	62.62	No	No Churn
+CUST0338	David Crosby	01 February 2025	72	Oyo	Mobile SIM Card	Male	1	Poor	2	20GB Monthly Plan	" ?7,500.00 "	20	" ?150,000.00 "	36.21	Yes	Poor Network
+CUST0339	Alabo Davis	01 February 2025	61	Abia	4G Router	Female	5	Excellent	53	165GB Monthly Plan	" ?35,000.00 "	10	" ?350,000.00 "	19.90	Yes	Better Offers from Competitors
+CUST0339	Alabo Davis	01 February 2025	61	Abia	Broadband MiFi	Female	5	Excellent	53	60GB Monthly Broadband Plan	" ?14,500.00 "	8	" ?116,000.00 "	94.37	Yes	Better Offers from Competitors
+CUST0340	Obinna Thomas	01 March 2025	49	Gombe	Broadband MiFi	Female	3	Good	12	60GB Monthly Broadband Plan	" ?14,500.00 "	16	" ?232,000.00 "	23.02	No	No Churn
+CUST0341	Zina Valenzuela	01 February 2025	37	Cross River	Broadband MiFi	Female	5	Excellent	39	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	106.78	Yes	Better Offers from Competitors
+CUST0341	Zina Valenzuela	01 February 2025	37	Cross River	4G Router	Female	5	Excellent	39	165GB Monthly Plan	" ?35,000.00 "	8	" ?280,000.00 "	48.10	Yes	Better Offers from Competitors
+CUST0341	Zina Valenzuela	01 February 2025	37	Cross River	Mobile SIM Card	Female	5	Excellent	39	16.5GB+10mins Monthly Plan	" ?6,500.00 "	16	" ?104,000.00 "	32.22	Yes	Better Offers from Competitors
+CUST0342	Omamuzo Holmes	01 February 2025	24	Bayelsa	4G Router	Male	4	Very Good	53	65GB Monthly Plan	" ?16,000.00 "	19	" ?304,000.00 "	148.00	No	No Churn
+CUST0342	Omamuzo Holmes	01 February 2025	24	Bayelsa	Broadband MiFi	Male	4	Very Good	53	60GB Monthly Broadband Plan	" ?14,500.00 "	20	" ?290,000.00 "	23.31	No	No Churn
+CUST0343	Zina Diaz	01 March 2025	57	Anambra	Mobile SIM Card	Female	4	Very Good	12	2.5GB 2-Day Plan	 ?900.00 	5	" ?4,500.00 "	18.56	Yes	Poor Network
+CUST0343	Zina Diaz	01 March 2025	57	Anambra	4G Router	Female	4	Very Good	12	65GB Monthly Plan	" ?16,000.00 "	5	" ?80,000.00 "	151.54	Yes	Poor Network
+CUST0343	Zina Diaz	01 March 2025	57	Anambra	5G Broadband Router	Female	4	Very Good	12	1.5TB Yearly Broadband Plan	" ?150,000.00 "	13	" ?1,950,000.00 "	106.49	Yes	Poor Network
+CUST0344	Alabo Baker	01 March 2025	41	Ondo	Broadband MiFi	Female	4	Very Good	20	30GB Monthly Broadband Plan	" ?9,000.00 "	17	" ?153,000.00 "	122.49	No	No Churn
+CUST0344	Alabo Baker	01 March 2025	41	Ondo	5G Broadband Router	Female	4	Very Good	20	450GB 3-Month Broadband Plan	" ?75,000.00 "	10	" ?750,000.00 "	169.60	No	No Churn
+CUST0345	Sade Mercer	01 March 2025	63	Oyo	4G Router	Male	1	Poor	46	165GB Monthly Plan	" ?35,000.00 "	13	" ?455,000.00 "	140.59	No	No Churn
+CUST0346	Ese Harper	01 February 2025	64	Kebbi	Mobile SIM Card	Female	2	Fair	28	7GB Monthly Plan	" ?3,500.00 "	5	" ?17,500.00 "	168.07	No	No Churn
+CUST0347	Abubakar Mcknight	01 January 2025	32	Borno	Mobile SIM Card	Male	2	Fair	5	3.2GB 2-Day Plan	" ?1,000.00 "	14	" ?14,000.00 "	27.88	No	No Churn
+CUST0347	Abubakar Mcknight	01 January 2025	32	Borno	Broadband MiFi	Male	2	Fair	5	60GB Monthly Broadband Plan	" ?14,500.00 "	20	" ?290,000.00 "	178.77	No	No Churn
+CUST0348	Boma Anderson	01 February 2025	39	Sokoto	Mobile SIM Card	Female	4	Very Good	36	2.5GB 2-Day Plan	 ?900.00 	8	" ?7,200.00 "	115.80	No	No Churn
+CUST0349	Michael Smith	01 January 2025	50	Kogi	Broadband MiFi	Female	5	Excellent	3	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	192.37	No	No Churn
+CUST0349	Michael Smith	01 January 2025	50	Kogi	5G Broadband Router	Female	5	Excellent	3	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	146.17	No	No Churn
+CUST0350	Zainab Compton	01 January 2025	75	Bauchi	Broadband MiFi	Male	2	Fair	34	120GB Monthly Broadband Plan	" ?24,000.00 "	11	" ?264,000.00 "	11.03	No	No Churn
+CUST0350	Zainab Compton	01 January 2025	75	Bauchi	5G Broadband Router	Male	2	Fair	34	30GB Monthly Broadband Plan	" ?9,000.00 "	17	" ?153,000.00 "	94.04	No	No Churn
+CUST0350	Zainab Compton	01 January 2025	75	Bauchi	4G Router	Male	2	Fair	34	165GB Monthly Plan	" ?35,000.00 "	11	" ?385,000.00 "	115.01	No	No Churn
+CUST0351	Ibim Mills	01 January 2025	61	Cross River	5G Broadband Router	Female	5	Excellent	11	300GB FUP Monthly Unlimited	" ?30,000.00 "	10	" ?300,000.00 "	114.79	No	No Churn
+CUST0351	Ibim Mills	01 January 2025	61	Cross River	Broadband MiFi	Female	5	Excellent	11	120GB Monthly Broadband Plan	" ?24,000.00 "	16	" ?384,000.00 "	5.95	No	No Churn
+CUST0351	Ibim Mills	01 January 2025	61	Cross River	4G Router	Female	5	Excellent	11	65GB Monthly Plan	" ?16,000.00 "	3	" ?48,000.00 "	25.80	No	No Churn
+CUST0352	Zainab Rivera	01 March 2025	48	Borno	4G Router	Female	1	Poor	18	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	74.27	No	No Churn
+CUST0352	Zainab Rivera	01 March 2025	48	Borno	5G Broadband Router	Female	1	Poor	18	120GB Monthly Broadband Plan	" ?24,000.00 "	8	" ?192,000.00 "	156.61	No	No Churn
+CUST0352	Zainab Rivera	01 March 2025	48	Borno	Broadband MiFi	Female	1	Poor	18	60GB Monthly Broadband Plan	" ?14,500.00 "	17	" ?246,500.00 "	36.57	No	No Churn
+CUST0353	Bola Patterson	01 February 2025	59	Katsina	Mobile SIM Card	Male	4	Very Good	39	12.5GB Monthly Plan	" ?5,500.00 "	6	" ?33,000.00 "	145.34	No	No Churn
+CUST0353	Bola Patterson	01 February 2025	59	Katsina	Broadband MiFi	Male	4	Very Good	39	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	115.76	No	No Churn
+CUST0354	Sade Brown	01 February 2025	49	Delta	4G Router	Male	4	Very Good	11	165GB Monthly Plan	" ?35,000.00 "	5	" ?175,000.00 "	95.18	No	No Churn
+CUST0354	Sade Brown	01 February 2025	49	Delta	Mobile SIM Card	Male	4	Very Good	11	16.5GB+10mins Monthly Plan	" ?6,500.00 "	1	" ?6,500.00 "	174.12	No	No Churn
+CUST0355	Abubakar Martin	01 January 2025	73	Jigawa	5G Broadband Router	Female	1	Poor	34	200GB Monthly Broadband Plan	" ?25,000.00 "	4	" ?100,000.00 "	54.43	No	No Churn
+CUST0355	Abubakar Martin	01 January 2025	73	Jigawa	4G Router	Female	1	Poor	34	25GB Monthly Plan	" ?9,000.00 "	13	" ?117,000.00 "	131.04	No	No Churn
+CUST0355	Abubakar Martin	01 January 2025	73	Jigawa	Mobile SIM Card	Female	1	Poor	34	12.5GB Monthly Plan	" ?5,500.00 "	8	" ?44,000.00 "	154.74	No	No Churn
+CUST0356	Bala Gibson	01 January 2025	59	Enugu	Mobile SIM Card	Female	1	Poor	36	3.2GB 2-Day Plan	" ?1,000.00 "	15	" ?15,000.00 "	105.29	No	No Churn
+CUST0357	Oghene Winters	01 January 2025	44	Cross River	4G Router	Female	1	Poor	13	65GB Monthly Plan	" ?16,000.00 "	4	" ?64,000.00 "	141.76	No	No Churn
+CUST0358	Chinedu Smith	01 January 2025	32	Jigawa	Broadband MiFi	Male	2	Fair	58	300GB FUP Monthly Unlimited	" ?30,000.00 "	11	" ?330,000.00 "	153.99	Yes	Fast Data Consumption
+CUST0358	Chinedu Smith	01 January 2025	32	Jigawa	5G Broadband Router	Male	2	Fair	58	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	32.81	Yes	Fast Data Consumption
+CUST0358	Chinedu Smith	01 January 2025	32	Jigawa	4G Router	Male	2	Fair	58	25GB Monthly Plan	" ?9,000.00 "	13	" ?117,000.00 "	155.53	Yes	Fast Data Consumption
+CUST0359	Omamuzo Juarez	01 March 2025	58	Oyo	4G Router	Female	2	Fair	53	165GB Monthly Plan	" ?35,000.00 "	16	" ?560,000.00 "	36.10	No	No Churn
+CUST0359	Omamuzo Juarez	01 March 2025	58	Oyo	5G Broadband Router	Female	2	Fair	53	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	29.20	No	No Churn
+CUST0360	Fatima Webb	01 January 2025	29	Nasarawa	Mobile SIM Card	Female	1	Poor	7	12.5GB Monthly Plan	" ?5,500.00 "	1	" ?5,500.00 "	30.20	Yes	High Call Tarriffs
+CUST0360	Fatima Webb	01 January 2025	29	Nasarawa	Broadband MiFi	Female	1	Poor	7	30GB Monthly Broadband Plan	" ?9,000.00 "	9	" ?81,000.00 "	133.09	Yes	High Call Tarriffs
+CUST0361	Obinna Andrews	01 February 2025	58	Kebbi	Broadband MiFi	Male	4	Very Good	33	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	77.19	No	No Churn
+CUST0361	Obinna Andrews	01 February 2025	58	Kebbi	5G Broadband Router	Male	4	Very Good	33	150GB FUP Monthly Unlimited	" ?20,000.00 "	12	" ?240,000.00 "	113.67	No	No Churn
+CUST0361	Obinna Andrews	01 February 2025	58	Kebbi	Mobile SIM Card	Male	4	Very Good	33	7GB Monthly Plan	" ?3,500.00 "	13	" ?45,500.00 "	136.53	No	No Churn
+CUST0362	Sade Donaldson	01 February 2025	27	Gombe	Broadband MiFi	Female	3	Good	6	60GB Monthly Broadband Plan	" ?14,500.00 "	10	" ?145,000.00 "	132.32	No	No Churn
+CUST0363	Omamuzo Alexander	01 February 2025	29	Ekiti	4G Router	Female	2	Fair	6	165GB Monthly Plan	" ?35,000.00 "	18	" ?630,000.00 "	78.06	Yes	Poor Customer Service
+CUST0364	Maryam Harmon	01 January 2025	79	Adamawa	Broadband MiFi	Female	3	Good	2	150GB FUP Monthly Unlimited	" ?20,000.00 "	17	" ?340,000.00 "	161.52	Yes	Better Offers from Competitors
+CUST0364	Maryam Harmon	01 January 2025	79	Adamawa	4G Router	Female	3	Good	2	165GB Monthly Plan	" ?35,000.00 "	18	" ?630,000.00 "	188.05	Yes	Better Offers from Competitors
+CUST0364	Maryam Harmon	01 January 2025	79	Adamawa	Mobile SIM Card	Female	3	Good	2	1.5GB 2-Day Plan	 ?600.00 	8	" ?4,800.00 "	148.34	Yes	Better Offers from Competitors
+CUST0365	Kunle Myers	01 January 2025	20	Plateau	Broadband MiFi	Female	4	Very Good	42	30GB Monthly Broadband Plan	" ?9,000.00 "	2	" ?18,000.00 "	34.86	No	No Churn
+CUST0365	Kunle Myers	01 January 2025	20	Plateau	Mobile SIM Card	Female	4	Very Good	42	1GB+1.5mins Daily Plan	 ?500.00 	4	" ?2,000.00 "	164.24	No	No Churn
+CUST0365	Kunle Myers	01 January 2025	20	Plateau	5G Broadband Router	Female	4	Very Good	42	1.5TB Yearly Broadband Plan	" ?150,000.00 "	19	" ?2,850,000.00 "	122.44	No	No Churn
+CUST0366	Kunle Brady	01 February 2025	29	Delta	5G Broadband Router	Female	1	Poor	39	450GB 3-Month Broadband Plan	" ?75,000.00 "	19	" ?1,425,000.00 "	65.18	No	No Churn
+CUST0366	Kunle Brady	01 February 2025	29	Delta	Mobile SIM Card	Female	1	Poor	39	16.5GB+10mins Monthly Plan	" ?6,500.00 "	7	" ?45,500.00 "	27.90	No	No Churn
+CUST0367	Bola Carpenter	01 March 2025	38	Bayelsa	5G Broadband Router	Male	2	Fair	8	300GB FUP Monthly Unlimited	" ?30,000.00 "	19	" ?570,000.00 "	88.01	No	No Churn
+CUST0368	Bola Meadows	01 February 2025	33	Anambra	Broadband MiFi	Female	1	Poor	50	30GB Monthly Broadband Plan	" ?9,000.00 "	3	" ?27,000.00 "	36.29	No	No Churn
+CUST0369	Abubakar Rodriguez	01 February 2025	69	Taraba	4G Router	Male	3	Good	14	65GB Monthly Plan	" ?16,000.00 "	16	" ?256,000.00 "	119.46	No	No Churn
+CUST0369	Abubakar Rodriguez	01 February 2025	69	Taraba	Broadband MiFi	Male	3	Good	14	120GB Monthly Broadband Plan	" ?24,000.00 "	10	" ?240,000.00 "	190.08	No	No Churn
+CUST0370	Oghene Bush	01 January 2025	69	Lagos	5G Broadband Router	Male	5	Excellent	13	1.5TB Yearly Broadband Plan	" ?150,000.00 "	7	" ?1,050,000.00 "	154.18	No	No Churn
+CUST0370	Oghene Bush	01 January 2025	69	Lagos	Mobile SIM Card	Male	5	Excellent	13	1GB+1.5mins Daily Plan	 ?500.00 	4	" ?2,000.00 "	11.09	No	No Churn
+CUST0370	Oghene Bush	01 January 2025	69	Lagos	Broadband MiFi	Male	5	Excellent	13	150GB FUP Monthly Unlimited	" ?20,000.00 "	16	" ?320,000.00 "	137.21	No	No Churn
+CUST0371	Grace Wilkerson	01 March 2025	38	Abuja (FCT)	Mobile SIM Card	Male	3	Good	4	3.2GB 2-Day Plan	" ?1,000.00 "	18	" ?18,000.00 "	148.21	Yes	Costly Data Plans
+CUST0371	Grace Wilkerson	01 March 2025	38	Abuja (FCT)	Broadband MiFi	Male	3	Good	4	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	32.03	Yes	Costly Data Plans
+CUST0372	Grace Salas	01 February 2025	30	Kaduna	4G Router	Male	5	Excellent	47	25GB Monthly Plan	" ?9,000.00 "	4	" ?36,000.00 "	46.40	No	No Churn
+CUST0372	Grace Salas	01 February 2025	30	Kaduna	5G Broadband Router	Male	5	Excellent	47	200GB Monthly Broadband Plan	" ?25,000.00 "	8	" ?200,000.00 "	45.94	No	No Churn
+CUST0373	Ibim Adams	01 February 2025	41	Jigawa	4G Router	Male	5	Excellent	5	165GB Monthly Plan	" ?35,000.00 "	12	" ?420,000.00 "	36.02	No	No Churn
+CUST0373	Ibim Adams	01 February 2025	41	Jigawa	Broadband MiFi	Male	5	Excellent	5	150GB FUP Monthly Unlimited	" ?20,000.00 "	7	" ?140,000.00 "	91.82	No	No Churn
+CUST0374	Oghene Oliver	01 January 2025	50	Benue	Mobile SIM Card	Female	5	Excellent	9	12.5GB Monthly Plan	" ?5,500.00 "	11	" ?60,500.00 "	83.94	Yes	Poor Customer Service
+CUST0375	Nura Oconnell	01 February 2025	53	Abuja (FCT)	Mobile SIM Card	Male	1	Poor	37	12.5GB Monthly Plan	" ?5,500.00 "	14	" ?77,000.00 "	56.19	No	No Churn
+CUST0375	Nura Oconnell	01 February 2025	53	Abuja (FCT)	Broadband MiFi	Male	1	Poor	37	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	49.94	No	No Churn
+CUST0375	Nura Oconnell	01 February 2025	53	Abuja (FCT)	4G Router	Male	1	Poor	37	10GB+10mins Monthly Plan	" ?4,500.00 "	19	" ?85,500.00 "	178.42	No	No Churn
+CUST0376	Obinna Miller	01 February 2025	16	Kogi	Mobile SIM Card	Male	5	Excellent	3	3.2GB 2-Day Plan	" ?1,000.00 "	8	" ?8,000.00 "	90.76	Yes	Relocation
+CUST0377	Chinedu Christian	01 March 2025	17	Kogi	Mobile SIM Card	Male	3	Good	9	1GB+1.5mins Daily Plan	 ?500.00 	15	" ?7,500.00 "	32.78	Yes	Poor Network
+CUST0378	Funke Carlson	01 February 2025	74	Sokoto	Mobile SIM Card	Male	2	Fair	56	2.5GB 2-Day Plan	 ?900.00 	3	" ?2,700.00 "	172.15	No	No Churn
+CUST0378	Funke Carlson	01 February 2025	74	Sokoto	5G Broadband Router	Male	2	Fair	56	450GB 3-Month Broadband Plan	" ?75,000.00 "	11	" ?825,000.00 "	178.74	No	No Churn
+CUST0379	Sarah Woods	01 March 2025	20	Cross River	Broadband MiFi	Female	5	Excellent	49	120GB Monthly Broadband Plan	" ?24,000.00 "	2	" ?48,000.00 "	176.23	No	No Churn
+CUST0380	Michael Jacobs	01 March 2025	62	Oyo	5G Broadband Router	Male	4	Very Good	25	150GB FUP Monthly Unlimited	" ?20,000.00 "	7	" ?140,000.00 "	112.37	No	No Churn
+CUST0380	Michael Jacobs	01 March 2025	62	Oyo	Broadband MiFi	Male	4	Very Good	25	150GB FUP Monthly Unlimited	" ?20,000.00 "	8	" ?160,000.00 "	196.26	No	No Churn
+CUST0381	David Murphy	01 February 2025	30	Taraba	Mobile SIM Card	Male	3	Good	49	2.5GB 2-Day Plan	 ?900.00 	12	" ?10,800.00 "	13.14	No	No Churn
+CUST0381	David Murphy	01 February 2025	30	Taraba	4G Router	Male	3	Good	49	165GB Monthly Plan	" ?35,000.00 "	17	" ?595,000.00 "	97.50	No	No Churn
+CUST0382	Ifeanyi Cooper	01 March 2025	76	Adamawa	Broadband MiFi	Female	1	Poor	29	60GB Monthly Broadband Plan	" ?14,500.00 "	10	" ?145,000.00 "	179.64	Yes	Fast Data Consumption
+CUST0383	Kunle Manning	01 February 2025	29	Abuja (FCT)	Broadband MiFi	Female	4	Very Good	8	120GB Monthly Broadband Plan	" ?24,000.00 "	16	" ?384,000.00 "	186.38	Yes	Poor Customer Service
+CUST0383	Kunle Manning	01 February 2025	29	Abuja (FCT)	4G Router	Female	4	Very Good	8	25GB Monthly Plan	" ?9,000.00 "	1	" ?9,000.00 "	84.32	Yes	Poor Customer Service
+CUST0383	Kunle Manning	01 February 2025	29	Abuja (FCT)	5G Broadband Router	Female	4	Very Good	8	120GB Monthly Broadband Plan	" ?24,000.00 "	1	" ?24,000.00 "	38.22	Yes	Poor Customer Service
+CUST0384	Nura Rodriguez	01 March 2025	58	Kogi	Mobile SIM Card	Female	4	Very Good	42	1.5GB 2-Day Plan	 ?600.00 	10	" ?6,000.00 "	179.71	No	No Churn
+CUST0384	Nura Rodriguez	01 March 2025	58	Kogi	4G Router	Female	4	Very Good	42	10GB+10mins Monthly Plan	" ?4,500.00 "	8	" ?36,000.00 "	157.96	No	No Churn
+CUST0384	Nura Rodriguez	01 March 2025	58	Kogi	5G Broadband Router	Female	4	Very Good	42	1.5TB Yearly Broadband Plan	" ?150,000.00 "	10	" ?1,500,000.00 "	74.69	No	No Churn
+CUST0385	Sade George	01 February 2025	34	Ekiti	5G Broadband Router	Female	5	Excellent	30	300GB FUP Monthly Unlimited	" ?30,000.00 "	4	" ?120,000.00 "	32.67	No	No Churn
+CUST0385	Sade George	01 February 2025	34	Ekiti	Broadband MiFi	Female	5	Excellent	30	30GB Monthly Broadband Plan	" ?9,000.00 "	19	" ?171,000.00 "	198.76	No	No Churn
+CUST0385	Sade George	01 February 2025	34	Ekiti	Mobile SIM Card	Female	5	Excellent	30	1.5GB 2-Day Plan	 ?600.00 	12	" ?7,200.00 "	88.46	No	No Churn
+CUST0386	Shehu Torres	01 February 2025	42	Rivers	5G Broadband Router	Female	3	Good	23	150GB FUP Monthly Unlimited	" ?20,000.00 "	13	" ?260,000.00 "	184.13	No	No Churn
+CUST0387	Grace Walsh	01 January 2025	34	Sokoto	5G Broadband Router	Female	5	Excellent	10	120GB Monthly Broadband Plan	" ?24,000.00 "	19	" ?456,000.00 "	193.94	No	No Churn
+CUST0387	Grace Walsh	01 January 2025	34	Sokoto	4G Router	Female	5	Excellent	10	10GB+10mins Monthly Plan	" ?4,500.00 "	15	" ?67,500.00 "	160.02	No	No Churn
+CUST0388	Tega Cervantes	01 January 2025	30	Taraba	Mobile SIM Card	Male	3	Good	9	7GB Monthly Plan	" ?3,500.00 "	2	" ?7,000.00 "	18.95	Yes	Relocation
+CUST0389	Bala Dunn	01 January 2025	44	Akwa Ibom	Broadband MiFi	Male	5	Excellent	2	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	98.35	No	No Churn
+CUST0389	Bala Dunn	01 January 2025	44	Akwa Ibom	5G Broadband Router	Male	5	Excellent	2	30GB Monthly Broadband Plan	" ?9,000.00 "	12	" ?108,000.00 "	181.74	No	No Churn
+CUST0389	Bala Dunn	01 January 2025	44	Akwa Ibom	4G Router	Male	5	Excellent	2	165GB Monthly Plan	" ?35,000.00 "	14	" ?490,000.00 "	30.02	No	No Churn
+CUST0390	Ejiro Gonzalez	01 March 2025	65	Gombe	Broadband MiFi	Male	3	Good	19	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	148.43	No	No Churn
+CUST0390	Ejiro Gonzalez	01 March 2025	65	Gombe	Mobile SIM Card	Male	3	Good	19	12.5GB Monthly Plan	" ?5,500.00 "	14	" ?77,000.00 "	58.08	No	No Churn
+CUST0391	Ibim Schwartz	01 March 2025	33	Katsina	5G Broadband Router	Male	4	Very Good	14	150GB FUP Monthly Unlimited	" ?20,000.00 "	9	" ?180,000.00 "	1.82	No	No Churn
+CUST0391	Ibim Schwartz	01 March 2025	33	Katsina	Broadband MiFi	Male	4	Very Good	14	60GB Monthly Broadband Plan	" ?14,500.00 "	15	" ?217,500.00 "	35.39	No	No Churn
+CUST0391	Ibim Schwartz	01 March 2025	33	Katsina	4G Router	Male	4	Very Good	14	10GB+10mins Monthly Plan	" ?4,500.00 "	13	" ?58,500.00 "	40.25	No	No Churn
+CUST0392	Abubakar Hayes	01 March 2025	78	Rivers	4G Router	Female	4	Very Good	54	65GB Monthly Plan	" ?16,000.00 "	10	" ?160,000.00 "	31.23	No	No Churn
+CUST0392	Abubakar Hayes	01 March 2025	78	Rivers	Broadband MiFi	Female	4	Very Good	54	60GB Monthly Broadband Plan	" ?14,500.00 "	10	" ?145,000.00 "	25.27	No	No Churn
+CUST0393	Ibim Ballard	01 January 2025	38	Yobe	5G Broadband Router	Male	3	Good	2	1.5TB Yearly Broadband Plan	" ?150,000.00 "	9	" ?1,350,000.00 "	113.33	No	No Churn
+CUST0394	John Nielsen	01 March 2025	31	Gombe	5G Broadband Router	Male	2	Fair	55	1.5TB Yearly Broadband Plan	" ?150,000.00 "	5	" ?750,000.00 "	175.72	No	No Churn
+CUST0395	Oghene Pacheco	01 February 2025	36	Oyo	Broadband MiFi	Female	3	Good	24	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	153.06	Yes	Costly Data Plans
+CUST0395	Oghene Pacheco	01 February 2025	36	Oyo	5G Broadband Router	Female	3	Good	24	300GB FUP Monthly Unlimited	" ?30,000.00 "	11	" ?330,000.00 "	108.97	Yes	Costly Data Plans
+CUST0395	Oghene Pacheco	01 February 2025	36	Oyo	Mobile SIM Card	Female	3	Good	24	1GB+1.5mins Daily Plan	 ?500.00 	12	" ?6,000.00 "	54.66	Yes	Costly Data Plans
+CUST0396	Ngozi Johnson	01 March 2025	61	Plateau	5G Broadband Router	Male	3	Good	9	150GB FUP Monthly Unlimited	" ?20,000.00 "	17	" ?340,000.00 "	43.97	No	No Churn
+CUST0396	Ngozi Johnson	01 March 2025	61	Plateau	Broadband MiFi	Male	3	Good	9	150GB FUP Monthly Unlimited	" ?20,000.00 "	18	" ?360,000.00 "	166.40	No	No Churn
+CUST0397	Sarah Perry	01 January 2025	30	Kogi	Mobile SIM Card	Female	1	Poor	59	7GB Monthly Plan	" ?3,500.00 "	12	" ?42,000.00 "	62.66	No	No Churn
+CUST0398	Amaka Shannon	01 March 2025	72	Bauchi	4G Router	Female	1	Poor	12	10GB+10mins Monthly Plan	" ?4,500.00 "	5	" ?22,500.00 "	171.43	No	No Churn
+CUST0399	Nura Delgado	01 January 2025	55	Borno	Broadband MiFi	Male	4	Very Good	9	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	155.05	No	No Churn
+CUST0400	Bola Vincent	01 January 2025	41	Anambra	Broadband MiFi	Male	4	Very Good	51	300GB FUP Monthly Unlimited	" ?30,000.00 "	4	" ?120,000.00 "	133.68	Yes	Costly Data Plans
+CUST0401	Ifeanyi Adkins	01 March 2025	42	Benue	5G Broadband Router	Male	1	Poor	43	200GB Monthly Broadband Plan	" ?25,000.00 "	17	" ?425,000.00 "	32.53	Yes	Better Offers from Competitors
+CUST0401	Ifeanyi Adkins	01 March 2025	42	Benue	Mobile SIM Card	Male	1	Poor	43	500MB Daily Plan	 ?350.00 	3	" ?1,050.00 "	101.23	Yes	Better Offers from Competitors
+CUST0401	Ifeanyi Adkins	01 March 2025	42	Benue	4G Router	Male	1	Poor	43	65GB Monthly Plan	" ?16,000.00 "	1	" ?16,000.00 "	164.01	Yes	Better Offers from Competitors
+CUST0402	Sarah Oconnor	01 January 2025	43	Benue	Mobile SIM Card	Female	1	Poor	11	12.5GB Monthly Plan	" ?5,500.00 "	4	" ?22,000.00 "	134.87	No	No Churn
+CUST0402	Sarah Oconnor	01 January 2025	43	Benue	4G Router	Female	1	Poor	11	10GB+10mins Monthly Plan	" ?4,500.00 "	13	" ?58,500.00 "	167.03	No	No Churn
+CUST0402	Sarah Oconnor	01 January 2025	43	Benue	Broadband MiFi	Female	1	Poor	11	60GB Monthly Broadband Plan	" ?14,500.00 "	8	" ?116,000.00 "	43.25	No	No Churn
+CUST0403	Ibim Soto	01 January 2025	30	Niger	5G Broadband Router	Male	5	Excellent	30	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	16.91	Yes	Better Offers from Competitors
+CUST0403	Ibim Soto	01 January 2025	30	Niger	Mobile SIM Card	Male	5	Excellent	30	3.2GB 2-Day Plan	" ?1,000.00 "	15	" ?15,000.00 "	77.26	Yes	Better Offers from Competitors
+CUST0404	Maryam Buck	01 February 2025	72	Osun	5G Broadband Router	Female	2	Fair	19	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	199.75	No	No Churn
+CUST0404	Maryam Buck	01 February 2025	72	Osun	Broadband MiFi	Female	2	Fair	19	30GB Monthly Broadband Plan	" ?9,000.00 "	17	" ?153,000.00 "	79.58	No	No Churn
+CUST0405	Chinedu Brown	01 January 2025	31	Plateau	4G Router	Female	2	Fair	26	165GB Monthly Plan	" ?35,000.00 "	14	" ?490,000.00 "	24.99	Yes	Poor Customer Service
+CUST0405	Chinedu Brown	01 January 2025	31	Plateau	5G Broadband Router	Female	2	Fair	26	1.5TB Yearly Broadband Plan	" ?150,000.00 "	19	" ?2,850,000.00 "	56.06	Yes	Poor Customer Service
+CUST0406	Zainab Soto	01 February 2025	67	Ekiti	Mobile SIM Card	Female	4	Very Good	43	3.2GB 2-Day Plan	" ?1,000.00 "	16	" ?16,000.00 "	24.88	No	No Churn
+CUST0407	Grace Thompson	01 January 2025	45	Borno	4G Router	Male	1	Poor	7	165GB Monthly Plan	" ?35,000.00 "	11	" ?385,000.00 "	121.11	No	No Churn
+CUST0408	Obinna Daniels	01 February 2025	54	Anambra	Mobile SIM Card	Male	4	Very Good	43	1GB+1.5mins Daily Plan	 ?500.00 	18	" ?9,000.00 "	108.72	Yes	High Call Tarriffs
+CUST0408	Obinna Daniels	01 February 2025	54	Anambra	5G Broadband Router	Male	4	Very Good	43	30GB Monthly Broadband Plan	" ?9,000.00 "	2	" ?18,000.00 "	190.54	Yes	High Call Tarriffs
+CUST0409	Boma Burns	01 February 2025	31	Jigawa	4G Router	Female	4	Very Good	21	25GB Monthly Plan	" ?9,000.00 "	6	" ?54,000.00 "	177.00	No	No Churn
+CUST0410	Grace Snyder	01 February 2025	71	Borno	Mobile SIM Card	Female	4	Very Good	46	12.5GB Monthly Plan	" ?5,500.00 "	6	" ?33,000.00 "	112.67	No	No Churn
+CUST0410	Grace Snyder	01 February 2025	71	Borno	5G Broadband Router	Female	4	Very Good	46	30GB Monthly Broadband Plan	" ?9,000.00 "	16	" ?144,000.00 "	78.58	No	No Churn
+CUST0410	Grace Snyder	01 February 2025	71	Borno	4G Router	Female	4	Very Good	46	165GB Monthly Plan	" ?35,000.00 "	12	" ?420,000.00 "	123.58	No	No Churn
+CUST0411	Abubakar Lane	01 January 2025	57	Oyo	Broadband MiFi	Male	2	Fair	38	300GB FUP Monthly Unlimited	" ?30,000.00 "	14	" ?420,000.00 "	76.42	No	No Churn
+CUST0411	Abubakar Lane	01 January 2025	57	Oyo	5G Broadband Router	Male	2	Fair	38	200GB Monthly Broadband Plan	" ?25,000.00 "	14	" ?350,000.00 "	198.39	No	No Churn
+CUST0412	Oghene Bartlett	01 March 2025	23	Imo	5G Broadband Router	Male	5	Excellent	16	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	67.85	Yes	High Call Tarriffs
+CUST0413	David Giles	01 February 2025	57	Rivers	5G Broadband Router	Female	5	Excellent	43	1.5TB Yearly Broadband Plan	" ?150,000.00 "	11	" ?1,650,000.00 "	117.80	No	No Churn
+CUST0413	David Giles	01 February 2025	57	Rivers	Broadband MiFi	Female	5	Excellent	43	60GB Monthly Broadband Plan	" ?14,500.00 "	11	" ?159,500.00 "	114.29	No	No Churn
+CUST0414	Ngozi Williams	01 February 2025	78	Anambra	5G Broadband Router	Male	5	Excellent	22	200GB Monthly Broadband Plan	" ?25,000.00 "	7	" ?175,000.00 "	193.90	No	No Churn
+CUST0414	Ngozi Williams	01 February 2025	78	Anambra	Broadband MiFi	Male	5	Excellent	22	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	127.27	No	No Churn
+CUST0414	Ngozi Williams	01 February 2025	78	Anambra	4G Router	Male	5	Excellent	22	10GB+10mins Monthly Plan	" ?4,500.00 "	2	" ?9,000.00 "	57.83	No	No Churn
+CUST0415	Maryam Anthony	01 January 2025	67	Osun	Mobile SIM Card	Male	5	Excellent	46	20GB Monthly Plan	" ?7,500.00 "	3	" ?22,500.00 "	42.34	No	No Churn
+CUST0416	Maryam Blankenship	01 March 2025	80	Abia	Mobile SIM Card	Female	2	Fair	43	16.5GB+10mins Monthly Plan	" ?6,500.00 "	1	" ?6,500.00 "	36.53	No	No Churn
+CUST0416	Maryam Blankenship	01 March 2025	80	Abia	5G Broadband Router	Female	2	Fair	43	300GB FUP Monthly Unlimited	" ?30,000.00 "	7	" ?210,000.00 "	115.58	No	No Churn
+CUST0417	Zina Hernandez	01 January 2025	50	Adamawa	4G Router	Female	5	Excellent	60	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	149.41	Yes	Fast Data Consumption
+CUST0418	Boma Johnson	01 February 2025	68	Niger	4G Router	Male	4	Very Good	41	165GB Monthly Plan	" ?35,000.00 "	5	" ?175,000.00 "	48.08	Yes	Costly Data Plans
+CUST0418	Boma Johnson	01 February 2025	68	Niger	Mobile SIM Card	Male	4	Very Good	41	500MB Daily Plan	 ?350.00 	10	" ?3,500.00 "	6.03	Yes	Costly Data Plans
+CUST0418	Boma Johnson	01 February 2025	68	Niger	Broadband MiFi	Male	4	Very Good	41	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	97.33	Yes	Costly Data Plans
+CUST0419	Boma Sanchez	01 February 2025	20	Benue	4G Router	Male	1	Poor	18	65GB Monthly Plan	" ?16,000.00 "	16	" ?256,000.00 "	192.78	Yes	Better Offers from Competitors
+CUST0419	Boma Sanchez	01 February 2025	20	Benue	5G Broadband Router	Male	1	Poor	18	30GB Monthly Broadband Plan	" ?9,000.00 "	3	" ?27,000.00 "	11.54	Yes	Better Offers from Competitors
+CUST0420	Ese Miller	01 March 2025	54	Kaduna	4G Router	Female	1	Poor	58	65GB Monthly Plan	" ?16,000.00 "	19	" ?304,000.00 "	104.63	No	No Churn
+CUST0420	Ese Miller	01 March 2025	54	Kaduna	Broadband MiFi	Female	1	Poor	58	120GB Monthly Broadband Plan	" ?24,000.00 "	3	" ?72,000.00 "	50.74	No	No Churn
+CUST0420	Ese Miller	01 March 2025	54	Kaduna	5G Broadband Router	Female	1	Poor	58	60GB Monthly Broadband Plan	" ?14,500.00 "	11	" ?159,500.00 "	120.16	No	No Churn
+CUST0421	Tega Stokes	01 February 2025	65	Imo	Mobile SIM Card	Female	1	Poor	14	2.5GB 2-Day Plan	 ?900.00 	12	" ?10,800.00 "	98.33	Yes	Costly Data Plans
+CUST0421	Tega Stokes	01 February 2025	65	Imo	4G Router	Female	1	Poor	14	65GB Monthly Plan	" ?16,000.00 "	14	" ?224,000.00 "	63.64	Yes	Costly Data Plans
+CUST0422	John Smith	01 February 2025	47	Akwa Ibom	Broadband MiFi	Male	3	Good	24	30GB Monthly Broadband Plan	" ?9,000.00 "	8	" ?72,000.00 "	138.29	No	No Churn
+CUST0423	Saidu Smith	01 January 2025	65	Abia	Mobile SIM Card	Female	5	Excellent	58	20GB Monthly Plan	" ?7,500.00 "	9	" ?67,500.00 "	185.54	No	No Churn
+CUST0423	Saidu Smith	01 January 2025	65	Abia	Broadband MiFi	Female	5	Excellent	58	300GB FUP Monthly Unlimited	" ?30,000.00 "	8	" ?240,000.00 "	18.50	No	No Churn
+CUST0424	Maryam Becker	01 March 2025	42	Abuja (FCT)	Broadband MiFi	Female	4	Very Good	41	60GB Monthly Broadband Plan	" ?14,500.00 "	11	" ?159,500.00 "	147.52	No	No Churn
+CUST0424	Maryam Becker	01 March 2025	42	Abuja (FCT)	4G Router	Female	4	Very Good	41	165GB Monthly Plan	" ?35,000.00 "	4	" ?140,000.00 "	175.41	No	No Churn
+CUST0425	Amina Ortega	01 February 2025	49	Zamfara	5G Broadband Router	Male	5	Excellent	23	30GB Monthly Broadband Plan	" ?9,000.00 "	6	" ?54,000.00 "	128.45	No	No Churn
+CUST0425	Amina Ortega	01 February 2025	49	Zamfara	4G Router	Male	5	Excellent	23	165GB Monthly Plan	" ?35,000.00 "	5	" ?175,000.00 "	158.31	No	No Churn
+CUST0425	Amina Ortega	01 February 2025	49	Zamfara	Broadband MiFi	Male	5	Excellent	23	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	80.43	No	No Churn
+CUST0426	Ese Mathis	01 February 2025	26	Delta	Mobile SIM Card	Male	5	Excellent	16	1.5GB 2-Day Plan	 ?600.00 	19	" ?11,400.00 "	52.51	No	No Churn
+CUST0426	Ese Mathis	01 February 2025	26	Delta	4G Router	Male	5	Excellent	16	25GB Monthly Plan	" ?9,000.00 "	7	" ?63,000.00 "	160.01	No	No Churn
+CUST0427	Chinedu West	01 February 2025	69	Gombe	4G Router	Male	5	Excellent	26	10GB+10mins Monthly Plan	" ?4,500.00 "	6	" ?27,000.00 "	52.73	Yes	Poor Network
+CUST0427	Chinedu West	01 February 2025	69	Gombe	Broadband MiFi	Male	5	Excellent	26	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	80.51	Yes	Poor Network
+CUST0427	Chinedu West	01 February 2025	69	Gombe	Mobile SIM Card	Male	5	Excellent	26	1GB+1.5mins Daily Plan	 ?500.00 	12	" ?6,000.00 "	30.28	Yes	Poor Network
+CUST0428	Amina Skinner	01 February 2025	31	Lagos	4G Router	Female	4	Very Good	50	25GB Monthly Plan	" ?9,000.00 "	16	" ?144,000.00 "	57.95	Yes	High Call Tarriffs
+CUST0429	Omamuzo Smith	01 February 2025	32	Kwara	Mobile SIM Card	Male	3	Good	39	1.5GB 2-Day Plan	 ?600.00 	5	" ?3,000.00 "	82.00	No	No Churn
+CUST0430	Funke Lawson	01 February 2025	53	Edo	Mobile SIM Card	Male	2	Fair	40	12.5GB Monthly Plan	" ?5,500.00 "	11	" ?60,500.00 "	27.07	No	No Churn
+CUST0430	Funke Lawson	01 February 2025	53	Edo	Broadband MiFi	Male	2	Fair	40	60GB Monthly Broadband Plan	" ?14,500.00 "	13	" ?188,500.00 "	137.53	No	No Churn
+CUST0430	Funke Lawson	01 February 2025	53	Edo	5G Broadband Router	Male	2	Fair	40	450GB 3-Month Broadband Plan	" ?75,000.00 "	9	" ?675,000.00 "	147.35	No	No Churn
+CUST0431	Kunle Cooper	01 February 2025	28	Oyo	Broadband MiFi	Male	4	Very Good	22	120GB Monthly Broadband Plan	" ?24,000.00 "	10	" ?240,000.00 "	124.12	No	No Churn
+CUST0431	Kunle Cooper	01 February 2025	28	Oyo	Mobile SIM Card	Male	4	Very Good	22	20GB Monthly Plan	" ?7,500.00 "	5	" ?37,500.00 "	134.42	No	No Churn
+CUST0431	Kunle Cooper	01 February 2025	28	Oyo	4G Router	Male	4	Very Good	22	65GB Monthly Plan	" ?16,000.00 "	9	" ?144,000.00 "	116.31	No	No Churn
+CUST0432	Amina Espinoza	01 January 2025	80	Yobe	Mobile SIM Card	Female	2	Fair	57	3.2GB 2-Day Plan	" ?1,000.00 "	5	" ?5,000.00 "	63.00	Yes	High Call Tarriffs
+CUST0432	Amina Espinoza	01 January 2025	80	Yobe	Broadband MiFi	Female	2	Fair	57	60GB Monthly Broadband Plan	" ?14,500.00 "	9	" ?130,500.00 "	174.40	Yes	High Call Tarriffs
+CUST0432	Amina Espinoza	01 January 2025	80	Yobe	4G Router	Female	2	Fair	57	25GB Monthly Plan	" ?9,000.00 "	10	" ?90,000.00 "	185.28	Yes	High Call Tarriffs
+CUST0433	Saidu Whitehead	01 February 2025	49	Bauchi	4G Router	Female	3	Good	28	165GB Monthly Plan	" ?35,000.00 "	5	" ?175,000.00 "	11.12	No	No Churn
+CUST0433	Saidu Whitehead	01 February 2025	49	Bauchi	5G Broadband Router	Female	3	Good	28	30GB Monthly Broadband Plan	" ?9,000.00 "	2	" ?18,000.00 "	46.36	No	No Churn
+CUST0434	John Williams	01 January 2025	49	Abuja (FCT)	Mobile SIM Card	Female	4	Very Good	28	3.2GB 2-Day Plan	" ?1,000.00 "	5	" ?5,000.00 "	169.24	Yes	Costly Data Plans
+CUST0434	John Williams	01 January 2025	49	Abuja (FCT)	4G Router	Female	4	Very Good	28	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	70.25	Yes	Costly Data Plans
+CUST0434	John Williams	01 January 2025	49	Abuja (FCT)	5G Broadband Router	Female	4	Very Good	28	120GB Monthly Broadband Plan	" ?24,000.00 "	6	" ?144,000.00 "	36.54	Yes	Costly Data Plans
+CUST0435	Michael Santana	01 February 2025	50	Ondo	Mobile SIM Card	Male	4	Very Good	34	3.2GB 2-Day Plan	" ?1,000.00 "	1	" ?1,000.00 "	177.53	No	No Churn
+CUST0436	Abubakar Bullock	01 January 2025	31	Kebbi	Mobile SIM Card	Female	3	Good	38	1GB+1.5mins Daily Plan	 ?500.00 	1	 ?500.00 	119.04	Yes	Poor Network
+CUST0436	Abubakar Bullock	01 January 2025	31	Kebbi	4G Router	Female	3	Good	38	25GB Monthly Plan	" ?9,000.00 "	20	" ?180,000.00 "	193.97	Yes	Poor Network
+CUST0437	Alabo Young	01 January 2025	57	Borno	Broadband MiFi	Male	3	Good	56	120GB Monthly Broadband Plan	" ?24,000.00 "	13	" ?312,000.00 "	190.40	No	No Churn
+CUST0438	Chinedu Ramos	01 January 2025	67	Edo	Mobile SIM Card	Male	1	Poor	16	20GB Monthly Plan	" ?7,500.00 "	5	" ?37,500.00 "	57.34	Yes	Poor Customer Service
+CUST0439	Ifeanyi Zimmerman	01 March 2025	54	Yobe	5G Broadband Router	Female	5	Excellent	48	60GB Monthly Broadband Plan	" ?14,500.00 "	13	" ?188,500.00 "	98.18	Yes	High Call Tarriffs
+CUST0440	John Carter	01 January 2025	50	Kwara	Mobile SIM Card	Male	3	Good	49	2.5GB 2-Day Plan	 ?900.00 	15	" ?13,500.00 "	102.91	No	No Churn
+CUST0440	John Carter	01 January 2025	50	Kwara	Broadband MiFi	Male	3	Good	49	150GB FUP Monthly Unlimited	" ?20,000.00 "	5	" ?100,000.00 "	129.70	No	No Churn
+CUST0441	Grace Williams	01 January 2025	26	Cross River	5G Broadband Router	Female	4	Very Good	28	60GB Monthly Broadband Plan	" ?14,500.00 "	10	" ?145,000.00 "	104.86	No	No Churn
+CUST0442	Sade Johnson	01 January 2025	25	Rivers	5G Broadband Router	Male	4	Very Good	33	150GB FUP Monthly Unlimited	" ?20,000.00 "	1	" ?20,000.00 "	153.85	Yes	High Call Tarriffs
+CUST0442	Sade Johnson	01 January 2025	25	Rivers	4G Router	Male	4	Very Good	33	65GB Monthly Plan	" ?16,000.00 "	15	" ?240,000.00 "	148.23	Yes	High Call Tarriffs
+CUST0442	Sade Johnson	01 January 2025	25	Rivers	Mobile SIM Card	Male	4	Very Good	33	1.5GB 2-Day Plan	 ?600.00 	13	" ?7,800.00 "	157.34	Yes	High Call Tarriffs
+CUST0443	Bola Wright	01 January 2025	26	Kogi	5G Broadband Router	Female	4	Very Good	21	60GB Monthly Broadband Plan	" ?14,500.00 "	20	" ?290,000.00 "	37.42	No	No Churn
+CUST0443	Bola Wright	01 January 2025	26	Kogi	Broadband MiFi	Female	4	Very Good	21	300GB FUP Monthly Unlimited	" ?30,000.00 "	4	" ?120,000.00 "	174.39	No	No Churn
+CUST0444	Boma Shah	01 January 2025	18	Lagos	Mobile SIM Card	Female	2	Fair	8	16.5GB+10mins Monthly Plan	" ?6,500.00 "	20	" ?130,000.00 "	60.91	No	No Churn
+CUST0445	Ejiro Wagner	01 February 2025	66	Abia	4G Router	Male	1	Poor	9	65GB Monthly Plan	" ?16,000.00 "	5	" ?80,000.00 "	42.24	Yes	Better Offers from Competitors
+CUST0446	Halima Lambert	01 March 2025	71	Adamawa	Broadband MiFi	Male	4	Very Good	6	150GB FUP Monthly Unlimited	" ?20,000.00 "	15	" ?300,000.00 "	180.53	Yes	Fast Data Consumption
+CUST0447	Grace Hudson	01 February 2025	76	Kano	Broadband MiFi	Female	2	Fair	38	30GB Monthly Broadband Plan	" ?9,000.00 "	14	" ?126,000.00 "	20.98	Yes	Better Offers from Competitors
+CUST0447	Grace Hudson	01 February 2025	76	Kano	4G Router	Female	2	Fair	38	165GB Monthly Plan	" ?35,000.00 "	19	" ?665,000.00 "	169.80	Yes	Better Offers from Competitors
+CUST0448	Abubakar Ryan	01 January 2025	20	Yobe	Broadband MiFi	Female	2	Fair	32	120GB Monthly Broadband Plan	" ?24,000.00 "	14	" ?336,000.00 "	13.17	No	No Churn
+CUST0448	Abubakar Ryan	01 January 2025	20	Yobe	4G Router	Female	2	Fair	32	165GB Monthly Plan	" ?35,000.00 "	20	" ?700,000.00 "	23.83	No	No Churn
+CUST0448	Abubakar Ryan	01 January 2025	20	Yobe	5G Broadband Router	Female	2	Fair	32	200GB Monthly Broadband Plan	" ?25,000.00 "	14	" ?350,000.00 "	89.94	No	No Churn
+CUST0449	Funke Chung	01 March 2025	36	Cross River	5G Broadband Router	Male	4	Very Good	31	300GB FUP Monthly Unlimited	" ?30,000.00 "	13	" ?390,000.00 "	176.69	Yes	Poor Customer Service
+CUST0449	Funke Chung	01 March 2025	36	Cross River	Mobile SIM Card	Male	4	Very Good	31	20GB Monthly Plan	" ?7,500.00 "	12	" ?90,000.00 "	166.70	Yes	Poor Customer Service
+CUST0449	Funke Chung	01 March 2025	36	Cross River	4G Router	Male	4	Very Good	31	165GB Monthly Plan	" ?35,000.00 "	6	" ?210,000.00 "	160.05	Yes	Poor Customer Service
+CUST0450	Fatima Curtis	01 February 2025	52	Katsina	Mobile SIM Card	Female	2	Fair	9	12.5GB Monthly Plan	" ?5,500.00 "	7	" ?38,500.00 "	61.08	Yes	Fast Data Consumption
+CUST0451	Sade Baker	01 February 2025	18	Ekiti	Mobile SIM Card	Female	2	Fair	23	12.5GB Monthly Plan	" ?5,500.00 "	8	" ?44,000.00 "	23.24	No	No Churn
+CUST0451	Sade Baker	01 February 2025	18	Ekiti	4G Router	Female	2	Fair	23	10GB+10mins Monthly Plan	" ?4,500.00 "	16	" ?72,000.00 "	112.62	No	No Churn
+CUST0452	Saidu Jackson	01 March 2025	59	Ekiti	Broadband MiFi	Male	2	Fair	50	60GB Monthly Broadband Plan	" ?14,500.00 "	4	" ?58,000.00 "	159.90	No	No Churn
+CUST0452	Saidu Jackson	01 March 2025	59	Ekiti	5G Broadband Router	Male	2	Fair	50	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	156.44	No	No Churn
+CUST0452	Saidu Jackson	01 March 2025	59	Ekiti	Mobile SIM Card	Male	2	Fair	50	3.2GB 2-Day Plan	" ?1,000.00 "	2	" ?2,000.00 "	164.81	No	No Churn
+CUST0453	Michael Madden	01 February 2025	29	Abuja (FCT)	Mobile SIM Card	Male	3	Good	56	3.2GB 2-Day Plan	" ?1,000.00 "	12	" ?12,000.00 "	31.28	Yes	Costly Data Plans
+CUST0453	Michael Madden	01 February 2025	29	Abuja (FCT)	5G Broadband Router	Male	3	Good	56	200GB Monthly Broadband Plan	" ?25,000.00 "	4	" ?100,000.00 "	163.92	Yes	Costly Data Plans
+CUST0453	Michael Madden	01 February 2025	29	Abuja (FCT)	4G Router	Male	3	Good	56	10GB+10mins Monthly Plan	" ?4,500.00 "	14	" ?63,000.00 "	88.10	Yes	Costly Data Plans
+CUST0454	Tunde Fuller	01 February 2025	47	Taraba	5G Broadband Router	Female	1	Poor	19	60GB Monthly Broadband Plan	" ?14,500.00 "	17	" ?246,500.00 "	30.75	Yes	High Call Tarriffs
+CUST0454	Tunde Fuller	01 February 2025	47	Taraba	Mobile SIM Card	Female	1	Poor	19	20GB Monthly Plan	" ?7,500.00 "	5	" ?37,500.00 "	157.55	Yes	High Call Tarriffs
+CUST0455	Boma Baker	01 March 2025	68	Kogi	Broadband MiFi	Female	1	Poor	55	30GB Monthly Broadband Plan	" ?9,000.00 "	13	" ?117,000.00 "	67.99	No	No Churn
+CUST0456	Amina Diaz	01 January 2025	71	Oyo	5G Broadband Router	Female	2	Fair	49	450GB 3-Month Broadband Plan	" ?75,000.00 "	18	" ?1,350,000.00 "	80.70	No	No Churn
+CUST0457	Maryam Martin	01 March 2025	56	Ekiti	Mobile SIM Card	Male	5	Excellent	53	12.5GB Monthly Plan	" ?5,500.00 "	18	" ?99,000.00 "	128.95	No	No Churn
+CUST0458	Alabo Bradley	01 March 2025	60	Kebbi	4G Router	Male	1	Poor	57	25GB Monthly Plan	" ?9,000.00 "	17	" ?153,000.00 "	43.14	Yes	Costly Data Plans
+CUST0458	Alabo Bradley	01 March 2025	60	Kebbi	5G Broadband Router	Male	1	Poor	57	120GB Monthly Broadband Plan	" ?24,000.00 "	6	" ?144,000.00 "	104.51	Yes	Costly Data Plans
+CUST0460	Ejiro Martin	01 January 2025	49	Zamfara	Broadband MiFi	Female	1	Poor	8	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	161.17	No	No Churn
+CUST0460	Ejiro Martin	01 January 2025	49	Zamfara	4G Router	Female	1	Poor	8	10GB+10mins Monthly Plan	" ?4,500.00 "	10	" ?45,000.00 "	70.39	No	No Churn
+CUST0460	Ejiro Martin	01 January 2025	49	Zamfara	5G Broadband Router	Female	1	Poor	8	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	143.01	No	No Churn
+CUST0461	Halima Walker	01 March 2025	29	Niger	Mobile SIM Card	Male	4	Very Good	53	3.2GB 2-Day Plan	" ?1,000.00 "	5	" ?5,000.00 "	12.91	Yes	High Call Tarriffs
+CUST0461	Halima Walker	01 March 2025	29	Niger	Broadband MiFi	Male	4	Very Good	53	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	43.35	Yes	High Call Tarriffs
+CUST0462	Ejiro Brown	01 March 2025	67	Bauchi	Mobile SIM Card	Female	5	Excellent	56	12.5GB Monthly Plan	" ?5,500.00 "	14	" ?77,000.00 "	146.48	No	No Churn
+CUST0462	Ejiro Brown	01 March 2025	67	Bauchi	5G Broadband Router	Female	5	Excellent	56	300GB FUP Monthly Unlimited	" ?30,000.00 "	5	" ?150,000.00 "	29.30	No	No Churn
+CUST0463	Grace Bell	01 February 2025	74	Borno	4G Router	Male	4	Very Good	45	65GB Monthly Plan	" ?16,000.00 "	14	" ?224,000.00 "	120.52	No	No Churn
+CUST0463	Grace Bell	01 February 2025	74	Borno	5G Broadband Router	Male	4	Very Good	45	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	24.61	No	No Churn
+CUST0463	Grace Bell	01 February 2025	74	Borno	Mobile SIM Card	Male	4	Very Good	45	1GB+1.5mins Daily Plan	 ?500.00 	5	" ?2,500.00 "	8.54	No	No Churn
+CUST0464	Ifeanyi Smith	01 March 2025	63	Abia	Mobile SIM Card	Female	4	Very Good	20	2.5GB 2-Day Plan	 ?900.00 	10	" ?9,000.00 "	187.40	Yes	Poor Customer Service
+CUST0465	Abubakar Ross	01 January 2025	43	Enugu	Mobile SIM Card	Female	5	Excellent	1	12.5GB Monthly Plan	" ?5,500.00 "	19	" ?104,500.00 "	114.83	No	No Churn
+CUST0466	Alabo Escobar	01 February 2025	59	Jigawa	Mobile SIM Card	Female	2	Fair	54	12.5GB Monthly Plan	" ?5,500.00 "	11	" ?60,500.00 "	30.22	No	No Churn
+CUST0466	Alabo Escobar	01 February 2025	59	Jigawa	5G Broadband Router	Female	2	Fair	54	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	160.06	No	No Churn
+CUST0467	Ibim Hunter	01 January 2025	65	Osun	Broadband MiFi	Female	4	Very Good	22	120GB Monthly Broadband Plan	" ?24,000.00 "	10	" ?240,000.00 "	126.21	No	No Churn
+CUST0467	Ibim Hunter	01 January 2025	65	Osun	Mobile SIM Card	Female	4	Very Good	22	16.5GB+10mins Monthly Plan	" ?6,500.00 "	18	" ?117,000.00 "	129.21	No	No Churn
+CUST0467	Ibim Hunter	01 January 2025	65	Osun	5G Broadband Router	Female	4	Very Good	22	150GB FUP Monthly Unlimited	" ?20,000.00 "	20	" ?400,000.00 "	38.89	No	No Churn
+CUST0468	David Boone	01 January 2025	22	Bauchi	4G Router	Male	5	Excellent	49	65GB Monthly Plan	" ?16,000.00 "	7	" ?112,000.00 "	55.36	No	No Churn
+CUST0469	Halima Matthews	01 January 2025	72	Katsina	5G Broadband Router	Female	4	Very Good	26	450GB 3-Month Broadband Plan	" ?75,000.00 "	1	" ?75,000.00 "	36.51	No	No Churn
+CUST0470	Sarah Gordon	01 January 2025	56	Jigawa	4G Router	Female	1	Poor	6	25GB Monthly Plan	" ?9,000.00 "	5	" ?45,000.00 "	153.78	No	No Churn
+CUST0470	Sarah Gordon	01 January 2025	56	Jigawa	Broadband MiFi	Female	1	Poor	6	300GB FUP Monthly Unlimited	" ?30,000.00 "	6	" ?180,000.00 "	190.46	No	No Churn
+CUST0471	Sade Wagner	01 January 2025	57	Enugu	4G Router	Male	3	Good	46	25GB Monthly Plan	" ?9,000.00 "	4	" ?36,000.00 "	51.96	No	No Churn
+CUST0471	Sade Wagner	01 January 2025	57	Enugu	Mobile SIM Card	Male	3	Good	46	2.5GB 2-Day Plan	 ?900.00 	20	" ?18,000.00 "	40.91	No	No Churn
+CUST0472	Halima Adams	01 March 2025	79	Zamfara	Mobile SIM Card	Female	1	Poor	8	2.5GB 2-Day Plan	 ?900.00 	8	" ?7,200.00 "	81.80	No	No Churn
+CUST0472	Halima Adams	01 March 2025	79	Zamfara	Broadband MiFi	Female	1	Poor	8	30GB Monthly Broadband Plan	" ?9,000.00 "	19	" ?171,000.00 "	54.20	No	No Churn
+CUST0472	Halima Adams	01 March 2025	79	Zamfara	4G Router	Female	1	Poor	8	65GB Monthly Plan	" ?16,000.00 "	18	" ?288,000.00 "	49.64	No	No Churn
+CUST0473	Amaka Jackson	01 February 2025	54	Kogi	4G Router	Female	2	Fair	6	165GB Monthly Plan	" ?35,000.00 "	18	" ?630,000.00 "	192.29	No	No Churn
+CUST0474	Alabo Moreno	01 March 2025	21	Lagos	5G Broadband Router	Female	2	Fair	54	450GB 3-Month Broadband Plan	" ?75,000.00 "	7	" ?525,000.00 "	199.85	Yes	Fast Data Consumption
+CUST0474	Alabo Moreno	01 March 2025	21	Lagos	Mobile SIM Card	Female	2	Fair	54	16.5GB+10mins Monthly Plan	" ?6,500.00 "	6	" ?39,000.00 "	56.62	Yes	Fast Data Consumption
+CUST0475	David Park	01 January 2025	24	Abia	Mobile SIM Card	Male	2	Fair	26	16.5GB+10mins Monthly Plan	" ?6,500.00 "	11	" ?71,500.00 "	191.50	No	No Churn
+CUST0475	David Park	01 January 2025	24	Abia	Broadband MiFi	Male	2	Fair	26	300GB FUP Monthly Unlimited	" ?30,000.00 "	15	" ?450,000.00 "	127.22	No	No Churn
+CUST0476	Zainab Lam	01 January 2025	47	Niger	4G Router	Female	5	Excellent	14	165GB Monthly Plan	" ?35,000.00 "	1	" ?35,000.00 "	1.35	No	No Churn
+CUST0476	Zainab Lam	01 January 2025	47	Niger	5G Broadband Router	Female	5	Excellent	14	300GB FUP Monthly Unlimited	" ?30,000.00 "	16	" ?480,000.00 "	82.93	No	No Churn
+CUST0476	Zainab Lam	01 January 2025	47	Niger	Broadband MiFi	Female	5	Excellent	14	60GB Monthly Broadband Plan	" ?14,500.00 "	3	" ?43,500.00 "	107.86	No	No Churn
+CUST0478	Ifeanyi Ballard	01 January 2025	75	Gombe	5G Broadband Router	Male	2	Fair	29	150GB FUP Monthly Unlimited	" ?20,000.00 "	10	" ?200,000.00 "	163.35	No	No Churn
+CUST0478	Ifeanyi Ballard	01 January 2025	75	Gombe	Broadband MiFi	Male	2	Fair	29	150GB FUP Monthly Unlimited	" ?20,000.00 "	16	" ?320,000.00 "	47.23	No	No Churn
+CUST0479	Ejiro Stewart	01 February 2025	20	Akwa Ibom	Mobile SIM Card	Female	1	Poor	58	16.5GB+10mins Monthly Plan	" ?6,500.00 "	18	" ?117,000.00 "	99.06	Yes	Better Offers from Competitors
+CUST0479	Ejiro Stewart	01 February 2025	20	Akwa Ibom	Broadband MiFi	Female	1	Poor	58	150GB FUP Monthly Unlimited	" ?20,000.00 "	19	" ?380,000.00 "	132.14	Yes	Better Offers from Competitors
+CUST0479	Ejiro Stewart	01 February 2025	20	Akwa Ibom	4G Router	Female	1	Poor	58	10GB+10mins Monthly Plan	" ?4,500.00 "	5	" ?22,500.00 "	13.54	Yes	Better Offers from Competitors
+CUST0480	Kunle Goodwin	01 March 2025	32	Edo	5G Broadband Router	Male	2	Fair	57	1.5TB Yearly Broadband Plan	" ?150,000.00 "	14	" ?2,100,000.00 "	0.89	No	No Churn
+CUST0481	Sade Reed	01 January 2025	57	Kwara	Broadband MiFi	Female	5	Excellent	18	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	9.87	No	No Churn
+CUST0481	Sade Reed	01 January 2025	57	Kwara	5G Broadband Router	Female	5	Excellent	18	1.5TB Yearly Broadband Plan	" ?150,000.00 "	13	" ?1,950,000.00 "	63.59	No	No Churn
+CUST0482	Bala Gibson	01 February 2025	58	Katsina	4G Router	Male	4	Very Good	48	10GB+10mins Monthly Plan	" ?4,500.00 "	3	" ?13,500.00 "	66.18	No	No Churn
+CUST0484	Ngozi Chan	01 January 2025	76	Imo	Broadband MiFi	Female	3	Good	54	120GB Monthly Broadband Plan	" ?24,000.00 "	4	" ?96,000.00 "	124.10	No	No Churn
+CUST0485	Alabo Anderson	01 January 2025	31	Katsina	Broadband MiFi	Male	4	Very Good	59	60GB Monthly Broadband Plan	" ?14,500.00 "	20	" ?290,000.00 "	11.43	No	No Churn
+CUST0485	Alabo Anderson	01 January 2025	31	Katsina	Mobile SIM Card	Male	4	Very Good	59	20GB Monthly Plan	" ?7,500.00 "	2	" ?15,000.00 "	13.63	No	No Churn
+CUST0485	Alabo Anderson	01 January 2025	31	Katsina	5G Broadband Router	Male	4	Very Good	59	30GB Monthly Broadband Plan	" ?9,000.00 "	13	" ?117,000.00 "	59.34	No	No Churn
+CUST0486	Tamuno Hudson	01 January 2025	28	Kogi	Broadband MiFi	Male	4	Very Good	56	30GB Monthly Broadband Plan	" ?9,000.00 "	11	" ?99,000.00 "	91.09	No	No Churn
+CUST0486	Tamuno Hudson	01 January 2025	28	Kogi	4G Router	Male	4	Very Good	56	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	22.05	No	No Churn
+CUST0487	Kunle Gilmore	01 January 2025	40	Borno	4G Router	Female	4	Very Good	23	10GB+10mins Monthly Plan	" ?4,500.00 "	2	" ?9,000.00 "	159.51	No	No Churn
+CUST0487	Kunle Gilmore	01 January 2025	40	Borno	Broadband MiFi	Female	4	Very Good	23	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	62.68	No	No Churn
+CUST0488	Michael Jones	01 January 2025	61	Abia	5G Broadband Router	Male	3	Good	10	300GB FUP Monthly Unlimited	" ?30,000.00 "	17	" ?510,000.00 "	11.93	No	No Churn
+CUST0488	Michael Jones	01 January 2025	61	Abia	Broadband MiFi	Male	3	Good	10	120GB Monthly Broadband Plan	" ?24,000.00 "	14	" ?336,000.00 "	171.81	No	No Churn
+CUST0489	Oghene Wilson	01 January 2025	41	Benue	Mobile SIM Card	Male	3	Good	51	7GB Monthly Plan	" ?3,500.00 "	14	" ?49,000.00 "	123.41	Yes	Fast Data Consumption
+CUST0489	Oghene Wilson	01 January 2025	41	Benue	5G Broadband Router	Male	3	Good	51	200GB Monthly Broadband Plan	" ?25,000.00 "	15	" ?375,000.00 "	32.87	Yes	Fast Data Consumption
+CUST0489	Oghene Wilson	01 January 2025	41	Benue	4G Router	Male	3	Good	51	65GB Monthly Plan	" ?16,000.00 "	1	" ?16,000.00 "	99.44	Yes	Fast Data Consumption
+CUST0490	Nura Cox	01 January 2025	45	Sokoto	4G Router	Male	3	Good	16	10GB+10mins Monthly Plan	" ?4,500.00 "	1	" ?4,500.00 "	165.30	No	No Churn
+CUST0490	Nura Cox	01 January 2025	45	Sokoto	Mobile SIM Card	Male	3	Good	16	7GB Monthly Plan	" ?3,500.00 "	12	" ?42,000.00 "	2.47	No	No Churn
+CUST0491	Funke Smith	01 February 2025	30	Plateau	Broadband MiFi	Female	5	Excellent	29	150GB FUP Monthly Unlimited	" ?20,000.00 "	6	" ?120,000.00 "	39.97	No	No Churn
+CUST0491	Funke Smith	01 February 2025	30	Plateau	Mobile SIM Card	Female	5	Excellent	29	500MB Daily Plan	 ?350.00 	6	" ?2,100.00 "	177.13	No	No Churn
+CUST0492	Tega Kim	01 February 2025	47	Enugu	4G Router	Male	3	Good	2	165GB Monthly Plan	" ?35,000.00 "	4	" ?140,000.00 "	131.15	No	No Churn
+CUST0493	Tega Fischer	01 March 2025	42	Abia	Mobile SIM Card	Female	3	Good	16	3.2GB 2-Day Plan	" ?1,000.00 "	5	" ?5,000.00 "	29.31	No	No Churn
+CUST0493	Tega Fischer	01 March 2025	42	Abia	5G Broadband Router	Female	3	Good	16	60GB Monthly Broadband Plan	" ?14,500.00 "	13	" ?188,500.00 "	38.74	No	No Churn
+CUST0493	Tega Fischer	01 March 2025	42	Abia	Broadband MiFi	Female	3	Good	16	300GB FUP Monthly Unlimited	" ?30,000.00 "	14	" ?420,000.00 "	63.93	No	No Churn
+CUST0494	Halima Martin	01 February 2025	21	Benue	4G Router	Female	3	Good	51	165GB Monthly Plan	" ?35,000.00 "	3	" ?105,000.00 "	42.24	Yes	High Call Tarriffs
+CUST0494	Halima Martin	01 February 2025	21	Benue	5G Broadband Router	Female	3	Good	51	1.5TB Yearly Broadband Plan	" ?150,000.00 "	20	" ?3,000,000.00 "	158.30	Yes	High Call Tarriffs
+CUST0495	Kunle Brown	01 March 2025	37	Zamfara	5G Broadband Router	Female	4	Very Good	49	200GB Monthly Broadband Plan	" ?25,000.00 "	16	" ?400,000.00 "	105.33	No	No Churn
+CUST0496	Grace Matthews	01 January 2025	76	Akwa Ibom	4G Router	Female	2	Fair	41	10GB+10mins Monthly Plan	" ?4,500.00 "	13	" ?58,500.00 "	61.55	Yes	Poor Customer Service
+CUST0496	Grace Matthews	01 January 2025	76	Akwa Ibom	Mobile SIM Card	Female	2	Fair	41	1.5GB 2-Day Plan	 ?600.00 	12	" ?7,200.00 "	187.13	Yes	Poor Customer Service
+CUST0497	Saidu Baker	01 January 2025	26	Borno	Broadband MiFi	Male	5	Excellent	19	60GB Monthly Broadband Plan	" ?14,500.00 "	14	" ?203,000.00 "	90.50	No	No Churn
+CUST0497	Saidu Baker	01 January 2025	26	Borno	4G Router	Male	5	Excellent	19	165GB Monthly Plan	" ?35,000.00 "	16	" ?560,000.00 "	73.82	No	No Churn
+CUST0497	Saidu Baker	01 January 2025	26	Borno	5G Broadband Router	Male	5	Excellent	19	200GB Monthly Broadband Plan	" ?25,000.00 "	1	" ?25,000.00 "	54.97	No	No Churn
+CUST0498	Shehu Harris	01 January 2025	72	Osun	Broadband MiFi	Female	3	Good	42	150GB FUP Monthly Unlimited	" ?20,000.00 "	3	" ?60,000.00 "	20.13	No	No Churn
+CUST0498	Shehu Harris	01 January 2025	72	Osun	4G Router	Female	3	Good	42	25GB Monthly Plan	" ?9,000.00 "	7	" ?63,000.00 "	8.14	No	No Churn
+CUST0499	Tega Hood	01 March 2025	41	Bayelsa	5G Broadband Router	Female	2	Fair	20	30GB Monthly Broadband Plan	" ?9,000.00 "	10	" ?90,000.00 "	154.13	No	No Churn
+CUST0500	Oghene Hamilton	01 February 2025	67	Kebbi	4G Router	Male	4	Very Good	31	165GB Monthly Plan	" ?35,000.00 "	15	" ?525,000.00 "	144.64	Yes	High Call Tarriffs
+CUST0500	Oghene Hamilton	01 February 2025	67	Kebbi	Mobile SIM Card	Male	4	Very Good	31	7GB Monthly Plan	" ?3,500.00 "	11	" ?38,500.00 "	158.49	Yes	High Call Tarriffs
+CUST0500	Oghene Hamilton	01 February 2025	67	Kebbi	Broadband MiFi	Male	4	Very Good	31	150GB FUP Monthly Unlimited	" ?20,000.00 "	14	" ?280,000.00 "	86.04	Yes	High Call Tarriffs
